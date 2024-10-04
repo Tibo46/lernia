@@ -1,6 +1,7 @@
 {
   "hosting": {
     "site": "lernia",
+    "public": "dist",
     "source": ".",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "frameworksBackend": {
