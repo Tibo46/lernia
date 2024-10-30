@@ -1,0 +1,686 @@
+[
+  {
+    "question": "Lernia is interested {{answer}} learning new languages.",
+    "helperText": "What is Lernia's interest?",
+    "answer": "in",
+    "word": "interest",
+    "explanation": "'Interested in' is the correct prepositional phrase used to express a curiosity about something.",
+    "closeAnswers": ["at", "for", "on"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "The cat jumped {{answer}} the table.",
+    "helperText": "Where did the cat jump?",
+    "answer": "on",
+    "word": "jump",
+    "explanation": "'Jumped on' indicates the cat's action of leaping onto the table.",
+    "closeAnswers": ["at", "into", "over"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "He has been living {{answer}} this city for five years.",
+    "helperText": "Where has he been living?",
+    "answer": "in",
+    "word": "live",
+    "explanation": "'Living in' indicates residence within a city.",
+    "closeAnswers": ["at", "for", "on"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "She will arrive {{answer}} the airport at 5 PM.",
+    "helperText": "Where will she arrive?",
+    "answer": "at",
+    "word": "arrive",
+    "explanation": "'Arrive at' specifies the destination of arrival.",
+    "closeAnswers": ["in", "on", "to"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "The book is {{answer}} the table.",
+    "helperText": "Where is the book?",
+    "answer": "on",
+    "word": "be",
+    "explanation": "'Is on' indicates the location of the book.",
+    "closeAnswers": ["at", "in", "under"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "She walked {{answer}} the store to buy some groceries.",
+    "helperText": "Where did she walk?",
+    "answer": "to",
+    "word": "walk",
+    "explanation": "'Walked to' indicates the direction of movement towards the store.",
+    "closeAnswers": ["at", "for", "into"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "They talked {{answer}} their plans for the weekend.",
+    "helperText": "What did they talk about?",
+    "answer": "about",
+    "word": "talk",
+    "explanation": "'Talked about' is the phrase used to describe discussion topics.",
+    "closeAnswers": ["for", "on", "to"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "He sat {{answer}} his friend during the movie.",
+    "helperText": "Where did he sit?",
+    "answer": "beside",
+    "word": "sit",
+    "explanation": "'Sat beside' indicates being next to someone.",
+    "closeAnswers": ["with", "near", "by"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "The kids played {{answer}} the park all afternoon.",
+    "helperText": "Where did the kids play?",
+    "answer": "in",
+    "word": "play",
+    "explanation": "'Played in' indicates being within a location for play.",
+    "closeAnswers": ["at", "on", "near"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "Please send the document {{answer}} email.",
+    "helperText": "How should the document be sent?",
+    "answer": "by",
+    "word": "send",
+    "explanation": "'Send by email' specifies the method of sending.",
+    "closeAnswers": ["to", "on", "with"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "He was born {{answer}} July 5th.",
+    "helperText": "When was he born?",
+    "answer": "on",
+    "word": "be born",
+    "explanation": "'Born on' is used to specify dates.",
+    "closeAnswers": ["in", "at", "for"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "The keys are {{answer}} my pocket.",
+    "helperText": "Where are the keys?",
+    "answer": "in",
+    "word": "be",
+    "explanation": "'Are in' indicates being contained within something.",
+    "closeAnswers": ["at", "on", "under"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "We will meet {{answer}} the coffee shop.",
+    "helperText": "Where will we meet?",
+    "answer": "at",
+    "word": "meet",
+    "explanation": "'Meet at' indicates the location for the meeting.",
+    "closeAnswers": ["in", "on", "to"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "The cat is hiding {{answer}} the couch.",
+    "helperText": "Where is the cat hiding?",
+    "answer": "under",
+    "word": "hide",
+    "explanation": "'Hiding under' indicates being beneath something.",
+    "closeAnswers": ["on", "in", "by"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "I left my backpack {{answer}} home.",
+    "helperText": "Where did I leave my backpack?",
+    "answer": "at",
+    "word": "leave",
+    "explanation": "'Left at home' indicates the location where something was forgotten.",
+    "closeAnswers": ["in", "on", "near"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "They traveled {{answer}} Europe last summer.",
+    "helperText": "Where did they travel?",
+    "answer": "around",
+    "word": "travel",
+    "explanation": "'Traveled around' indicates moving throughout a region.",
+    "closeAnswers": ["to", "in", "through"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "We discussed the issue {{answer}} the meeting.",
+    "helperText": "What did we do during the meeting?",
+    "answer": "during",
+    "word": "discuss",
+    "explanation": "'Discussed during' specifies the time frame for discussion.",
+    "closeAnswers": ["at", "in", "on"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "Lernia always arrives {{answer}} time for her classes.",
+    "helperText": "What does Lernia do regarding time?",
+    "answer": "on",
+    "word": "arrive",
+    "explanation": "'Arrives on time' is used to indicate punctuality.",
+    "closeAnswers": ["at", "in", "before"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "The dog is sleeping {{answer}} the floor.",
+    "helperText": "Where is the dog sleeping?",
+    "answer": "on",
+    "word": "sleep",
+    "explanation": "'Sleeping on' indicates the surface where the dog is resting.",
+    "closeAnswers": ["at", "in", "under"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "They will go {{answer}} vacation next month.",
+    "helperText": "What will they do next month?",
+    "answer": "on",
+    "word": "go",
+    "explanation": "'Go on vacation' is a common expression for taking a trip.",
+    "closeAnswers": ["to", "for", "at"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "She put the flowers {{answer}} the vase.",
+    "helperText": "Where did she put the flowers?",
+    "answer": "in",
+    "word": "put",
+    "explanation": "'Put in' indicates placing something inside another object.",
+    "closeAnswers": ["on", "at", "under"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "They were sitting {{answer}} the table.",
+    "helperText": "Where were they sitting?",
+    "answer": "at",
+    "word": "sit",
+    "explanation": "'Sitting at' specifies the location of their seating.",
+    "closeAnswers": ["in", "on", "beside"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "Lernia will meet her friends {{answer}} the café.",
+    "helperText": "Where will Lernia meet her friends?",
+    "answer": "at",
+    "word": "meet",
+    "explanation": "'Meet at' indicates the location for the gathering.",
+    "closeAnswers": ["in", "to", "for"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "We walked {{answer}} the beach during our vacation.",
+    "helperText": "Where did we walk?",
+    "answer": "along",
+    "word": "walk",
+    "explanation": "'Walked along' describes movement parallel to the beach.",
+    "closeAnswers": ["at", "by", "in"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "He will arrive {{answer}} 8 PM.",
+    "helperText": "When will he arrive?",
+    "answer": "at",
+    "word": "arrive",
+    "explanation": "'Arrive at' is used for specific times.",
+    "closeAnswers": ["in", "on", "for"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "The teacher is standing {{answer}} the board.",
+    "helperText": "Where is the teacher standing?",
+    "answer": "in front of",
+    "word": "stand",
+    "explanation": "'Standing in front of' indicates the position relative to the board.",
+    "closeAnswers": ["behind", "next to", "at"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "Lernia is responsible {{answer}} the project.",
+    "helperText": "What is Lernia's responsibility?",
+    "answer": "for",
+    "word": "responsible",
+    "explanation": "'Responsible for' indicates accountability for something.",
+    "closeAnswers": ["in", "on", "at"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "The cat jumped {{answer}} the fence.",
+    "helperText": "What did the cat jump over?",
+    "answer": "over",
+    "word": "jump",
+    "explanation": "'Jumped over' indicates leaping across an obstacle.",
+    "closeAnswers": ["at", "under", "on"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "We met {{answer}} a conference last week.",
+    "helperText": "Where did we meet?",
+    "answer": "at",
+    "word": "meet",
+    "explanation": "'Met at' specifies the location of the meeting.",
+    "closeAnswers": ["in", "on", "by"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "She was standing {{answer}} the corner of the street.",
+    "helperText": "Where was she standing?",
+    "answer": "on",
+    "word": "stand",
+    "explanation": "'Standing on the corner' indicates her position relative to the street.",
+    "closeAnswers": ["at", "in", "by"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "He likes to read {{answer}} the bus.",
+    "helperText": "When does he like to read?",
+    "answer": "on",
+    "word": "read",
+    "explanation": "'Reading on the bus' indicates the activity while commuting.",
+    "closeAnswers": ["at", "in", "to"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "They traveled {{answer}} train to the city.",
+    "helperText": "How did they travel to the city?",
+    "answer": "by",
+    "word": "travel",
+    "explanation": "'Traveled by train' specifies the mode of transportation.",
+    "closeAnswers": ["in", "on", "at"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "Lernia placed the book {{answer}} the shelf.",
+    "helperText": "Where did Lernia place the book?",
+    "answer": "on",
+    "word": "place",
+    "explanation": "'Placed on' indicates the surface where the book is put.",
+    "closeAnswers": ["in", "at", "under"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "The meeting is scheduled {{answer}} Monday.",
+    "helperText": "When is the meeting scheduled?",
+    "answer": "on",
+    "word": "schedule",
+    "explanation": "'Scheduled on' indicates a specific day for an event.",
+    "closeAnswers": ["in", "at", "for"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "She arrived {{answer}} the party early.",
+    "helperText": "When did she arrive at the party?",
+    "answer": "at",
+    "word": "arrive",
+    "explanation": "'Arrived at' indicates a specific location.",
+    "closeAnswers": ["in", "on", "to"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "The keys are {{answer}} the drawer.",
+    "helperText": "Where are the keys?",
+    "answer": "in",
+    "word": "be",
+    "explanation": "'Are in' indicates containment within another object.",
+    "closeAnswers": ["at", "on", "under"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "She looks {{answer}} the window every morning.",
+    "helperText": "What does she do every morning?",
+    "answer": "out of",
+    "word": "look",
+    "explanation": "'Looks out of' indicates the action of viewing from a location.",
+    "closeAnswers": ["through", "at", "in"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "They played soccer {{answer}} the field.",
+    "helperText": "Where did they play soccer?",
+    "answer": "on",
+    "word": "play",
+    "explanation": "'Played on the field' indicates the location of the game.",
+    "closeAnswers": ["in", "at", "near"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "Lernia was born {{answer}} 1990.",
+    "helperText": "When was Lernia born?",
+    "answer": "in",
+    "word": "be born",
+    "explanation": "'Born in' is used for years.",
+    "closeAnswers": ["at", "on", "by"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "The cat is hiding {{answer}} the couch.",
+    "helperText": "Where is the cat hiding?",
+    "answer": "under",
+    "word": "hide",
+    "explanation": "'Hiding under' indicates the location below another object.",
+    "closeAnswers": ["on", "in", "beside"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "We stayed {{answer}} a hotel during our trip.",
+    "helperText": "Where did we stay during the trip?",
+    "answer": "in",
+    "word": "stay",
+    "explanation": "'Staying in' indicates accommodation within a building.",
+    "closeAnswers": ["at", "on", "by"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "The book is {{answer}} the table.",
+    "helperText": "Where is the book?",
+    "answer": "on",
+    "word": "be",
+    "explanation": "'On the table' indicates the surface where the book is placed.",
+    "closeAnswers": ["in", "at", "under"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "He is looking {{answer}} the information.",
+    "helperText": "What is he looking for?",
+    "answer": "for",
+    "word": "look",
+    "explanation": "'Looking for' indicates searching for something.",
+    "closeAnswers": ["at", "to", "in"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "Lernia goes {{answer}} the gym every day.",
+    "helperText": "Where does Lernia go every day?",
+    "answer": "to",
+    "word": "go",
+    "explanation": "'Goes to' indicates the destination of movement.",
+    "closeAnswers": ["in", "at", "on"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "We discussed the project {{answer}} the meeting.",
+    "helperText": "Where did we discuss the project?",
+    "answer": "at",
+    "word": "discuss",
+    "explanation": "'Discussed at' indicates the location of the discussion.",
+    "closeAnswers": ["in", "on", "by"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "The flowers are {{answer}} the garden.",
+    "helperText": "Where are the flowers?",
+    "answer": "in",
+    "word": "be",
+    "explanation": "'In the garden' indicates being contained within the garden area.",
+    "closeAnswers": ["on", "at", "by"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "She sat {{answer}} the front row.",
+    "helperText": "Where did she sit?",
+    "answer": "in",
+    "word": "sit",
+    "explanation": "'Sat in the front row' indicates her position within a seating arrangement.",
+    "closeAnswers": ["on", "at", "by"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "They arrived {{answer}} the airport on time.",
+    "helperText": "Where did they arrive?",
+    "answer": "at",
+    "word": "arrive",
+    "explanation": "'Arrived at the airport' indicates a specific location.",
+    "closeAnswers": ["in", "on", "to"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "She left her bag {{answer}} home.",
+    "helperText": "Where did she leave her bag?",
+    "answer": "at",
+    "word": "leave",
+    "explanation": "'Left at home' indicates the location where something was abandoned.",
+    "closeAnswers": ["in", "on", "to"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "The presentation starts {{answer}} 10 AM.",
+    "helperText": "When does the presentation start?",
+    "answer": "at",
+    "word": "start",
+    "explanation": "'Starts at' is used for specific times.",
+    "closeAnswers": ["in", "on", "for"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "The dog ran {{answer}} the street.",
+    "helperText": "Where did the dog run?",
+    "answer": "across",
+    "word": "run",
+    "explanation": "'Ran across' indicates movement from one side to the other.",
+    "closeAnswers": ["along", "by", "through"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "She is fond {{answer}} chocolate.",
+    "helperText": "What does she like?",
+    "answer": "of",
+    "word": "be fond",
+    "explanation": "'Fond of' indicates a liking or affection for something.",
+    "closeAnswers": ["at", "for", "with"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "The book was written {{answer}} J.K. Rowling.",
+    "helperText": "Who wrote the book?",
+    "answer": "by",
+    "word": "write",
+    "explanation": "'Written by' indicates authorship.",
+    "closeAnswers": ["at", "for", "to"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "He waited {{answer}} the bus stop.",
+    "helperText": "Where did he wait?",
+    "answer": "at",
+    "word": "wait",
+    "explanation": "'Waited at the bus stop' indicates the location of waiting.",
+    "closeAnswers": ["in", "on", "to"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "The store is located {{answer}} Main Street.",
+    "helperText": "Where is the store located?",
+    "answer": "on",
+    "word": "be located",
+    "explanation": "'Located on Main Street' indicates the position relative to a street.",
+    "closeAnswers": ["in", "at", "by"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "The kids played {{answer}} the park.",
+    "helperText": "Where did the kids play?",
+    "answer": "in",
+    "word": "play",
+    "explanation": "'Played in the park' indicates the location of play.",
+    "closeAnswers": ["at", "on", "by"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "He found the book {{answer}} the shelf.",
+    "helperText": "Where did he find the book?",
+    "answer": "on",
+    "word": "find",
+    "explanation": "'Found on the shelf' indicates the location where the book was discovered.",
+    "closeAnswers": ["in", "at", "under"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "The cat jumped {{answer}} the fence.",
+    "helperText": "Where did the cat jump?",
+    "answer": "over",
+    "word": "jump",
+    "explanation": "'Jumped over' indicates movement across an obstacle.",
+    "closeAnswers": ["under", "through", "beside"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "Lernia prefers tea {{answer}} coffee.",
+    "helperText": "What does Lernia prefer?",
+    "answer": "to",
+    "word": "prefer",
+    "explanation": "'Prefers to' indicates a choice between options.",
+    "closeAnswers": ["over", "than", "with"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "We traveled {{answer}} Europe last summer.",
+    "helperText": "Where did we travel last summer?",
+    "answer": "around",
+    "word": "travel",
+    "explanation": "'Traveled around' indicates movement in various directions within a region.",
+    "closeAnswers": ["to", "in", "through"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "The concert starts {{answer}} 8 PM.",
+    "helperText": "What time does the concert start?",
+    "answer": "at",
+    "word": "start",
+    "explanation": "'Starts at' is used for specific times.",
+    "closeAnswers": ["in", "on", "for"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "The kids are playing {{answer}} the backyard.",
+    "helperText": "Where are the kids playing?",
+    "answer": "in",
+    "word": "play",
+    "explanation": "'Playing in the backyard' indicates the location of activity.",
+    "closeAnswers": ["on", "at", "near"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "She left her keys {{answer}} the table.",
+    "helperText": "Where did she leave her keys?",
+    "answer": "on",
+    "word": "leave",
+    "explanation": "'Left on the table' indicates the surface where something was placed.",
+    "closeAnswers": ["in", "at", "by"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "They will meet {{answer}} the coffee shop.",
+    "helperText": "Where will they meet?",
+    "answer": "at",
+    "word": "meet",
+    "explanation": "'Meet at' indicates a specific location for the meeting.",
+    "closeAnswers": ["in", "on", "for"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "The picture is hanging {{answer}} the wall.",
+    "helperText": "Where is the picture hanging?",
+    "answer": "on",
+    "word": "hang",
+    "explanation": "'Hanging on' indicates attachment to a surface.",
+    "closeAnswers": ["in", "at", "under"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "We went {{answer}} the zoo last weekend.",
+    "helperText": "Where did we go last weekend?",
+    "answer": "to",
+    "word": "go",
+    "explanation": "'Went to' indicates the destination of movement.",
+    "closeAnswers": ["in", "at", "by"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "The children ran {{answer}} the playground.",
+    "helperText": "Where did the children run?",
+    "answer": "to",
+    "word": "run",
+    "explanation": "'Ran to' indicates movement towards a specific location.",
+    "closeAnswers": ["in", "around", "through"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "She has a meeting {{answer}} noon.",
+    "helperText": "When does she have a meeting?",
+    "answer": "at",
+    "word": "have",
+    "explanation": "'Meeting at noon' indicates a specific time.",
+    "closeAnswers": ["in", "on", "by"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "The dog is sleeping {{answer}} the couch.",
+    "helperText": "Where is the dog sleeping?",
+    "answer": "on",
+    "word": "sleep",
+    "explanation": "'Sleeping on the couch' indicates the surface where the dog rests.",
+    "closeAnswers": ["in", "under", "beside"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "The meeting was scheduled {{answer}} next Monday.",
+    "helperText": "When was the meeting scheduled?",
+    "answer": "for",
+    "word": "schedule",
+    "explanation": "'Scheduled for next Monday' indicates the time frame of an event.",
+    "closeAnswers": ["on", "in", "at"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "She walked {{answer}} the store to buy groceries.",
+    "helperText": "Where did she walk?",
+    "answer": "to",
+    "word": "walk",
+    "explanation": "'Walked to the store' indicates the direction of movement.",
+    "closeAnswers": ["in", "at", "by"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "He is sitting {{answer}} his desk.",
+    "helperText": "Where is he sitting?",
+    "answer": "at",
+    "word": "sit",
+    "explanation": "'Sitting at his desk' indicates the location of sitting.",
+    "closeAnswers": ["on", "in", "by"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "The bank is located {{answer}} Main Street.",
+    "helperText": "Where is the bank located?",
+    "answer": "on",
+    "word": "be located",
+    "explanation": "'Located on Main Street' indicates a street address.",
+    "closeAnswers": ["in", "at", "near"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "She threw the ball {{answer}} the window.",
+    "helperText": "Where did she throw the ball?",
+    "answer": "through",
+    "word": "throw",
+    "explanation": "'Threw through the window' indicates movement passing from one side to another.",
+    "closeAnswers": ["at", "to", "in"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "He was waiting {{answer}} the train.",
+    "helperText": "What was he waiting for?",
+    "answer": "for",
+    "word": "wait",
+    "explanation": "'Waiting for' indicates expectation of something to arrive.",
+    "closeAnswers": ["in", "on", "at"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  },
+  {
+    "question": "The meeting will be held {{answer}} the conference room.",
+    "helperText": "Where will the meeting be held?",
+    "answer": "in",
+    "word": "hold",
+    "explanation": "'Held in the conference room' indicates the location of the meeting.",
+    "closeAnswers": ["at", "on", "by"],
+    "exerciseCategoryId": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a"
+  }
+]

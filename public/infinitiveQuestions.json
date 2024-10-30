@@ -1,0 +1,704 @@
+[
+  {
+    "question": "I enjoy {{answer}} to music in my free time.",
+    "helperText": "What do I enjoy doing?",
+    "answer": "listening",
+    "word": "listen",
+    "explanation": "'Listening' is a gerund used after 'enjoy'.",
+    "closeAnswers": ["to listen", "listen", "listened"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "She decided {{answer}} for the exam.",
+    "helperText": "What did she decide to do?",
+    "answer": "to study",
+    "word": "study",
+    "explanation": "'To study' is the infinitive form used after 'decided'.",
+    "closeAnswers": ["studying", "study", "studied"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "They suggested {{answer}} a new restaurant.",
+    "helperText": "What did they suggest?",
+    "answer": "trying",
+    "word": "try",
+    "explanation": "'Trying' is a gerund used after 'suggested'.",
+    "closeAnswers": ["to try", "try", "tried"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "We hope {{answer}} to the party.",
+    "helperText": "What do we hope to do?",
+    "answer": "to come",
+    "word": "come",
+    "explanation": "'To come' is the infinitive form used after 'hope'.",
+    "closeAnswers": ["coming", "come", "came"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "He avoided {{answer}} the meeting.",
+    "helperText": "What did he avoid?",
+    "answer": "attending",
+    "word": "attend",
+    "explanation": "'Attending' is a gerund used after 'avoided'.",
+    "closeAnswers": ["to attend", "attend", "attended"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "I can't help {{answer}} when I see a cute dog.",
+    "helperText": "What can I not help doing?",
+    "answer": "laughing",
+    "word": "laugh",
+    "explanation": "'Laughing' is a gerund used after 'can't help'.",
+    "closeAnswers": ["to laugh", "laugh", "laughed"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "She promised {{answer}} the report by tomorrow.",
+    "helperText": "What did she promise to do?",
+    "answer": "to finish",
+    "word": "finish",
+    "explanation": "'To finish' is the infinitive form used after 'promised'.",
+    "closeAnswers": ["finishing", "finish", "finished"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "They are considering {{answer}} a new approach.",
+    "helperText": "What are they considering?",
+    "answer": "adopting",
+    "word": "adopt",
+    "explanation": "'Adopting' is a gerund used after 'considering'.",
+    "closeAnswers": ["to adopt", "adopt", "adopted"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "We enjoyed {{answer}} at the beach last summer.",
+    "helperText": "What did we enjoy doing?",
+    "answer": "staying",
+    "word": "stay",
+    "explanation": "'Staying' is a gerund used after 'enjoyed'.",
+    "closeAnswers": ["to stay", "stay", "stayed"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "He forgot {{answer}} his keys at home.",
+    "helperText": "What did he forget to do?",
+    "answer": "to take",
+    "word": "take",
+    "explanation": "'To take' is the infinitive form used after 'forgot'.",
+    "closeAnswers": ["taking", "take", "took"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "I dislike {{answer}} early in the morning.",
+    "helperText": "What do I dislike doing?",
+    "answer": "waking up",
+    "word": "wake up",
+    "explanation": "'Waking up' is a gerund used after 'dislike'.",
+    "closeAnswers": ["to wake up", "wake up", "woke up"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "She admitted {{answer}} a mistake.",
+    "helperText": "What did she admit?",
+    "answer": "making",
+    "word": "make",
+    "explanation": "'Making' is a gerund used after 'admitted'.",
+    "closeAnswers": ["to make", "make", "made"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "He agreed {{answer}} the project together.",
+    "helperText": "What did he agree to do?",
+    "answer": "to complete",
+    "word": "complete",
+    "explanation": "'To complete' is the infinitive form used after 'agreed'.",
+    "closeAnswers": ["completing", "complete", "completed"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "They enjoy {{answer}} outdoors during the summer.",
+    "helperText": "What do they enjoy doing?",
+    "answer": "camping",
+    "word": "camp",
+    "explanation": "'Camping' is a gerund used after 'enjoy'.",
+    "closeAnswers": ["to camp", "camp", "camped"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "I can't wait {{answer}} on vacation.",
+    "helperText": "What can't I wait to do?",
+    "answer": "to go",
+    "word": "go",
+    "explanation": "'To go' is the infinitive form used after 'can't wait'.",
+    "closeAnswers": ["going", "go", "went"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "She finished {{answer}} her homework early.",
+    "helperText": "What did she finish?",
+    "answer": "doing",
+    "word": "do",
+    "explanation": "'Doing' is a gerund used after 'finished'.",
+    "closeAnswers": ["to do", "do", "did"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "We delayed {{answer}} the meeting until next week.",
+    "helperText": "What did we delay?",
+    "answer": "having",
+    "word": "have",
+    "explanation": "'Having' is a gerund used after 'delayed'.",
+    "closeAnswers": ["to have", "have", "had"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "He intends {{answer}} his studies abroad.",
+    "helperText": "What does he intend to do?",
+    "answer": "to continue",
+    "word": "continue",
+    "explanation": "'To continue' is the infinitive form used after 'intends'.",
+    "closeAnswers": ["continuing", "continue", "continued"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "She finished {{answer}} her presentation before the deadline.",
+    "helperText": "What did she finish?",
+    "answer": "preparing",
+    "word": "prepare",
+    "explanation": "'Preparing' is a gerund used after 'finished'.",
+    "closeAnswers": ["to prepare", "prepare", "prepared"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "They discussed {{answer}} the new policy.",
+    "helperText": "What did they discuss?",
+    "answer": "implementing",
+    "word": "implement",
+    "explanation": "'Implementing' is a gerund used after 'discussed'.",
+    "closeAnswers": ["to implement", "implement", "implemented"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "She likes {{answer}} her friends at the cafe.",
+    "helperText": "What does she like doing?",
+    "answer": "meeting",
+    "word": "meet",
+    "explanation": "'Meeting' is a gerund used after 'likes'.",
+    "closeAnswers": ["to meet", "meet", "met"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "He enjoys {{answer}} in the park during weekends.",
+    "helperText": "What does he enjoy doing?",
+    "answer": "running",
+    "word": "run",
+    "explanation": "'Running' is a gerund used after 'enjoys'.",
+    "closeAnswers": ["to run", "run", "ran"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "I forgot {{answer}} the groceries.",
+    "helperText": "What did I forget to do?",
+    "answer": "to buy",
+    "word": "buy",
+    "explanation": "'To buy' is the infinitive form used after 'forgot'.",
+    "closeAnswers": ["buying", "buy", "bought"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "They can't stand {{answer}} so early in the morning.",
+    "helperText": "What can't they stand doing?",
+    "answer": "waking up",
+    "word": "wake up",
+    "explanation": "'Waking up' is a gerund used after 'can't stand'.",
+    "closeAnswers": ["to wake up", "wake up", "woke up"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "She promised {{answer}} me the truth.",
+    "helperText": "What did she promise?",
+    "answer": "to tell",
+    "word": "tell",
+    "explanation": "'To tell' is the infinitive form used after 'promised'.",
+    "closeAnswers": ["telling", "tell", "told"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "I can't resist {{answer}} sweets.",
+    "helperText": "What can't I resist doing?",
+    "answer": "eating",
+    "word": "eat",
+    "explanation": "'Eating' is a gerund used after 'can't resist'.",
+    "closeAnswers": ["to eat", "eat", "ate"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "They plan {{answer}} to the beach this weekend.",
+    "helperText": "What do they plan to do?",
+    "answer": "to go",
+    "word": "go",
+    "explanation": "'To go' is the infinitive form used after 'plan'.",
+    "closeAnswers": ["going", "go", "went"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "She mentioned {{answer}} a new book.",
+    "helperText": "What did she mention?",
+    "answer": "reading",
+    "word": "read",
+    "explanation": "'Reading' is a gerund used after 'mentioned'.",
+    "closeAnswers": ["to read", "read", "read"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "I decided {{answer}} my old job.",
+    "helperText": "What did I decide to do?",
+    "answer": "to leave",
+    "word": "leave",
+    "explanation": "'To leave' is the infinitive form used after 'decided'.",
+    "closeAnswers": ["leaving", "leave", "left"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "He mentioned {{answer}} to the conference.",
+    "helperText": "What did he mention?",
+    "answer": "going",
+    "word": "go",
+    "explanation": "'Going' is a gerund used after 'mentioned'.",
+    "closeAnswers": ["to go", "go", "went"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "They expect {{answer}} the results tomorrow.",
+    "helperText": "What do they expect?",
+    "answer": "to receive",
+    "word": "receive",
+    "explanation": "'To receive' is the infinitive form used after 'expect'.",
+    "closeAnswers": ["receiving", "receive", "received"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "I dislike {{answer}} to the dentist.",
+    "helperText": "What do I dislike doing?",
+    "answer": "going",
+    "word": "go",
+    "explanation": "'Going' is a gerund used after 'dislike'.",
+    "closeAnswers": ["to go", "go", "went"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "She can't stand {{answer}} in the traffic.",
+    "helperText": "What can't she stand doing?",
+    "answer": "waiting",
+    "word": "wait",
+    "explanation": "'Waiting' is a gerund used after 'can't stand'.",
+    "closeAnswers": ["to wait", "wait", "waited"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "He avoided {{answer}} his feelings.",
+    "helperText": "What did he avoid?",
+    "answer": "expressing",
+    "word": "express",
+    "explanation": "'Expressing' is a gerund used after 'avoided'.",
+    "closeAnswers": ["to express", "express", "expressed"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "I hope {{answer}} you soon.",
+    "helperText": "What do I hope to do?",
+    "answer": "to see",
+    "word": "see",
+    "explanation": "'To see' is the infinitive form used after 'hope'.",
+    "closeAnswers": ["seeing", "see", "saw"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "They enjoyed {{answer}} their vacation last year.",
+    "helperText": "What did they enjoy?",
+    "answer": "spending",
+    "word": "spend",
+    "explanation": "'Spending' is a gerund used after 'enjoyed'.",
+    "closeAnswers": ["to spend", "spend", "spent"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "She suggested {{answer}} a new plan.",
+    "helperText": "What did she suggest?",
+    "answer": "implementing",
+    "word": "implement",
+    "explanation": "'Implementing' is a gerund used after 'suggested'.",
+    "closeAnswers": ["to implement", "implement", "implemented"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "He forgot {{answer}} his umbrella at home.",
+    "helperText": "What did he forget to do?",
+    "answer": "to take",
+    "word": "take",
+    "explanation": "'To take' is the infinitive form used after 'forgot'.",
+    "closeAnswers": ["taking", "take", "took"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "I would love {{answer}} to Paris one day.",
+    "helperText": "What would I love to do?",
+    "answer": "to go",
+    "word": "go",
+    "explanation": "'To go' is the infinitive form used after 'would love'.",
+    "closeAnswers": ["going", "go", "went"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "They considered {{answer}} for the job.",
+    "helperText": "What did they consider?",
+    "answer": "applying",
+    "word": "apply",
+    "explanation": "'Applying' is a gerund used after 'considered'.",
+    "closeAnswers": ["to apply", "apply", "applied"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "She loves {{answer}} books in her free time.",
+    "helperText": "What does she love doing?",
+    "answer": "reading",
+    "word": "read",
+    "explanation": "'Reading' is a gerund used after 'loves'.",
+    "closeAnswers": ["to read", "read", "reads"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "I can't help {{answer}} when I see a puppy.",
+    "helperText": "What can't I help doing?",
+    "answer": "smiling",
+    "word": "smile",
+    "explanation": "'Smiling' is a gerund used after 'can't help'.",
+    "closeAnswers": ["to smile", "smile", "smiled"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "He forgot {{answer}} the meeting yesterday.",
+    "helperText": "What did he forget to do?",
+    "answer": "to attend",
+    "word": "attend",
+    "explanation": "'To attend' is the infinitive form used after 'forgot'.",
+    "closeAnswers": ["attending", "attend", "attended"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "They enjoy {{answer}} in the mountains during summer.",
+    "helperText": "What do they enjoy doing?",
+    "answer": "hiking",
+    "word": "hike",
+    "explanation": "'Hiking' is a gerund used after 'enjoy'.",
+    "closeAnswers": ["to hike", "hike", "hiked"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "She promised {{answer}} me about the changes.",
+    "helperText": "What did she promise?",
+    "answer": "to inform",
+    "word": "inform",
+    "explanation": "'To inform' is the infinitive form used after 'promised'.",
+    "closeAnswers": ["informing", "inform", "informed"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "I enjoy {{answer}} new languages.",
+    "helperText": "What do I enjoy doing?",
+    "answer": "learning",
+    "word": "learn",
+    "explanation": "'Learning' is a gerund used after 'enjoy'.",
+    "closeAnswers": ["to learn", "learn", "learned"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "They decided {{answer}} an extra day for the project.",
+    "helperText": "What did they decide to do?",
+    "answer": "to take",
+    "word": "take",
+    "explanation": "'To take' is the infinitive form used after 'decided'.",
+    "closeAnswers": ["taking", "take", "took"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "He suggested {{answer}} the presentation tomorrow.",
+    "helperText": "What did he suggest?",
+    "answer": "postponing",
+    "word": "postpone",
+    "explanation": "'Postponing' is a gerund used after 'suggested'.",
+    "closeAnswers": ["to postpone", "postpone", "postponed"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "I forgot {{answer}} the password.",
+    "helperText": "What did I forget to do?",
+    "answer": "to write down",
+    "word": "write down",
+    "explanation": "'To write down' is the infinitive form used after 'forgot'.",
+    "closeAnswers": ["writing down", "write down", "wrote down"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "She enjoys {{answer}} in the theater.",
+    "helperText": "What does she enjoy doing?",
+    "answer": "acting",
+    "word": "act",
+    "explanation": "'Acting' is a gerund used after 'enjoys'.",
+    "closeAnswers": ["to act", "act", "acted"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "He promised {{answer}} me at the conference.",
+    "helperText": "What did he promise to do?",
+    "answer": "to meet",
+    "word": "meet",
+    "explanation": "'To meet' is the infinitive form used after 'promised'.",
+    "closeAnswers": ["meeting", "meet", "met"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "I dislike {{answer}} to the gym.",
+    "helperText": "What do I dislike doing?",
+    "answer": "going",
+    "word": "go",
+    "explanation": "'Going' is a gerund used after 'dislike'.",
+    "closeAnswers": ["to go", "go", "went"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "They avoided {{answer}} at all costs.",
+    "helperText": "What did they avoid?",
+    "answer": "discussing",
+    "word": "discuss",
+    "explanation": "'Discussing' is a gerund used after 'avoided'.",
+    "closeAnswers": ["to discuss", "discuss", "discussed"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "She can't stand {{answer}} the same song over and over.",
+    "helperText": "What can't she stand doing?",
+    "answer": "hearing",
+    "word": "hear",
+    "explanation": "'Hearing' is a gerund used after 'can't stand'.",
+    "closeAnswers": ["to hear", "hear", "heard"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "He is looking forward to {{answer}} you again.",
+    "helperText": "What is he looking forward to?",
+    "answer": "seeing",
+    "word": "see",
+    "explanation": "'Seeing' is a gerund used after 'looking forward to'.",
+    "closeAnswers": ["to see", "see", "saw"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "I love {{answer}} new places when I travel.",
+    "helperText": "What do I love doing?",
+    "answer": "exploring",
+    "word": "explore",
+    "explanation": "'Exploring' is a gerund used after 'love'.",
+    "closeAnswers": ["to explore", "explore", "explored"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "They plan {{answer}} the new strategy next month.",
+    "helperText": "What do they plan to do?",
+    "answer": "to implement",
+    "word": "implement",
+    "explanation": "'To implement' is the infinitive form used after 'plan'.",
+    "closeAnswers": ["implementing", "implement", "implemented"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "She suggested {{answer}} to the festival this year.",
+    "helperText": "What did she suggest?",
+    "answer": "attending",
+    "word": "attend",
+    "explanation": "'Attending' is a gerund used after 'suggested'.",
+    "closeAnswers": ["to attend", "attend", "attended"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "He admitted {{answer}} a mistake in his report.",
+    "helperText": "What did he admit?",
+    "answer": "making",
+    "word": "make",
+    "explanation": "'Making' is a gerund used after 'admitted'.",
+    "closeAnswers": ["to make", "make", "made"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "I recommend {{answer}} your report carefully before submission.",
+    "helperText": "What do I recommend?",
+    "answer": "reviewing",
+    "word": "review",
+    "explanation": "'Reviewing' is a gerund used after 'recommend'.",
+    "closeAnswers": ["to review", "review", "reviewed"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "She enjoys {{answer}} in the kitchen.",
+    "helperText": "What does she enjoy doing?",
+    "answer": "cooking",
+    "word": "cook",
+    "explanation": "'Cooking' is a gerund used after 'enjoys'.",
+    "closeAnswers": ["to cook", "cook", "cooked"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "He seems {{answer}} very busy lately.",
+    "helperText": "How does he seem?",
+    "answer": "to be",
+    "word": "be",
+    "explanation": "'To be' is the infinitive form used after 'seems'.",
+    "closeAnswers": ["being", "be", "was"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "They prefer {{answer}} their own car instead of using public transport.",
+    "helperText": "What do they prefer to do?",
+    "answer": "to drive",
+    "word": "drive",
+    "explanation": "'To drive' is the infinitive form used after 'prefer'.",
+    "closeAnswers": ["driving", "drive", "drove"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "I avoid {{answer}} late at night.",
+    "helperText": "What do I avoid doing?",
+    "answer": "eating",
+    "word": "eat",
+    "explanation": "'Eating' is a gerund used after 'avoid'.",
+    "closeAnswers": ["to eat", "eat", "ate"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "She mentioned {{answer}} a new project at the meeting.",
+    "helperText": "What did she mention?",
+    "answer": "starting",
+    "word": "start",
+    "explanation": "'Starting' is a gerund used after 'mentioned'.",
+    "closeAnswers": ["to start", "start", "started"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "They decided {{answer}} their vacation next month.",
+    "helperText": "What did they decide to do?",
+    "answer": "to postpone",
+    "word": "postpone",
+    "explanation": "'To postpone' is the infinitive form used after 'decided'.",
+    "closeAnswers": ["postponing", "postpone", "postponed"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "I can't stand {{answer}} when people are rude.",
+    "helperText": "What can't I stand doing?",
+    "answer": "listening",
+    "word": "listen",
+    "explanation": "'Listening' is a gerund used after 'can't stand'.",
+    "closeAnswers": ["to listen", "listen", "listened"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "He promised {{answer}} me a call later.",
+    "helperText": "What did he promise to do?",
+    "answer": "to give",
+    "word": "give",
+    "explanation": "'To give' is the infinitive form used after 'promised'.",
+    "closeAnswers": ["giving", "give", "gave"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "They discussed {{answer}} a new strategy for marketing.",
+    "helperText": "What did they discuss?",
+    "answer": "implementing",
+    "word": "implement",
+    "explanation": "'Implementing' is a gerund used after 'discussed'.",
+    "closeAnswers": ["to implement", "implement", "implemented"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "She enjoys {{answer}} her friends for dinner every weekend.",
+    "helperText": "What does she enjoy doing?",
+    "answer": "inviting",
+    "word": "invite",
+    "explanation": "'Inviting' is a gerund used after 'enjoys'.",
+    "closeAnswers": ["to invite", "invite", "invited"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "He decided {{answer}} the offer after careful consideration.",
+    "helperText": "What did he decide to do?",
+    "answer": "to accept",
+    "word": "accept",
+    "explanation": "'To accept' is the infinitive form used after 'decided'.",
+    "closeAnswers": ["accepting", "accept", "accepted"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "They enjoy {{answer}} to concerts on weekends.",
+    "helperText": "What do they enjoy doing?",
+    "answer": "going",
+    "word": "go",
+    "explanation": "'Going' is a gerund used after 'enjoy'.",
+    "closeAnswers": ["to go", "go", "went"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "I can't wait {{answer}} the results of the exam.",
+    "helperText": "What can't I wait to do?",
+    "answer": "to see",
+    "word": "see",
+    "explanation": "'To see' is the infinitive form used after 'can't wait'.",
+    "closeAnswers": ["seeing", "see", "saw"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "She finished {{answer}} her homework before dinner.",
+    "helperText": "What did she finish?",
+    "answer": "doing",
+    "word": "do",
+    "explanation": "'Doing' is a gerund used after 'finished'.",
+    "closeAnswers": ["to do", "do", "did"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "He can't help {{answer}} when he sees a good movie.",
+    "helperText": "What can't he help doing?",
+    "answer": "laughing",
+    "word": "laugh",
+    "explanation": "'Laughing' is a gerund used after 'can't help'.",
+    "closeAnswers": ["to laugh", "laugh", "laughed"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "They suggested {{answer}} a different approach to the problem.",
+    "helperText": "What did they suggest?",
+    "answer": "using",
+    "word": "use",
+    "explanation": "'Using' is a gerund used after 'suggested'.",
+    "closeAnswers": ["to use", "use", "used"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "I plan {{answer}} my family for dinner next week.",
+    "helperText": "What do I plan to do?",
+    "answer": "to visit",
+    "word": "visit",
+    "explanation": "'To visit' is the infinitive form used after 'plan'.",
+    "closeAnswers": ["visiting", "visit", "visited"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  },
+  {
+    "question": "She avoided {{answer}} about her plans for the weekend.",
+    "helperText": "What did she avoid?",
+    "answer": "talking",
+    "word": "talk",
+    "explanation": "'Talking' is a gerund used after 'avoided'.",
+    "closeAnswers": ["to talk", "talk", "talked"],
+    "exerciseCategoryId": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83"
+  }
+]

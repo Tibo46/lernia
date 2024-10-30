@@ -1,0 +1,524 @@
+[
+  {
+    "question": "Lernia {{answer}} to the concert last night.",
+    "helperText": "What did Lernia do last night?",
+    "answer": "went",
+    "word": "go",
+    "explanation": "'Went' is the simple past form of 'go', indicating a completed action.",
+    "closeAnswers": ["goes", "was going", "is going"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "While Lernia {{answer}} her homework, the power went out.",
+    "helperText": "What was Lernia doing when the power went out?",
+    "answer": "was doing",
+    "word": "do",
+    "explanation": "'Was doing' is past continuous, showing an ongoing action that was interrupted.",
+    "closeAnswers": ["did", "does", "is doing"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "Lernia {{answer}} her phone before going to bed last night.",
+    "helperText": "What did Lernia do before bed?",
+    "answer": "charged",
+    "word": "charge",
+    "explanation": "'Charged' is simple past, indicating a completed action.",
+    "closeAnswers": ["charges", "was charging", "is charging"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "By the time we arrived, Lernia {{answer}} her meal.",
+    "helperText": "What had Lernia done by the time we arrived?",
+    "answer": "had finished",
+    "word": "finish",
+    "explanation": "'Had finished' is past perfect, showing a completed action before another in the past.",
+    "closeAnswers": ["finished", "was finishing", "is finishing"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "Lernia {{answer}} TV all evening yesterday.",
+    "helperText": "What did Lernia do all evening?",
+    "answer": "was watching",
+    "word": "watch",
+    "explanation": "'Was watching' is past continuous, indicating an ongoing action.",
+    "closeAnswers": ["watched", "is watching", "watches"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "Lernia {{answer}} her friend a message after class.",
+    "helperText": "What did Lernia do after class?",
+    "answer": "sent",
+    "word": "send",
+    "explanation": "'Sent' is simple past, indicating a completed action.",
+    "closeAnswers": ["was sending", "is sending", "sends"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "Last summer, Lernia {{answer}} to Italy for vacation.",
+    "helperText": "Where did Lernia go last summer?",
+    "answer": "traveled",
+    "word": "travel",
+    "explanation": "'Traveled' is simple past, indicating a completed action.",
+    "closeAnswers": ["travels", "was traveling", "is traveling"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "Lernia {{answer}} studying because she was too tired.",
+    "helperText": "What did Lernia do because she was tired?",
+    "answer": "stopped",
+    "word": "stop",
+    "explanation": "'Stopped' is simple past, showing a completed action.",
+    "closeAnswers": ["stops", "was stopping", "is stopping"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "When I called, Lernia {{answer}} dinner with her family.",
+    "helperText": "What was Lernia doing when I called?",
+    "answer": "was having",
+    "word": "have",
+    "explanation": "'Was having' is past continuous, indicating an ongoing action in the past.",
+    "closeAnswers": ["had", "is having", "has"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "By the end of the year, Lernia {{answer}} three new books.",
+    "helperText": "What had Lernia done by the end of the year?",
+    "answer": "had read",
+    "word": "read",
+    "explanation": "'Had read' is past perfect, showing an action completed by a past time.",
+    "closeAnswers": ["read", "was reading", "reads"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "Lernia {{answer}} to play the piano when she was young.",
+    "helperText": "What did Lernia learn to do?",
+    "answer": "learned",
+    "word": "learn",
+    "explanation": "'Learned' is simple past, showing a completed action.",
+    "closeAnswers": ["learns", "is learning", "was learning"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "Lernia {{answer}} all the details before the meeting.",
+    "helperText": "What had Lernia done before the meeting?",
+    "answer": "had reviewed",
+    "word": "review",
+    "explanation": "'Had reviewed' is past perfect, showing an action completed before another in the past.",
+    "closeAnswers": ["reviews", "was reviewing", "is reviewing"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "Lernia {{answer}} in New York for two years before moving.",
+    "helperText": "How long had Lernia lived in New York?",
+    "answer": "had lived",
+    "word": "live",
+    "explanation": "'Had lived' is past perfect, indicating a completed action before another in the past.",
+    "closeAnswers": ["lives", "is living", "was living"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "Lernia {{answer}} hard for her test last night.",
+    "helperText": "What did Lernia do last night?",
+    "answer": "studied",
+    "word": "study",
+    "explanation": "'Studied' is simple past, showing a completed action.",
+    "closeAnswers": ["studies", "was studying", "is studying"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "When the movie started, Lernia {{answer}} already at the theater.",
+    "helperText": "Where was Lernia when the movie started?",
+    "answer": "was",
+    "word": "be",
+    "explanation": "'Was' is simple past, showing a state in the past.",
+    "closeAnswers": ["is", "being", "were"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "Last week, Lernia {{answer}} a cooking class.",
+    "helperText": "What did Lernia attend last week?",
+    "answer": "attended",
+    "word": "attend",
+    "explanation": "'Attended' is simple past, indicating a completed action.",
+    "closeAnswers": ["attends", "is attending", "was attending"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "While she {{answer}} dinner, her phone rang.",
+    "helperText": "What was Lernia doing when her phone rang?",
+    "answer": "was cooking",
+    "word": "cook",
+    "explanation": "'Was cooking' is past continuous, indicating an ongoing action that was interrupted.",
+    "closeAnswers": ["cooked", "is cooking", "cooks"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "Lernia {{answer}} her umbrella, so she got wet in the rain.",
+    "helperText": "What did Lernia forget?",
+    "answer": "forgot",
+    "word": "forget",
+    "explanation": "'Forgot' is simple past, indicating a completed action.",
+    "closeAnswers": ["forgets", "is forgetting", "was forgetting"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "By 5 p.m., Lernia {{answer}} all her work for the day.",
+    "helperText": "What had Lernia done by 5 p.m.?",
+    "answer": "had finished",
+    "word": "finish",
+    "explanation": "'Had finished' is past perfect, indicating a completed action before another in the past.",
+    "closeAnswers": ["finished", "was finishing", "is finishing"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "Lernia {{answer}} her ankle while she was running.",
+    "helperText": "What did Lernia do to her ankle?",
+    "answer": "hurt",
+    "word": "hurt",
+    "explanation": "'Hurt' is simple past, indicating a completed action.",
+    "closeAnswers": ["hurts", "is hurting", "was hurting"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "Last Friday, Lernia {{answer}} her first marathon.",
+    "helperText": "What did Lernia complete last Friday?",
+    "answer": "ran",
+    "word": "run",
+    "explanation": "'Ran' is simple past, indicating a completed action.",
+    "closeAnswers": ["runs", "is running", "was running"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "Lernia {{answer}} in a big city before she moved to the countryside.",
+    "helperText": "Where did Lernia live before?",
+    "answer": "had lived",
+    "word": "live",
+    "explanation": "'Had lived' is past perfect, indicating an action completed before another past action.",
+    "closeAnswers": ["lives", "is living", "was living"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "Lernia {{answer}} a book about ancient history last summer.",
+    "helperText": "What did Lernia read last summer?",
+    "answer": "read",
+    "word": "read",
+    "explanation": "'Read' is the simple past form and indicates a completed action.",
+    "closeAnswers": ["reads", "is reading", "was reading"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "While Lernia {{answer}} for the bus, she saw an old friend.",
+    "helperText": "What was Lernia doing when she saw her friend?",
+    "answer": "was waiting",
+    "word": "wait",
+    "explanation": "'Was waiting' is past continuous, describing an ongoing action in the past.",
+    "closeAnswers": ["waits", "waited", "is waiting"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "By the time I got home, Lernia {{answer}} already left.",
+    "helperText": "What had Lernia done by the time I got home?",
+    "answer": "had",
+    "word": "leave",
+    "explanation": "'Had left' uses past perfect to show a completed action before another past event.",
+    "closeAnswers": ["was leaving", "leaves", "left"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "Lernia {{answer}} at a restaurant when she was younger.",
+    "helperText": "Where did Lernia work in the past?",
+    "answer": "worked",
+    "word": "work",
+    "explanation": "'Worked' is simple past, indicating a completed action.",
+    "closeAnswers": ["works", "is working", "was working"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "Lernia {{answer}} across Europe in her early twenties.",
+    "helperText": "Where did Lernia travel in her twenties?",
+    "answer": "traveled",
+    "word": "travel",
+    "explanation": "'Traveled' is simple past, describing a completed action in the past.",
+    "closeAnswers": ["travels", "is traveling", "was traveling"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "Lernia {{answer}} a car for the first time yesterday.",
+    "helperText": "What did Lernia do for the first time yesterday?",
+    "answer": "drove",
+    "word": "drive",
+    "explanation": "'Drove' is simple past, indicating a completed action.",
+    "closeAnswers": ["drives", "is driving", "was driving"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "Lernia {{answer}} up early for the meeting last Monday.",
+    "helperText": "What did Lernia do for the meeting?",
+    "answer": "woke",
+    "word": "wake",
+    "explanation": "'Woke' is simple past, describing a completed action.",
+    "closeAnswers": ["wakes", "is waking", "was waking"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "Lernia {{answer}} Spanish before she moved to Spain.",
+    "helperText": "What language did Lernia study before moving?",
+    "answer": "had studied",
+    "word": "study",
+    "explanation": "'Had studied' is past perfect, indicating a completed action before another past event.",
+    "closeAnswers": ["studied", "was studying", "is studying"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "While Lernia {{answer}} on the presentation, her computer crashed.",
+    "helperText": "What was Lernia doing when the computer crashed?",
+    "answer": "was working",
+    "word": "work",
+    "explanation": "'Was working' is past continuous, indicating an ongoing action in the past.",
+    "closeAnswers": ["worked", "works", "is working"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "Lernia {{answer}} the kitchen by the time I arrived.",
+    "helperText": "What had Lernia done before I arrived?",
+    "answer": "had cleaned",
+    "word": "clean",
+    "explanation": "'Had cleaned' is past perfect, showing a completed action before another past action.",
+    "closeAnswers": ["cleans", "was cleaning", "is cleaning"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "During the storm, Lernia {{answer}} up all night.",
+    "helperText": "What did Lernia do during the storm?",
+    "answer": "stayed",
+    "word": "stay",
+    "explanation": "'Stayed' is simple past, showing a completed action.",
+    "closeAnswers": ["stays", "is staying", "was staying"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "Lernia {{answer}} her favorite song during the concert.",
+    "helperText": "What did Lernia hear at the concert?",
+    "answer": "heard",
+    "word": "hear",
+    "explanation": "'Heard' is simple past, describing a completed action.",
+    "closeAnswers": ["hears", "is hearing", "was hearing"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "After the movie, Lernia {{answer}} a nice restaurant nearby.",
+    "helperText": "Where did Lernia go after the movie?",
+    "answer": "found",
+    "word": "find",
+    "explanation": "'Found' is simple past, showing a completed action.",
+    "closeAnswers": ["finds", "is finding", "was finding"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "Lernia {{answer}} a delicious dessert after dinner.",
+    "helperText": "What did Lernia eat?",
+    "answer": "ate",
+    "word": "eat",
+    "explanation": "'Ate' is simple past, showing a completed action.",
+    "closeAnswers": ["eats", "is eating", "was eating"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "Lernia {{answer}} over her lines before the play began.",
+    "helperText": "What did Lernia do before the play?",
+    "answer": "had gone",
+    "word": "go",
+    "explanation": "'Had gone' is past perfect, indicating a completed action before another past event.",
+    "closeAnswers": ["went", "is going", "was going"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "Lernia {{answer}} the window because it was too warm.",
+    "helperText": "What did Lernia do with the window?",
+    "answer": "opened",
+    "word": "open",
+    "explanation": "'Opened' is simple past, showing a completed action.",
+    "closeAnswers": ["opens", "is opening", "was opening"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "By the end of the night, Lernia {{answer}} very tired.",
+    "helperText": "How did Lernia feel by the end of the night?",
+    "answer": "was",
+    "word": "be",
+    "explanation": "'Was' is simple past, describing a state in the past.",
+    "closeAnswers": ["is", "being", "were"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "Before moving, Lernia {{answer}} all her belongings.",
+    "helperText": "What did Lernia do before moving?",
+    "answer": "packed",
+    "word": "pack",
+    "explanation": "'Packed' is simple past, indicating a completed action.",
+    "closeAnswers": ["packs", "is packing", "was packing"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "Lernia {{answer}} her phone at the café yesterday.",
+    "helperText": "What happened to Lernia's phone yesterday?",
+    "answer": "forgot",
+    "word": "forget",
+    "explanation": "'Forgot' is simple past, indicating a completed action.",
+    "closeAnswers": ["forgets", "is forgetting", "was forgetting"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "When I saw her, Lernia {{answer}} home from work.",
+    "helperText": "What was Lernia doing when I saw her?",
+    "answer": "was walking",
+    "word": "walk",
+    "explanation": "'Was walking' is past continuous, showing an ongoing action in the past.",
+    "closeAnswers": ["walks", "is walking", "walked"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "Lernia {{answer}} many friends in her old neighborhood.",
+    "helperText": "What did Lernia have in her old neighborhood?",
+    "answer": "had",
+    "word": "have",
+    "explanation": "'Had' is simple past, indicating a completed state in the past.",
+    "closeAnswers": ["has", "is having", "was having"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "After she {{answer}} her coffee, she left the café.",
+    "helperText": "What did she do with her coffee before leaving?",
+    "answer": "finished",
+    "word": "finish",
+    "explanation": "'Finished' is simple past, indicating a completed action.",
+    "closeAnswers": ["finishes", "is finishing", "was finishing"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "Lernia {{answer}} her umbrella at the office.",
+    "helperText": "What happened with Lernia's umbrella?",
+    "answer": "left",
+    "word": "leave",
+    "explanation": "'Left' is simple past, indicating a completed action.",
+    "closeAnswers": ["leaves", "is leaving", "was leaving"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "By the time we arrived, Lernia {{answer}} home.",
+    "helperText": "Where was Lernia when we arrived?",
+    "answer": "had gone",
+    "word": "go",
+    "explanation": "'Had gone' is past perfect, showing an action completed before another past action.",
+    "closeAnswers": ["went", "is going", "was going"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "Lernia {{answer}} her dinner when the phone rang.",
+    "helperText": "What was Lernia doing when the phone rang?",
+    "answer": "was eating",
+    "word": "eat",
+    "explanation": "'Was eating' is past continuous, indicating an ongoing action in the past.",
+    "closeAnswers": ["eats", "is eating", "ate"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "Lernia {{answer}} her shoes before she went outside.",
+    "helperText": "What did Lernia do with her shoes before going outside?",
+    "answer": "put on",
+    "word": "put",
+    "explanation": "'Put on' is simple past, indicating a completed action.",
+    "closeAnswers": ["puts on", "is putting on", "was putting on"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "Lernia {{answer}} to call her mother last night.",
+    "helperText": "What happened with Lernia's call last night?",
+    "answer": "forgot",
+    "word": "forget",
+    "explanation": "'Forgot' is simple past, indicating a completed action.",
+    "closeAnswers": ["forgets", "is forgetting", "was forgetting"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "While Lernia {{answer}} at the library, it started raining.",
+    "helperText": "What was Lernia doing at the library?",
+    "answer": "was studying",
+    "word": "study",
+    "explanation": "'Was studying' is past continuous, indicating an ongoing action.",
+    "closeAnswers": ["studies", "is studying", "studied"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "Lernia {{answer}} all her chores before going to bed.",
+    "helperText": "What did Lernia do before bed?",
+    "answer": "finished",
+    "word": "finish",
+    "explanation": "'Finished' is simple past, indicating a completed action.",
+    "closeAnswers": ["finishes", "is finishing", "was finishing"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "Lernia {{answer}} in a choir when she was a child.",
+    "helperText": "What activity did Lernia do in childhood?",
+    "answer": "sang",
+    "word": "sing",
+    "explanation": "'Sang' is simple past, showing a completed action.",
+    "closeAnswers": ["sings", "is singing", "was singing"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "Lernia {{answer}} a movie marathon last weekend.",
+    "helperText": "What did Lernia watch last weekend?",
+    "answer": "watched",
+    "word": "watch",
+    "explanation": "'Watched' is simple past, indicating a completed action.",
+    "closeAnswers": ["watches", "is watching", "was watching"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "When Lernia {{answer}} her keys, she was late for work.",
+    "helperText": "What happened with Lernia's keys?",
+    "answer": "lost",
+    "word": "lose",
+    "explanation": "'Lost' is simple past, showing a completed action.",
+    "closeAnswers": ["loses", "is losing", "was losing"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "Lernia {{answer}} a letter to her friend in the evening.",
+    "helperText": "What did Lernia do in the evening?",
+    "answer": "wrote",
+    "word": "write",
+    "explanation": "'Wrote' is simple past, showing a completed action.",
+    "closeAnswers": ["writes", "is writing", "was writing"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "The cake {{answer}} out delicious when Lernia made it.",
+    "helperText": "How was the cake when Lernia made it?",
+    "answer": "turned",
+    "word": "turn",
+    "explanation": "'Turned out' is simple past, showing a completed result.",
+    "closeAnswers": ["turns", "is turning", "was turning"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "Lernia {{answer}} the guitar during the weekend.",
+    "helperText": "What instrument did Lernia play?",
+    "answer": "played",
+    "word": "play",
+    "explanation": "'Played' is simple past, showing a completed action.",
+    "closeAnswers": ["plays", "is playing", "was playing"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  },
+  {
+    "question": "While Lernia {{answer}} in the garden, it started raining.",
+    "helperText": "What was Lernia doing in the garden?",
+    "answer": "was working",
+    "word": "work",
+    "explanation": "'Was working' is past continuous, indicating an ongoing action.",
+    "closeAnswers": ["works", "is working", "worked"],
+    "exerciseCategoryId": "ebf63805-3374-45aa-984f-5bb152e5a1fe"
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "0a4a8bd3-5dc8-476d-9a66-bcc23d7fae83",
+    "name": "Gerund or Infinitive",
+    "description": "Completa las frases con el gerundio (doing) or infinitivo (to do) de los verbos."
+  },
+  {
+    "id": "9b69cf86-b3f5-45cb-8e67-65fd8e93866a",
+    "name": "Prepositions",
+    "description": "Decide qué preposición es la correcta para completar la frase. Recuerda que a veces hay más de una opción correcta."
+  },
+  {
+    "id": "9fa3b22b-45d8-4424-8fd5-cc62c6600648",
+    "name": "Passive Sentences",
+    "description": "Converierte las frases activas en pasivas y viceversa."
+  },
+  {
+    "id": "ebf63805-3374-45aa-984f-5bb152e5a1fe",
+    "name": "Past Tenses",
+    "description": "Practica los tiempos pasados escibiendo la forma correcta de los verbos."
+  },
+  {
+    "id": "da935d2e-1182-4eb9-bdda-189a298bb2b1",
+    "name": "Present Tenses",
+    "description": "Practica tiempos verbales del presente: present simple y present continuous."
+  },
+  {
+    "id": "4abe1225-a40b-4d0a-90c4-ac07df09cfef",
+    "name": "Articles",
+    "description": "Completa con el artículo correcto según el contexto."
+  },
+  {
+    "id": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1",
+    "name": "Future Tenses",
+    "description": "Decide que tiempo vebal del futuro corresponde a cada frase: future simple, future continuous, future perfect, future perfect continuous."
+  }
+]

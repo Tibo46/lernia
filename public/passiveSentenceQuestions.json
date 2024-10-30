@@ -1,0 +1,660 @@
+[
+  {
+    "question": "The book {{answer}} by Lernia last week.",
+    "helperText": "What happened to the book last week?",
+    "answer": "was read",
+    "word": "read",
+    "explanation": "'Was read' is in the past passive voice, indicating that the book was acted upon.",
+    "closeAnswers": ["reads", "is read", "was reading"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The cake {{answer}} by her friends for the party.",
+    "helperText": "What happened with the cake for the party?",
+    "answer": "was made",
+    "word": "make",
+    "explanation": "'Was made' is in the past passive voice, indicating that the cake was created by someone.",
+    "closeAnswers": ["makes", "is made", "was making"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The song {{answer}} by many artists over the years.",
+    "helperText": "What has happened to the song?",
+    "answer": "has been sung",
+    "word": "sing",
+    "explanation": "'Has been sung' is in the present perfect passive voice, indicating ongoing action over time.",
+    "closeAnswers": ["sings", "is sung", "was sung"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The house {{answer}} last year by Lernia.",
+    "helperText": "What happened to the house last year?",
+    "answer": "was sold",
+    "word": "sell",
+    "explanation": "'Was sold' is in the past passive voice, indicating that the house was sold.",
+    "closeAnswers": ["sells", "is sold", "was selling"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The homework {{answer}} by all students before the deadline.",
+    "helperText": "What did the students do with the homework?",
+    "answer": "was completed",
+    "word": "complete",
+    "explanation": "'Was completed' is in the past passive voice, indicating that the homework was finished.",
+    "closeAnswers": ["completes", "is completed", "was completing"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The project {{answer}} by the team last month.",
+    "helperText": "What happened with the project last month?",
+    "answer": "was finished",
+    "word": "finish",
+    "explanation": "'Was finished' is in the past passive voice, indicating that the project was completed.",
+    "closeAnswers": ["finishes", "is finished", "was finishing"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The letter {{answer}} by Lernia yesterday.",
+    "helperText": "What happened to the letter yesterday?",
+    "answer": "was sent",
+    "word": "send",
+    "explanation": "'Was sent' is in the past passive voice, indicating that the letter was dispatched.",
+    "closeAnswers": ["sends", "is sent", "was sending"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The results {{answer}} available to the public.",
+    "helperText": "What has happened to the results?",
+    "answer": "are being made",
+    "word": "make",
+    "explanation": "'Are being made' is in the present continuous passive voice, indicating ongoing action.",
+    "closeAnswers": ["are made", "was made", "were made"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The movie {{answer}} by critics as a masterpiece.",
+    "helperText": "How was the movie described by critics?",
+    "answer": "was reviewed",
+    "word": "review",
+    "explanation": "'Was reviewed' is in the past passive voice, indicating that the movie was evaluated.",
+    "closeAnswers": ["reviews", "is reviewed", "was reviewing"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The exhibit {{answer}} by many visitors last weekend.",
+    "helperText": "What happened to the exhibit last weekend?",
+    "answer": "was seen",
+    "word": "see",
+    "explanation": "'Was seen' is in the past passive voice, indicating that visitors viewed the exhibit.",
+    "closeAnswers": ["sees", "is seen", "was seeing"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The paintings {{answer}} by the local artist.",
+    "helperText": "Who created the paintings?",
+    "answer": "were painted",
+    "word": "paint",
+    "explanation": "'Were painted' is in the past passive voice, indicating that the artist completed the action.",
+    "closeAnswers": ["paints", "is painted", "was painting"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The conference {{answer}} by the university every year.",
+    "helperText": "What does the university do every year?",
+    "answer": "is held",
+    "word": "hold",
+    "explanation": "'Is held' is in the present passive voice, indicating an ongoing routine.",
+    "closeAnswers": ["holds", "held", "was held"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The rules {{answer}} by everyone in the class.",
+    "helperText": "What should everyone do with the rules?",
+    "answer": "are followed",
+    "word": "follow",
+    "explanation": "'Are followed' is in the present passive voice, indicating ongoing adherence.",
+    "closeAnswers": ["follows", "followed", "was followed"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The presentation {{answer}} by the team at the meeting.",
+    "helperText": "What did the team do at the meeting?",
+    "answer": "was delivered",
+    "word": "deliver",
+    "explanation": "'Was delivered' is in the past passive voice, indicating that the presentation was given.",
+    "closeAnswers": ["delivers", "is delivered", "was delivering"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The report {{answer}} by the manager on Monday.",
+    "helperText": "What happened to the report on Monday?",
+    "answer": "was reviewed",
+    "word": "review",
+    "explanation": "'Was reviewed' is in the past passive voice, indicating that the report was evaluated.",
+    "closeAnswers": ["reviews", "is reviewed", "was reviewing"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The proposal {{answer}} by the committee before the deadline.",
+    "helperText": "What did the committee do with the proposal?",
+    "answer": "was accepted",
+    "word": "accept",
+    "explanation": "'Was accepted' is in the past passive voice, indicating that the proposal was approved.",
+    "closeAnswers": ["accepts", "is accepted", "was accepting"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The feedback {{answer}} by Lernia yesterday.",
+    "helperText": "What happened to the feedback yesterday?",
+    "answer": "was provided",
+    "word": "provide",
+    "explanation": "'Was provided' is in the past passive voice, indicating that the feedback was given.",
+    "closeAnswers": ["provides", "is provided", "was providing"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The instructions {{answer}} clearly by the teacher.",
+    "helperText": "How were the instructions given?",
+    "answer": "were explained",
+    "word": "explain",
+    "explanation": "'Were explained' is in the past passive voice, indicating that the instructions were clarified.",
+    "closeAnswers": ["explains", "is explained", "was explaining"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The newsletter {{answer}} by the organization every month.",
+    "helperText": "What does the organization do with the newsletter?",
+    "answer": "is published",
+    "word": "publish",
+    "explanation": "'Is published' is in the present passive voice, indicating ongoing publication.",
+    "closeAnswers": ["publishes", "was published", "published"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The training session {{answer}} by all employees last week.",
+    "helperText": "What happened during the training session last week?",
+    "answer": "was attended",
+    "word": "attend",
+    "explanation": "'Was attended' is in the past passive voice, indicating that employees participated.",
+    "closeAnswers": ["attends", "is attended", "was attending"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The results {{answer}} by the committee last week.",
+    "helperText": "What did the committee do with the results?",
+    "answer": "were analyzed",
+    "word": "analyze",
+    "explanation": "'Were analyzed' is in the past passive voice, indicating that the results were examined.",
+    "closeAnswers": ["analyzes", "is analyzed", "was analyzing"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The advertisement {{answer}} by the marketing team last month.",
+    "helperText": "What happened to the advertisement last month?",
+    "answer": "was created",
+    "word": "create",
+    "explanation": "'Was created' is in the past passive voice, indicating that the advertisement was developed.",
+    "closeAnswers": ["creates", "is created", "was creating"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The email {{answer}} by Lernia this morning.",
+    "helperText": "What did Lernia do with the email this morning?",
+    "answer": "was sent",
+    "word": "send",
+    "explanation": "'Was sent' is in the past passive voice, indicating that the email was dispatched.",
+    "closeAnswers": ["sends", "is sent", "was sending"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The invitations {{answer}} by the organizer last week.",
+    "helperText": "What happened to the invitations last week?",
+    "answer": "were delivered",
+    "word": "deliver",
+    "explanation": "'Were delivered' is in the past passive voice, indicating that the invitations were given out.",
+    "closeAnswers": ["delivers", "is delivered", "was delivering"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The report {{answer}} by the committee last month.",
+    "helperText": "What did the committee do with the report last month?",
+    "answer": "was published",
+    "word": "publish",
+    "explanation": "'Was published' is in the past passive voice, indicating that the report was made public.",
+    "closeAnswers": ["publishes", "is published", "was publishing"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The decision {{answer}} by the board yesterday.",
+    "helperText": "What happened to the decision yesterday?",
+    "answer": "was made",
+    "word": "make",
+    "explanation": "'Was made' is in the past passive voice, indicating that the decision was finalized.",
+    "closeAnswers": ["makes", "is made", "was making"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The new policy {{answer}} by the management last week.",
+    "helperText": "What did the management do with the new policy?",
+    "answer": "was implemented",
+    "word": "implement",
+    "explanation": "'Was implemented' is in the past passive voice, indicating that the policy was put into action.",
+    "closeAnswers": ["implements", "is implemented", "was implementing"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The project {{answer}} by the team in the last quarter.",
+    "helperText": "What happened to the project in the last quarter?",
+    "answer": "was completed",
+    "word": "complete",
+    "explanation": "'Was completed' is in the past passive voice, indicating that the project was finished.",
+    "closeAnswers": ["completes", "is completed", "was completing"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The final version {{answer}} by the author yesterday.",
+    "helperText": "What happened to the final version yesterday?",
+    "answer": "was approved",
+    "word": "approve",
+    "explanation": "'Was approved' is in the past passive voice, indicating that the final version was accepted.",
+    "closeAnswers": ["approves", "is approved", "was approving"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The guidelines {{answer}} distributed by the company.",
+    "helperText": "What happens with the guidelines?",
+    "answer": "are being",
+    "word": "be",
+    "explanation": "'Are being' indicates ongoing action in the present passive voice.",
+    "closeAnswers": ["is", "was", "were"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The maintenance {{answer}} by the technicians regularly.",
+    "helperText": "What do technicians do with the maintenance?",
+    "answer": "is performed",
+    "word": "perform",
+    "explanation": "'Is performed' is in the present passive voice, indicating a regular occurrence.",
+    "closeAnswers": ["performs", "was performed", "performed"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The analysis {{answer}} by the researchers last month.",
+    "helperText": "What did the researchers do with the analysis last month?",
+    "answer": "was conducted",
+    "word": "conduct",
+    "explanation": "'Was conducted' is in the past passive voice, indicating that the analysis was carried out.",
+    "closeAnswers": ["conducts", "is conducted", "was conducting"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The changes {{answer}} by the team before the deadline.",
+    "helperText": "What happened with the changes?",
+    "answer": "were made",
+    "word": "make",
+    "explanation": "'Were made' is in the past passive voice, indicating that the changes were implemented.",
+    "closeAnswers": ["makes", "is made", "was making"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The curriculum {{answer}} updated by the school annually.",
+    "helperText": "How is the curriculum updated?",
+    "answer": "is",
+    "word": "be",
+    "explanation": "'Is updated' is in the present passive voice, indicating an ongoing action.",
+    "closeAnswers": ["was", "were", "are"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The interview {{answer}} conducted by the hiring manager last week.",
+    "helperText": "What happened during the interview last week?",
+    "answer": "was",
+    "word": "be",
+    "explanation": "'Was conducted' is in the past passive voice, indicating that the interview was held.",
+    "closeAnswers": ["is", "were", "are"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The repairs {{answer}} by the technicians every month.",
+    "helperText": "What do technicians do with the repairs?",
+    "answer": "are made",
+    "word": "make",
+    "explanation": "'Are made' is in the present passive voice, indicating regular occurrence.",
+    "closeAnswers": ["makes", "was made", "were made"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The data {{answer}} collected by the survey.",
+    "helperText": "What was done with the data?",
+    "answer": "was",
+    "word": "be",
+    "explanation": "'Was collected' is in the past passive voice, indicating that data was gathered.",
+    "closeAnswers": ["is", "was", "were"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The feedback {{answer}} by the committee after the event.",
+    "helperText": "What did the committee do with the feedback?",
+    "answer": "was received",
+    "word": "receive",
+    "explanation": "'Was received' is in the past passive voice, indicating that the feedback was gathered.",
+    "closeAnswers": ["receives", "is received", "was receiving"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The order {{answer}} processed by the sales team last week.",
+    "helperText": "What happened to the order last week?",
+    "answer": "was",
+    "word": "be",
+    "explanation": "'Was processed' is in the past passive voice, indicating that the order was handled.",
+    "closeAnswers": ["is", "was", "were"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+
+  {
+    "question": "The homework {{answer}} by the students yesterday.",
+    "helperText": "What did the students do with the homework yesterday?",
+    "answer": "was completed",
+    "word": "complete",
+    "explanation": "'Was completed' is in the past passive voice, indicating that the homework was finished.",
+    "closeAnswers": ["completes", "is completed", "was completing"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The project {{answer}} launched by the company last year.",
+    "helperText": "What did the company do with the project last year?",
+    "answer": "was launched",
+    "word": "launch",
+    "explanation": "'Was launched' is in the past passive voice, indicating that the project was introduced.",
+    "closeAnswers": ["launches", "is launched", "was launching"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The safety regulations {{answer}} enforced by the government.",
+    "helperText": "What does the government do with the safety regulations?",
+    "answer": "are",
+    "word": "be",
+    "explanation": "'Are enforced' is in the present passive voice, indicating an ongoing action.",
+    "closeAnswers": ["is", "was", "were"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The song {{answer}} sung by the choir at the event.",
+    "helperText": "What happened at the event?",
+    "answer": "was",
+    "word": "be",
+    "explanation": "'Was sung' is in the past passive voice, indicating that the song was performed.",
+    "closeAnswers": ["is", "was", "were"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The cookies {{answer}} baked by the children yesterday.",
+    "helperText": "What did the children do with the cookies?",
+    "answer": "were",
+    "word": "be",
+    "explanation": "'Were baked' is in the past passive voice, indicating that the cookies were made.",
+    "closeAnswers": ["is", "was", "were"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The documents {{answer}} signed by the manager last week.",
+    "helperText": "What did the manager do with the documents last week?",
+    "answer": "were",
+    "word": "sign",
+    "explanation": "'Were signed' is in the past passive voice, indicating that the documents were authorized.",
+    "closeAnswers": ["signs", "is signed", "was signing"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The new app {{answer}} developed by the tech team last month.",
+    "helperText": "What did the tech team do with the new app last month?",
+    "answer": "was",
+    "word": "be",
+    "explanation": "'Was developed' is in the past passive voice, indicating that the app was created.",
+    "closeAnswers": ["is", "was", "were"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The presentation {{answer}} given by the lead designer last week.",
+    "helperText": "What happened with the presentation last week?",
+    "answer": "was",
+    "word": "give",
+    "explanation": "'Was given' is in the past passive voice, indicating that the presentation was delivered.",
+    "closeAnswers": ["gives", "is given", "was giving"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The report {{answer}} reviewed by the supervisor regularly.",
+    "helperText": "How often does the supervisor review the report?",
+    "answer": "is",
+    "word": "be",
+    "explanation": "'Is reviewed' is in the present passive voice, indicating an ongoing action.",
+    "closeAnswers": ["was", "were", "are"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The artwork {{answer}} displayed in the gallery last month.",
+    "helperText": "What happened to the artwork last month?",
+    "answer": "was",
+    "word": "be",
+    "explanation": "'Was displayed' is in the past passive voice, indicating that the artwork was shown.",
+    "closeAnswers": ["is", "was", "were"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The feedback {{answer}} received from the participants.",
+    "helperText": "What happened with the feedback?",
+    "answer": "was",
+    "word": "receive",
+    "explanation": "'Was received' is in the past passive voice, indicating that the feedback was gathered.",
+    "closeAnswers": ["receives", "is received", "was receiving"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The tickets {{answer}} sold out within an hour.",
+    "helperText": "What happened to the tickets?",
+    "answer": "were",
+    "word": "sell",
+    "explanation": "'Were sold' is in the past passive voice, indicating that the tickets were no longer available.",
+    "closeAnswers": ["sells", "is sold", "was selling"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The lessons {{answer}} taught by experienced teachers.",
+    "helperText": "Who teaches the lessons?",
+    "answer": "are",
+    "word": "be",
+    "explanation": "'Are taught' is in the present passive voice, indicating an ongoing action.",
+    "closeAnswers": ["is", "was", "were"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The records {{answer}} kept by the librarian.",
+    "helperText": "Who keeps the records?",
+    "answer": "are",
+    "word": "be",
+    "explanation": "'Are kept' is in the present passive voice, indicating an ongoing action.",
+    "closeAnswers": ["is", "was", "were"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The suggestions {{answer}} considered by the team last week.",
+    "helperText": "What did the team do with the suggestions last week?",
+    "answer": "were",
+    "word": "consider",
+    "explanation": "'Were considered' is in the past passive voice, indicating that the suggestions were reviewed.",
+    "closeAnswers": ["is", "was", "were"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The regulations {{answer}} changed by the government last year.",
+    "helperText": "What did the government do with the regulations last year?",
+    "answer": "were",
+    "word": "change",
+    "explanation": "'Were changed' is in the past passive voice, indicating that the regulations were modified.",
+    "closeAnswers": ["changes", "is changed", "was changing"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The schedule {{answer}} adjusted by the team regularly.",
+    "helperText": "How often does the team adjust the schedule?",
+    "answer": "is",
+    "word": "be",
+    "explanation": "'Is adjusted' is in the present passive voice, indicating an ongoing action.",
+    "closeAnswers": ["was", "were", "are"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The book {{answer}} written by a famous author.",
+    "helperText": "What happened to the book?",
+    "answer": "was",
+    "word": "write",
+    "explanation": "'Was written' is in the past passive voice, indicating that the book was authored.",
+    "closeAnswers": ["is", "was", "were"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The dinner {{answer}} prepared by the chef last night.",
+    "helperText": "What did the chef do with the dinner?",
+    "answer": "was",
+    "word": "prepare",
+    "explanation": "'Was prepared' is in the past passive voice, indicating that the dinner was made.",
+    "closeAnswers": ["is", "was", "were"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The painting {{answer}} created by a local artist.",
+    "helperText": "What happened to the painting?",
+    "answer": "was",
+    "word": "create",
+    "explanation": "'Was created' is in the past passive voice, indicating that the painting was made.",
+    "closeAnswers": ["is", "was", "were"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The furniture {{answer}} delivered by the store yesterday.",
+    "helperText": "What did the store do with the furniture?",
+    "answer": "was",
+    "word": "deliver",
+    "explanation": "'Was delivered' is in the past passive voice, indicating that the furniture was brought.",
+    "closeAnswers": ["is", "was", "were"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The movie {{answer}} filmed in various locations.",
+    "helperText": "What happened to the movie?",
+    "answer": "was",
+    "word": "film",
+    "explanation": "'Was filmed' is in the past passive voice, indicating that the movie was shot.",
+    "closeAnswers": ["is", "was", "were"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The project {{answer}} presented at the conference last week.",
+    "helperText": "What happened with the project last week?",
+    "answer": "was",
+    "word": "present",
+    "explanation": "'Was presented' is in the past passive voice, indicating that the project was shown.",
+    "closeAnswers": ["is", "was", "were"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The flowers {{answer}} arranged beautifully for the wedding.",
+    "helperText": "What happened to the flowers for the wedding?",
+    "answer": "were",
+    "word": "arrange",
+    "explanation": "'Were arranged' is in the past passive voice, indicating that the flowers were organized.",
+    "closeAnswers": ["is", "was", "are"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The essay {{answer}} graded by the professor.",
+    "helperText": "What did the professor do with the essay?",
+    "answer": "was",
+    "word": "grade",
+    "explanation": "'Was graded' is in the past passive voice, indicating that the essay was evaluated.",
+    "closeAnswers": ["is", "was", "were"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The reports {{answer}} submitted by the employees last Friday.",
+    "helperText": "What happened to the reports last Friday?",
+    "answer": "were",
+    "word": "submit",
+    "explanation": "'Were submitted' is in the past passive voice, indicating that the reports were handed in.",
+    "closeAnswers": ["is", "was", "were"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The new law {{answer}} passed by the parliament.",
+    "helperText": "What did the parliament do with the new law?",
+    "answer": "was",
+    "word": "pass",
+    "explanation": "'Was passed' is in the past passive voice, indicating that the law was approved.",
+    "closeAnswers": ["is", "was", "were"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The experiment {{answer}} conducted by the researchers last month.",
+    "helperText": "What did the researchers do with the experiment?",
+    "answer": "was",
+    "word": "conduct",
+    "explanation": "'Was conducted' is in the past passive voice, indicating that the experiment was carried out.",
+    "closeAnswers": ["is", "was", "were"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The cake {{answer}} decorated for the birthday party.",
+    "helperText": "What happened to the cake?",
+    "answer": "was",
+    "word": "decorate",
+    "explanation": "'Was decorated' is in the past passive voice, indicating that the cake was embellished.",
+    "closeAnswers": ["is", "was", "were"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The building {{answer}} renovated by the contractors last year.",
+    "helperText": "What did the contractors do with the building?",
+    "answer": "was",
+    "word": "renovate",
+    "explanation": "'Was renovated' is in the past passive voice, indicating that the building was updated.",
+    "closeAnswers": ["is", "was", "were"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The data {{answer}} analyzed by the analysts regularly.",
+    "helperText": "What do the analysts do with the data?",
+    "answer": "is",
+    "word": "analyze",
+    "explanation": "'Is analyzed' is in the present passive voice, indicating an ongoing action.",
+    "closeAnswers": ["was", "were", "are"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The calls {{answer}} handled by the customer service team.",
+    "helperText": "What does the customer service team do with the calls?",
+    "answer": "are",
+    "word": "handle",
+    "explanation": "'Are handled' is in the present passive voice, indicating an ongoing action.",
+    "closeAnswers": ["is", "was", "were"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The mail {{answer}} delivered by the post office every day.",
+    "helperText": "What does the post office do with the mail?",
+    "answer": "is",
+    "word": "deliver",
+    "explanation": "'Is delivered' is in the present passive voice, indicating an ongoing action.",
+    "closeAnswers": ["was", "were", "are"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  },
+  {
+    "question": "The articles {{answer}} published in the magazine monthly.",
+    "helperText": "How often are the articles published?",
+    "answer": "are",
+    "word": "publish",
+    "explanation": "'Are published' is in the present passive voice, indicating an ongoing action.",
+    "closeAnswers": ["is", "was", "were"],
+    "exerciseCategoryId": "9fa3b22b-45d8-4424-8fd5-cc62c6600648"
+  }
+]

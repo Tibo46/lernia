@@ -1,35 +1,50 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { lazy, Suspense } from "react";
+import { MUI } from "./MUI";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
+import LoadingPage from "./components/Loading/LoadingPage";
+import Layout from "./components/Layout/Layout";
+import Authentication from "./pages/Authentication/Authentication";
+
+const Dashboard = lazy(() => import("./pages/Dashboard/Dashboard"));
+const Profile = lazy(() => import("./pages/Profile/Profile"));
+const UserExercise = lazy(() => import("./pages/Exercises/UserExercise"));
+const UserExerciseLanding = lazy(
+  () => import("./pages/Exercises/UserExerciseLanding")
+);
+const UserExerciseCompleted = lazy(
+  () => import("./pages/Exercises/UserExerciseCompleted")
+);
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <MUI>
+      <Authentication>
+        <BrowserRouter>
+          <Suspense fallback={<LoadingPage />}>
+            <Routes>
+              <Route path="/" element={<Layout />}>
+                <Route path="/" element={<Dashboard />} />
+                <Route path="profile" element={<Profile />} />
+                <Route
+                  path="exercises/:categoryId"
+                  element={<UserExerciseLanding />}
+                />
+                <Route
+                  path="exercises/:categoryId/:exerciseId/:questionId?"
+                  element={<UserExercise />}
+                />
+                <Route
+                  path="exercises/:categoryId/:exerciseId/completed"
+                  element={<UserExerciseCompleted />}
+                />
+                <Route path="*" element={<Dashboard />} />
+              </Route>
+            </Routes>
+          </Suspense>
+        </BrowserRouter>
+      </Authentication>
+    </MUI>
+  );
 }
 
-export default App
+export default App;

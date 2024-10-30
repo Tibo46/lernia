@@ -1,0 +1,695 @@
+[
+  {
+    "question": "Lernia {{answer}} at the park, enjoying the sunny weather.",
+    "helperText": "Use the correct present continuous form.",
+    "answer": "is playing",
+    "word": "play",
+    "explanation": "In this context, 'is playing' is the correct form because it describes an action happening now.",
+    "closeAnswers": ["'s playing", "playing", "is play"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Right now, Lernia {{answer}} a sandwich for lunch.",
+    "helperText": "Think of what Lernia is doing in this moment.",
+    "answer": "is eating",
+    "word": "eat",
+    "explanation": "We use the present continuous 'is eating' because the action is happening at this moment.",
+    "closeAnswers": ["'s eating", "eating", "is eat"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Lernia {{answer}} to learn new English words every day.",
+    "helperText": "How would you say this action happens frequently?",
+    "answer": "tries",
+    "word": "try",
+    "explanation": "We use the simple present 'tries' for actions that happen regularly.",
+    "closeAnswers": ["try", "is trying", "'s trying"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Usually, Lernia {{answer}} at the library on weekends.",
+    "helperText": "Describe what Lernia usually does.",
+    "answer": "studies",
+    "word": "study",
+    "explanation": "'Studies' is the simple present form used for habitual actions.",
+    "closeAnswers": ["study", "is studying", "studys"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Lernia {{answer}} a lot of fun when she goes to the park.",
+    "helperText": "Think of what Lernia experiences when going to the park.",
+    "answer": "has",
+    "word": "have",
+    "explanation": "'Has' is the correct simple present form to describe a regular experience.",
+    "closeAnswers": ["have", "'s having", "is having"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Look! Lernia {{answer}} some new books at the bookstore.",
+    "helperText": "What is Lernia doing at the bookstore right now?",
+    "answer": "is buying",
+    "word": "buy",
+    "explanation": "We use 'is buying' because it describes an action happening at this moment.",
+    "closeAnswers": ["'s buying", "buying", "is buy"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Every morning, Lernia {{answer}} breakfast with her friends.",
+    "helperText": "What does Lernia do in the morning?",
+    "answer": "has",
+    "word": "have",
+    "explanation": "The simple present form 'has' is used to describe a habitual action.",
+    "closeAnswers": ["have", "'s having", "is having"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Lernia {{answer}} English classes every Monday.",
+    "helperText": "Describe Lernia's routine.",
+    "answer": "attends",
+    "word": "attend",
+    "explanation": "'Attends' is the simple present form, used for regular actions.",
+    "closeAnswers": ["attend", "is attending", "'s attending"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "At the moment, Lernia {{answer}} to solve a difficult puzzle.",
+    "helperText": "Think of what Lernia is doing now.",
+    "answer": "is trying",
+    "word": "try",
+    "explanation": "'Is trying' is the present continuous form used for actions happening now.",
+    "closeAnswers": ["'s trying", "trying", "is try"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Lernia always {{answer}} a book before going to bed.",
+    "helperText": "Describe Lernia's habit at night.",
+    "answer": "reads",
+    "word": "read",
+    "explanation": "'Reads' is in the simple present to indicate a habitual action.",
+    "closeAnswers": ["read", "is reading", "'s reading"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Right now, Lernia {{answer}} to her favorite song.",
+    "helperText": "What is Lernia doing at the moment?",
+    "answer": "is listening",
+    "word": "listen",
+    "explanation": "'Is listening' describes an action happening at this moment.",
+    "closeAnswers": ["'s listening", "listening", "is listen"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Lernia {{answer}} every day to improve her English skills.",
+    "helperText": "Think of Lernia's regular practice.",
+    "answer": "practices",
+    "word": "practice",
+    "explanation": "'Practices' is in the simple present to indicate a repeated action.",
+    "closeAnswers": ["practice", "is practicing", "'s practicing"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "At the moment, Lernia {{answer}} a message to her friend.",
+    "helperText": "What is Lernia doing right now?",
+    "answer": "is sending",
+    "word": "send",
+    "explanation": "'Is sending' is the present continuous form used for actions happening now.",
+    "closeAnswers": ["'s sending", "sending", "is send"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Lernia {{answer}} her homework at the library every afternoon.",
+    "helperText": "What does Lernia do in the afternoons?",
+    "answer": "does",
+    "word": "do",
+    "explanation": "'Does' is used in the simple present for habitual actions.",
+    "closeAnswers": ["do", "is doing", "'s doing"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Look! Lernia {{answer}} to her teacher.",
+    "helperText": "What is Lernia doing right now?",
+    "answer": "is talking",
+    "word": "talk",
+    "explanation": "'Is talking' describes an action happening at this moment.",
+    "closeAnswers": ["'s talking", "talking", "is talk"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Lernia {{answer}} new vocabulary every week.",
+    "helperText": "Describe Lernia's regular activity.",
+    "answer": "learns",
+    "word": "learn",
+    "explanation": "'Learns' is in the simple present form to indicate a regular action.",
+    "closeAnswers": ["learn", "is learning", "'s learning"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "At the moment, Lernia {{answer}} a question in class.",
+    "helperText": "What is Lernia doing right now?",
+    "answer": "is asking",
+    "word": "ask",
+    "explanation": "'Is asking' is the present continuous form used for actions happening now.",
+    "closeAnswers": ["'s asking", "asking", "is ask"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Lernia {{answer}} her bike every weekend.",
+    "helperText": "Describe what Lernia does on weekends.",
+    "answer": "rides",
+    "word": "ride",
+    "explanation": "'Rides' is in the simple present to describe a habitual action.",
+    "closeAnswers": ["ride", "is riding", "'s riding"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Right now, Lernia {{answer}} her new English workbook.",
+    "helperText": "What is Lernia doing with her workbook at the moment?",
+    "answer": "is using",
+    "word": "use",
+    "explanation": "'Is using' is the present continuous form to describe an action happening at the moment.",
+    "closeAnswers": ["'s using", "using", "is use"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Lernia {{answer}} her English teacher very much.",
+    "helperText": "How does Lernia feel about her teacher?",
+    "answer": "likes",
+    "word": "like",
+    "explanation": "'Likes' is in the simple present to describe a regular feeling or preference.",
+    "closeAnswers": ["like", "is liking", "'s liking"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Lernia {{answer}} at the park, enjoying the sunny weather.",
+    "helperText": "Use the correct present continuous form.",
+    "answer": "is playing",
+    "word": "play",
+    "explanation": "In this context, 'is playing' is the correct form because it describes an action happening now.",
+    "closeAnswers": ["'s playing", "playing", "is play"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Right now, Lernia {{answer}} a sandwich for lunch.",
+    "helperText": "Think of what Lernia is doing in this moment.",
+    "answer": "is eating",
+    "word": "eat",
+    "explanation": "We use the present continuous 'is eating' because the action is happening at this moment.",
+    "closeAnswers": ["'s eating", "eating", "is eat"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Lernia {{answer}} to learn new English words every day.",
+    "helperText": "How would you say this action happens frequently?",
+    "answer": "tries",
+    "word": "try",
+    "explanation": "We use the simple present 'tries' for actions that happen regularly.",
+    "closeAnswers": ["try", "is trying", "'s trying"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Usually, Lernia {{answer}} at the library on weekends.",
+    "helperText": "Describe what Lernia usually does.",
+    "answer": "studies",
+    "word": "study",
+    "explanation": "'Studies' is the simple present form used for habitual actions.",
+    "closeAnswers": ["study", "is studying", "studys"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Lernia {{answer}} a lot of fun when she goes to the park.",
+    "helperText": "Think of what Lernia experiences when going to the park.",
+    "answer": "has",
+    "word": "have",
+    "explanation": "'Has' is the correct simple present form to describe a regular experience.",
+    "closeAnswers": ["have", "'s having", "is having"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Look! Lernia {{answer}} some new books at the bookstore.",
+    "helperText": "What is Lernia doing at the bookstore right now?",
+    "answer": "is buying",
+    "word": "buy",
+    "explanation": "We use 'is buying' because it describes an action happening at this moment.",
+    "closeAnswers": ["'s buying", "buying", "is buy"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Every morning, Lernia {{answer}} breakfast with her friends.",
+    "helperText": "What does Lernia do in the morning?",
+    "answer": "has",
+    "word": "have",
+    "explanation": "The simple present form 'has' is used to describe a habitual action.",
+    "closeAnswers": ["have", "'s having", "is having"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Lernia {{answer}} English classes every Monday.",
+    "helperText": "Describe Lernia's routine.",
+    "answer": "attends",
+    "word": "attend",
+    "explanation": "'Attends' is the simple present form, used for regular actions.",
+    "closeAnswers": ["attend", "is attending", "'s attending"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "At the moment, Lernia {{answer}} to solve a difficult puzzle.",
+    "helperText": "Think of what Lernia is doing now.",
+    "answer": "is trying",
+    "word": "try",
+    "explanation": "'Is trying' is the present continuous form used for actions happening now.",
+    "closeAnswers": ["'s trying", "trying", "is try"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Lernia always {{answer}} a book before going to bed.",
+    "helperText": "Describe Lernia's habit at night.",
+    "answer": "reads",
+    "word": "read",
+    "explanation": "'Reads' is in the simple present to indicate a habitual action.",
+    "closeAnswers": ["read", "is reading", "'s reading"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Right now, Lernia {{answer}} to her favorite song.",
+    "helperText": "What is Lernia doing at the moment?",
+    "answer": "is listening",
+    "word": "listen",
+    "explanation": "'Is listening' describes an action happening at this moment.",
+    "closeAnswers": ["'s listening", "listening", "is listen"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Lernia {{answer}} every day to improve her English skills.",
+    "helperText": "Think of Lernia's regular practice.",
+    "answer": "practices",
+    "word": "practice",
+    "explanation": "'Practices' is in the simple present to indicate a repeated action.",
+    "closeAnswers": ["practice", "is practicing", "'s practicing"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "At the moment, Lernia {{answer}} a message to her friend.",
+    "helperText": "What is Lernia doing right now?",
+    "answer": "is sending",
+    "word": "send",
+    "explanation": "'Is sending' is the present continuous form used for actions happening now.",
+    "closeAnswers": ["'s sending", "sending", "is send"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Lernia {{answer}} her homework at the library every afternoon.",
+    "helperText": "What does Lernia do in the afternoons?",
+    "answer": "does",
+    "word": "do",
+    "explanation": "'Does' is used in the simple present for habitual actions.",
+    "closeAnswers": ["do", "is doing", "'s doing"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Look! Lernia {{answer}} to her teacher.",
+    "helperText": "What is Lernia doing right now?",
+    "answer": "is talking",
+    "word": "talk",
+    "explanation": "'Is talking' describes an action happening at this moment.",
+    "closeAnswers": ["'s talking", "talking", "is talk"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Lernia {{answer}} new vocabulary every week.",
+    "helperText": "Describe Lernia's regular activity.",
+    "answer": "learns",
+    "word": "learn",
+    "explanation": "'Learns' is in the simple present form to indicate a regular action.",
+    "closeAnswers": ["learn", "is learning", "'s learning"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "At the moment, Lernia {{answer}} a question in class.",
+    "helperText": "What is Lernia doing right now?",
+    "answer": "is asking",
+    "word": "ask",
+    "explanation": "'Is asking' is the present continuous form used for actions happening now.",
+    "closeAnswers": ["'s asking", "asking", "is ask"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Lernia {{answer}} her bike every weekend.",
+    "helperText": "Describe what Lernia does on weekends.",
+    "answer": "rides",
+    "word": "ride",
+    "explanation": "'Rides' is in the simple present to describe a habitual action.",
+    "closeAnswers": ["ride", "is riding", "'s riding"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Right now, Lernia {{answer}} her new English workbook.",
+    "helperText": "What is Lernia doing with her workbook at the moment?",
+    "answer": "is using",
+    "word": "use",
+    "explanation": "'Is using' is the present continuous form to describe an action happening at the moment.",
+    "closeAnswers": ["'s using", "using", "is use"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Lernia {{answer}} her English teacher very much.",
+    "helperText": "How does Lernia feel about her teacher?",
+    "answer": "likes",
+    "word": "like",
+    "explanation": "'Likes' is in the simple present to describe a regular feeling or preference.",
+    "closeAnswers": ["like", "is liking", "'s liking"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Lernia {{answer}} a lot of time with her family on Sundays.",
+    "helperText": "Describe what Lernia does every Sunday.",
+    "answer": "spends",
+    "word": "spend",
+    "explanation": "'Spends' is the simple present form used for habitual actions.",
+    "closeAnswers": ["spend", "is spending", "'s spending"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Look! Lernia {{answer}} a picture of the sunset.",
+    "helperText": "What is Lernia doing with the sunset right now?",
+    "answer": "is taking",
+    "word": "take",
+    "explanation": "'Is taking' is the present continuous form, used for actions happening now.",
+    "closeAnswers": ["'s taking", "taking", "is take"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Every week, Lernia {{answer}} a new recipe.",
+    "helperText": "Describe what Lernia does every week.",
+    "answer": "tries",
+    "word": "try",
+    "explanation": "'Tries' is the simple present form, used for habitual actions.",
+    "closeAnswers": ["try", "is trying", "'s trying"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Lernia {{answer}} her homework every evening.",
+    "helperText": "Describe Lernia's regular activity in the evenings.",
+    "answer": "does",
+    "word": "do",
+    "explanation": "'Does' is the simple present form for habitual actions.",
+    "closeAnswers": ["do", "is doing", "'s doing"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Lernia {{answer}} to her friend's house every Saturday.",
+    "helperText": "Describe what Lernia does every Saturday.",
+    "answer": "goes",
+    "word": "go",
+    "explanation": "'Goes' is the simple present form used for habitual actions.",
+    "closeAnswers": ["go", "is going", "'s going"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "At this moment, Lernia {{answer}} a cup of tea.",
+    "helperText": "What is Lernia doing right now?",
+    "answer": "is drinking",
+    "word": "drink",
+    "explanation": "'Is drinking' is the present continuous form for actions happening now.",
+    "closeAnswers": ["'s drinking", "drinking", "is drink"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Lernia {{answer}} a long walk every morning.",
+    "helperText": "Describe what Lernia does every morning.",
+    "answer": "takes",
+    "word": "take",
+    "explanation": "'Takes' is in the simple present form to describe a habitual action.",
+    "closeAnswers": ["take", "is taking", "'s taking"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Right now, Lernia {{answer}} for a test tomorrow.",
+    "helperText": "What is Lernia doing to prepare for a test?",
+    "answer": "is studying",
+    "word": "study",
+    "explanation": "'Is studying' describes an action happening at this moment.",
+    "closeAnswers": ["'s studying", "studying", "is study"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Lernia {{answer}} emails every day at work.",
+    "helperText": "Describe what Lernia does every day at work.",
+    "answer": "sends",
+    "word": "send",
+    "explanation": "'Sends' is the simple present form, used for habitual actions.",
+    "closeAnswers": ["send", "is sending", "'s sending"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Lernia {{answer}} a meeting with her boss right now.",
+    "helperText": "What is Lernia doing at the moment?",
+    "answer": "is having",
+    "word": "have",
+    "explanation": "'Is having' describes an action happening at this moment.",
+    "closeAnswers": ["'s having", "having", "is have"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Every Friday, Lernia {{answer}} a movie with her friends.",
+    "helperText": "Describe what Lernia does every Friday.",
+    "answer": "watches",
+    "word": "watch",
+    "explanation": "'Watches' is the simple present form, used for habitual actions.",
+    "closeAnswers": ["watch", "is watching", "'s watching"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "At the moment, Lernia {{answer}} a new song on the piano.",
+    "helperText": "What is Lernia doing right now?",
+    "answer": "is playing",
+    "word": "play",
+    "explanation": "'Is playing' describes an action happening at this moment.",
+    "closeAnswers": ["'s playing", "playing", "is play"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Lernia {{answer}} a lot of coffee during the week.",
+    "helperText": "Describe what Lernia does during the week.",
+    "answer": "drinks",
+    "word": "drink",
+    "explanation": "'Drinks' is in the simple present form for habitual actions.",
+    "closeAnswers": ["drink", "is drinking", "'s drinking"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Lernia {{answer}} to the gym every Tuesday.",
+    "helperText": "What does Lernia do every Tuesday?",
+    "answer": "goes",
+    "word": "go",
+    "explanation": "'Goes' is the simple present form, used for regular actions.",
+    "closeAnswers": ["go", "is going", "'s going"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "At this moment, Lernia {{answer}} her favorite podcast.",
+    "helperText": "What is Lernia doing right now?",
+    "answer": "is listening to",
+    "word": "listen",
+    "explanation": "'Is listening to' describes an action happening at the moment.",
+    "closeAnswers": ["'s listening to", "listening to", "is listen to"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Lernia {{answer}} her office every Friday afternoon.",
+    "helperText": "Describe Lernia's Friday afternoon routine.",
+    "answer": "cleans",
+    "word": "clean",
+    "explanation": "'Cleans' is in the simple present form, used for habitual actions.",
+    "closeAnswers": ["clean", "is cleaning", "'s cleaning"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "At the moment, Lernia {{answer}} to a new colleague.",
+    "helperText": "What is Lernia doing right now?",
+    "answer": "is talking",
+    "word": "talk",
+    "explanation": "'Is talking' is the present continuous form for actions happening at this moment.",
+    "closeAnswers": ["'s talking", "talking", "is talk"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Lernia {{answer}} to yoga classes every weekend.",
+    "helperText": "What does Lernia do every weekend?",
+    "answer": "goes",
+    "word": "go",
+    "explanation": "'Goes' is the simple present form, used for habitual actions.",
+    "closeAnswers": ["go", "is going", "'s going"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Right now, Lernia {{answer}} her new journal.",
+    "helperText": "What is Lernia doing with her journal at this moment?",
+    "answer": "is writing in",
+    "word": "write",
+    "explanation": "'Is writing in' is the present continuous form used to describe an action happening now.",
+    "closeAnswers": ["'s writing in", "writing in", "is write in"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Lernia {{answer}} to classical music on her way to work.",
+    "helperText": "What does Lernia do on her way to work?",
+    "answer": "listens",
+    "word": "listen",
+    "explanation": "'Listens' is the simple present form, used for habitual actions.",
+    "closeAnswers": ["listen", "is listening", "'s listening"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Lernia {{answer}} her plants every Sunday morning.",
+    "helperText": "Describe what Lernia does every Sunday morning.",
+    "answer": "waters",
+    "word": "water",
+    "explanation": "'Waters' is the simple present form, used for habitual actions.",
+    "closeAnswers": ["water", "is watering", "'s watering"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "At this moment, Lernia {{answer}} her shoes.",
+    "helperText": "What is Lernia doing right now?",
+    "answer": "is tying",
+    "word": "tie",
+    "explanation": "'Is tying' describes an action happening right now.",
+    "closeAnswers": ["'s tying", "tying", "is tie"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Lernia {{answer}} for a walk every evening.",
+    "helperText": "Describe Lernia's regular evening activity.",
+    "answer": "goes",
+    "word": "go",
+    "explanation": "'Goes' is in the simple present form to describe a habitual action.",
+    "closeAnswers": ["go", "is going", "'s going"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Right now, Lernia {{answer}} a cake for her friend's birthday.",
+    "helperText": "What is Lernia doing at the moment?",
+    "answer": "is baking",
+    "word": "bake",
+    "explanation": "'Is baking' describes an action happening right now.",
+    "closeAnswers": ["'s baking", "baking", "is bake"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Lernia {{answer}} early every day.",
+    "helperText": "What does Lernia do every day?",
+    "answer": "wakes up",
+    "word": "wake up",
+    "explanation": "'Wakes up' is in the simple present form, describing a regular action.",
+    "closeAnswers": ["wake up", "is waking up", "'s waking up"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "At this moment, Lernia {{answer}} a story to her little brother.",
+    "helperText": "What is Lernia doing with her brother?",
+    "answer": "is reading",
+    "word": "read",
+    "explanation": "'Is reading' is the present continuous form, describing an action happening now.",
+    "closeAnswers": ["'s reading", "reading", "is read"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Lernia {{answer}} up her room every Saturday.",
+    "helperText": "What does Lernia do on Saturdays?",
+    "answer": "cleans",
+    "word": "clean",
+    "explanation": "'Cleans' is the simple present form for habitual actions.",
+    "closeAnswers": ["clean", "is cleaning", "'s cleaning"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Right now, Lernia {{answer}} for her lost keys.",
+    "helperText": "What is Lernia doing at this moment?",
+    "answer": "is looking",
+    "word": "look",
+    "explanation": "'Is looking' describes an action happening right now.",
+    "closeAnswers": ["'s looking", "looking", "is look"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Lernia {{answer}} the dog every day after school.",
+    "helperText": "Describe what Lernia does every day after school.",
+    "answer": "walks",
+    "word": "walk",
+    "explanation": "'Walks' is the simple present form, used for habitual actions.",
+    "closeAnswers": ["walk", "is walking", "'s walking"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Lernia {{answer}} fresh fruit every morning.",
+    "helperText": "What does Lernia eat every morning?",
+    "answer": "eats",
+    "word": "eat",
+    "explanation": "'Eats' is in the simple present form for habitual actions.",
+    "closeAnswers": ["eat", "is eating", "'s eating"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Right now, Lernia {{answer}} her lunch at her desk.",
+    "helperText": "What is Lernia doing with her lunch at this moment?",
+    "answer": "is eating",
+    "word": "eat",
+    "explanation": "'Is eating' is in the present continuous form, describing an action happening at the moment.",
+    "closeAnswers": ["'s eating", "eating", "is eat"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Lernia {{answer}} her best friend every Sunday.",
+    "helperText": "Who does Lernia visit every Sunday?",
+    "answer": "visits",
+    "word": "visit",
+    "explanation": "'Visits' is in the simple present form, used for habitual actions.",
+    "closeAnswers": ["visit", "is visiting", "'s visiting"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Lernia {{answer}} the newspaper every morning.",
+    "helperText": "What does Lernia do every morning?",
+    "answer": "reads",
+    "word": "read",
+    "explanation": "'Reads' is the simple present form, used for regular actions.",
+    "closeAnswers": ["read", "is reading", "'s reading"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "At the moment, Lernia {{answer}} a note for her teacher.",
+    "helperText": "What is Lernia doing with the note?",
+    "answer": "is writing",
+    "word": "write",
+    "explanation": "'Is writing' describes an action happening at this moment.",
+    "closeAnswers": ["'s writing", "writing", "is write"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Lernia {{answer}} to her friend's house on weekends.",
+    "helperText": "What does Lernia do on weekends?",
+    "answer": "goes",
+    "word": "go",
+    "explanation": "'Goes' is the simple present form for habitual actions.",
+    "closeAnswers": ["go", "is going", "'s going"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Right now, Lernia {{answer}} a book about history.",
+    "helperText": "What is Lernia doing at this moment?",
+    "answer": "is reading",
+    "word": "read",
+    "explanation": "'Is reading' is in the present continuous form, describing an action happening now.",
+    "closeAnswers": ["'s reading", "reading", "is read"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  },
+  {
+    "question": "Lernia {{answer}} her bed every morning.",
+    "helperText": "What does Lernia do every morning?",
+    "answer": "makes",
+    "word": "make",
+    "explanation": "'Makes' is the simple present form for habitual actions.",
+    "closeAnswers": ["make", "is making", "'s making"],
+    "exerciseCategoryId": "da935d2e-1182-4eb9-bdda-189a298bb2b1"
+  }
+]

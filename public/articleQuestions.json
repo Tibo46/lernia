@@ -1,0 +1,695 @@
+[
+  {
+    "question": "Lernia wants to be {{answer}} engineer.",
+    "helperText": "What does Lernia want to be?",
+    "answer": "an",
+    "word": "engineer",
+    "explanation": "'An' is used before vowel sounds.",
+    "closeAnswers": ["a", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "I saw {{answer}} elephant at the zoo.",
+    "helperText": "What did I see at the zoo?",
+    "answer": "an",
+    "word": "elephant",
+    "explanation": "'An' is used because 'elephant' starts with a vowel sound.",
+    "closeAnswers": ["a", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "She is {{answer}} best student in the class.",
+    "helperText": "Who is the best student in the class?",
+    "answer": "the",
+    "word": "best",
+    "explanation": "'The' is used to refer to something specific.",
+    "closeAnswers": ["a", "an", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "I need {{answer}} apple from the kitchen.",
+    "helperText": "What do I need from the kitchen?",
+    "answer": "an",
+    "word": "apple",
+    "explanation": "'An' is used because 'apple' starts with a vowel sound.",
+    "closeAnswers": ["a", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "This is {{answer}} great opportunity.",
+    "helperText": "What is this?",
+    "answer": "a",
+    "word": "opportunity",
+    "explanation": "'A' is used before singular nouns that are not specified.",
+    "closeAnswers": ["an", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "Can I have {{answer}} piece of cake?",
+    "helperText": "What can I have?",
+    "answer": "a",
+    "word": "piece",
+    "explanation": "'A' is used before singular countable nouns.",
+    "closeAnswers": ["an", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "I want to visit {{answer}} Eiffel Tower.",
+    "helperText": "What do I want to visit?",
+    "answer": "the",
+    "word": "Eiffel Tower",
+    "explanation": "'The' is used for unique landmarks.",
+    "closeAnswers": ["a", "an", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "She wants to be {{answer}} artist.",
+    "helperText": "What does she want to be?",
+    "answer": "an",
+    "word": "artist",
+    "explanation": "'An' is used because 'artist' starts with a vowel sound.",
+    "closeAnswers": ["a", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "He is reading {{answer}} interesting book.",
+    "helperText": "What is he reading?",
+    "answer": "an",
+    "word": "interesting",
+    "explanation": "'An' is used before vowel sounds.",
+    "closeAnswers": ["a", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "She is {{answer}} only person I trust.",
+    "helperText": "Who is the only person I trust?",
+    "answer": "the",
+    "word": "only",
+    "explanation": "'The' is used for a specific individual.",
+    "closeAnswers": ["a", "an", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "There is {{answer}} university near my house.",
+    "helperText": "What is near my house?",
+    "answer": "a",
+    "word": "university",
+    "explanation": "'A' is used for singular nouns not previously mentioned.",
+    "closeAnswers": ["an", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "I want to adopt {{answer}} dog.",
+    "helperText": "What do I want to adopt?",
+    "answer": "a",
+    "word": "dog",
+    "explanation": "'A' is used before singular countable nouns.",
+    "closeAnswers": ["an", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "This is {{answer}} best pizza I have ever had.",
+    "helperText": "What kind of pizza is this?",
+    "answer": "the",
+    "word": "best",
+    "explanation": "'The' is used to specify something unique.",
+    "closeAnswers": ["a", "an", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "I saw {{answer}} movie last night.",
+    "helperText": "What did I see last night?",
+    "answer": "a",
+    "word": "movie",
+    "explanation": "'A' is used for non-specific singular nouns.",
+    "closeAnswers": ["an", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "I have {{answer}} idea for the project.",
+    "helperText": "What do I have for the project?",
+    "answer": "an",
+    "word": "idea",
+    "explanation": "'An' is used because 'idea' starts with a vowel sound.",
+    "closeAnswers": ["a", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "This is {{answer}} beautiful painting.",
+    "helperText": "What kind of painting is this?",
+    "answer": "a",
+    "word": "painting",
+    "explanation": "'A' is used for singular nouns that are not specified.",
+    "closeAnswers": ["an", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "He wants to become {{answer}} lawyer.",
+    "helperText": "What does he want to become?",
+    "answer": "a",
+    "word": "lawyer",
+    "explanation": "'A' is used for singular countable nouns.",
+    "closeAnswers": ["an", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "Can you lend me {{answer}} dollar?",
+    "helperText": "What do I need to borrow?",
+    "answer": "a",
+    "word": "dollar",
+    "explanation": "'A' is used before singular countable nouns.",
+    "closeAnswers": ["an", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "This is {{answer}} interesting problem to solve.",
+    "helperText": "What kind of problem is this?",
+    "answer": "an",
+    "word": "interesting",
+    "explanation": "'An' is used before vowel sounds.",
+    "closeAnswers": ["a", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "Do you want to eat {{answer}} apple?",
+    "helperText": "What do you want to eat?",
+    "answer": "an",
+    "word": "apple",
+    "explanation": "'An' is used because 'apple' starts with a vowel sound.",
+    "closeAnswers": ["a", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "Lernia has {{answer}} unique perspective on life.",
+    "helperText": "What kind of perspective does Lernia have?",
+    "answer": "a",
+    "word": "unique",
+    "explanation": "'A' is used before consonant sounds, even with 'unique' which starts with a 'u' vowel letter.",
+    "closeAnswers": ["an", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "This is {{answer}} honor to meet you.",
+    "helperText": "What is it an honor to do?",
+    "answer": "an",
+    "word": "honor",
+    "explanation": "'An' is used because 'honor' starts with a vowel sound.",
+    "closeAnswers": ["a", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "Do you want {{answer}} orange?",
+    "helperText": "What fruit do you want?",
+    "answer": "an",
+    "word": "orange",
+    "explanation": "'An' is used because 'orange' starts with a vowel sound.",
+    "closeAnswers": ["a", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "I need {{answer}} information about the project.",
+    "helperText": "What do I need?",
+    "answer": "the",
+    "word": "information",
+    "explanation": "'The' is used for specific information.",
+    "closeAnswers": ["a", "an", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "She is looking for {{answer}} job.",
+    "helperText": "What is she looking for?",
+    "answer": "a",
+    "word": "job",
+    "explanation": "'A' is used for non-specific singular nouns.",
+    "closeAnswers": ["an", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "Can I have {{answer}} biscuit?",
+    "helperText": "What do I want to have?",
+    "answer": "a",
+    "word": "biscuit",
+    "explanation": "'A' is used for singular countable nouns.",
+    "closeAnswers": ["an", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "I would like {{answer}} coffee, please.",
+    "helperText": "What would I like?",
+    "answer": "a",
+    "word": "coffee",
+    "explanation": "'A' is used for non-specific singular nouns.",
+    "closeAnswers": ["an", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "She has {{answer}} interesting story to tell.",
+    "helperText": "What kind of story does she have?",
+    "answer": "an",
+    "word": "interesting",
+    "explanation": "'An' is used before vowel sounds.",
+    "closeAnswers": ["a", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "It was {{answer}} unforgettable experience.",
+    "helperText": "What kind of experience was it?",
+    "answer": "an",
+    "word": "unforgettable",
+    "explanation": "'An' is used before vowel sounds.",
+    "closeAnswers": ["a", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "He found {{answer}} book on the table.",
+    "helperText": "What did he find?",
+    "answer": "a",
+    "word": "book",
+    "explanation": "'A' is used for non-specific singular nouns.",
+    "closeAnswers": ["an", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "There is {{answer}} cat in the garden.",
+    "helperText": "What is in the garden?",
+    "answer": "a",
+    "word": "cat",
+    "explanation": "'A' is used for non-specific singular nouns.",
+    "closeAnswers": ["an", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "I need to buy {{answer}} new car.",
+    "helperText": "What do I need to buy?",
+    "answer": "a",
+    "word": "new car",
+    "explanation": "'A' is used for non-specific singular nouns.",
+    "closeAnswers": ["an", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "Do you have {{answer}} umbrella?",
+    "helperText": "What do you have?",
+    "answer": "an",
+    "word": "umbrella",
+    "explanation": "'An' is used because 'umbrella' starts with a vowel sound.",
+    "closeAnswers": ["a", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "He is {{answer}} only child in the family.",
+    "helperText": "Who is the only child in the family?",
+    "answer": "the",
+    "word": "only",
+    "explanation": "'The' is used for a specific individual.",
+    "closeAnswers": ["a", "an", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "Can you give me {{answer}} hour to finish this?",
+    "helperText": "How much time do I need?",
+    "answer": "an",
+    "word": "hour",
+    "explanation": "'An' is used because 'hour' starts with a vowel sound.",
+    "closeAnswers": ["a", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "We are going to visit {{answer}} museum this weekend.",
+    "helperText": "What are we going to visit?",
+    "answer": "a",
+    "word": "museum",
+    "explanation": "'A' is used for non-specific singular nouns.",
+    "closeAnswers": ["an", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "She brought {{answer}} salad for lunch.",
+    "helperText": "What did she bring for lunch?",
+    "answer": "a",
+    "word": "salad",
+    "explanation": "'A' is used for non-specific singular nouns.",
+    "closeAnswers": ["an", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "That was {{answer}} amazing performance.",
+    "helperText": "What kind of performance was that?",
+    "answer": "an",
+    "word": "amazing",
+    "explanation": "'An' is used before vowel sounds.",
+    "closeAnswers": ["a", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "I have {{answer}} suggestion for you.",
+    "helperText": "What do I have for you?",
+    "answer": "a",
+    "word": "suggestion",
+    "explanation": "'A' is used for non-specific singular nouns.",
+    "closeAnswers": ["an", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "I need to see {{answer}} doctor about my cold.",
+    "helperText": "Who do I need to see?",
+    "answer": "a",
+    "word": "doctor",
+    "explanation": "'A' is used for non-specific singular nouns.",
+    "closeAnswers": ["an", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "She wants to become {{answer}} engineer in the future.",
+    "helperText": "What does she want to become?",
+    "answer": "an",
+    "word": "engineer",
+    "explanation": "'An' is used because 'engineer' starts with a vowel sound.",
+    "closeAnswers": ["a", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "There was {{answer}} incident at the party last night.",
+    "helperText": "What happened at the party?",
+    "answer": "an",
+    "word": "incident",
+    "explanation": "'An' is used because 'incident' starts with a vowel sound.",
+    "closeAnswers": ["a", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "Is there {{answer}} apple on the table?",
+    "helperText": "What kind of fruit is on the table?",
+    "answer": "an",
+    "word": "apple",
+    "explanation": "'An' is used because 'apple' starts with a vowel sound.",
+    "closeAnswers": ["a", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "He is {{answer}} honest person.",
+    "helperText": "What kind of person is he?",
+    "answer": "an",
+    "word": "honest",
+    "explanation": "'An' is used because 'honest' starts with a vowel sound.",
+    "closeAnswers": ["a", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "This is {{answer}} best day ever!",
+    "helperText": "What kind of day is this?",
+    "answer": "the",
+    "word": "best",
+    "explanation": "'The' is used to refer to a specific day.",
+    "closeAnswers": ["a", "an", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "Can you pass me {{answer}} salt, please?",
+    "helperText": "What do you want to pass?",
+    "answer": "the",
+    "word": "salt",
+    "explanation": "'The' is used because we are referring to a specific item.",
+    "closeAnswers": ["a", "an", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "He dreams of being {{answer}} astronaut.",
+    "helperText": "What does he dream of being?",
+    "answer": "an",
+    "word": "astronaut",
+    "explanation": "'An' is used because 'astronaut' starts with a vowel sound.",
+    "closeAnswers": ["a", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "There was {{answer}} earthquake last night.",
+    "helperText": "What happened last night?",
+    "answer": "an",
+    "word": "earthquake",
+    "explanation": "'An' is used because 'earthquake' starts with a vowel sound.",
+    "closeAnswers": ["a", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "I bought {{answer}} umbrella yesterday.",
+    "helperText": "What did I buy?",
+    "answer": "an",
+    "word": "umbrella",
+    "explanation": "'An' is used because 'umbrella' starts with a vowel sound.",
+    "closeAnswers": ["a", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "This is {{answer}} ordinary situation.",
+    "helperText": "What kind of situation is this?",
+    "answer": "an",
+    "word": "ordinary",
+    "explanation": "'An' is used before vowel sounds.",
+    "closeAnswers": ["a", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "He is reading {{answer}} interesting novel.",
+    "helperText": "What kind of novel is he reading?",
+    "answer": "an",
+    "word": "interesting",
+    "explanation": "'An' is used before vowel sounds.",
+    "closeAnswers": ["a", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "She wants to be {{answer}} artist.",
+    "helperText": "What does she want to be?",
+    "answer": "an",
+    "word": "artist",
+    "explanation": "'An' is used because 'artist' starts with a vowel sound.",
+    "closeAnswers": ["a", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "Is there {{answer}} pool nearby?",
+    "helperText": "What kind of facility are you looking for?",
+    "answer": "a",
+    "word": "pool",
+    "explanation": "'A' is used for non-specific singular nouns.",
+    "closeAnswers": ["an", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "She has {{answer}} unique talent.",
+    "helperText": "What kind of talent does she have?",
+    "answer": "a",
+    "word": "unique",
+    "explanation": "'A' is used before consonant sounds, even with 'unique' which starts with a 'u' vowel letter.",
+    "closeAnswers": ["an", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "I saw {{answer}} owl in the tree.",
+    "helperText": "What did I see in the tree?",
+    "answer": "an",
+    "word": "owl",
+    "explanation": "'An' is used because 'owl' starts with a vowel sound.",
+    "closeAnswers": ["a", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "We need {{answer}} answer to the question.",
+    "helperText": "What do we need?",
+    "answer": "an",
+    "word": "answer",
+    "explanation": "'An' is used because 'answer' starts with a vowel sound.",
+    "closeAnswers": ["a", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "It was {{answer}} exciting game.",
+    "helperText": "What kind of game was it?",
+    "answer": "an",
+    "word": "exciting",
+    "explanation": "'An' is used before vowel sounds.",
+    "closeAnswers": ["a", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "They visited {{answer}} historical site.",
+    "helperText": "What did they visit?",
+    "answer": "a",
+    "word": "historical",
+    "explanation": "'A' is used for non-specific singular nouns.",
+    "closeAnswers": ["an", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "She wants to adopt {{answer}} pet.",
+    "helperText": "What does she want to adopt?",
+    "answer": "a",
+    "word": "pet",
+    "explanation": "'A' is used for non-specific singular nouns.",
+    "closeAnswers": ["an", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "Can you bring me {{answer}} sandwich?",
+    "helperText": "What do you want to eat?",
+    "answer": "a",
+    "word": "sandwich",
+    "explanation": "'A' is used for non-specific singular nouns.",
+    "closeAnswers": ["an", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "She is looking for {{answer}} job.",
+    "helperText": "What is she looking for?",
+    "answer": "a",
+    "word": "job",
+    "explanation": "'A' is used for non-specific singular nouns.",
+    "closeAnswers": ["an", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "This is {{answer}} amazing opportunity!",
+    "helperText": "What kind of opportunity is this?",
+    "answer": "an",
+    "word": "amazing",
+    "explanation": "'An' is used before vowel sounds.",
+    "closeAnswers": ["a", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "I have {{answer}} idea.",
+    "helperText": "What do I have?",
+    "answer": "an",
+    "word": "idea",
+    "explanation": "'An' is used because 'idea' starts with a vowel sound.",
+    "closeAnswers": ["a", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "Is this {{answer}} best restaurant in town?",
+    "helperText": "What restaurant are you referring to?",
+    "answer": "the",
+    "word": "best",
+    "explanation": "'The' is used to refer to a specific restaurant.",
+    "closeAnswers": ["a", "an", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "He wants to be {{answer}} chef.",
+    "helperText": "What does he want to be?",
+    "answer": "a",
+    "word": "chef",
+    "explanation": "'A' is used for non-specific singular nouns.",
+    "closeAnswers": ["an", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "I read {{answer}} interesting article yesterday.",
+    "helperText": "What kind of article did I read?",
+    "answer": "an",
+    "word": "interesting",
+    "explanation": "'An' is used before vowel sounds.",
+    "closeAnswers": ["a", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "They adopted {{answer}} dog last week.",
+    "helperText": "What did they adopt?",
+    "answer": "a",
+    "word": "dog",
+    "explanation": "'A' is used for non-specific singular nouns.",
+    "closeAnswers": ["an", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "There is {{answer}} problem with the car.",
+    "helperText": "What is wrong with the car?",
+    "answer": "a",
+    "word": "problem",
+    "explanation": "'A' is used for non-specific singular nouns.",
+    "closeAnswers": ["an", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "He is {{answer}} university student.",
+    "helperText": "What kind of student is he?",
+    "answer": "a",
+    "word": "university",
+    "explanation": "'A' is used for non-specific singular nouns.",
+    "closeAnswers": ["an", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "I want to visit {{answer}} Louvre.",
+    "helperText": "What landmark do I want to visit?",
+    "answer": "the",
+    "word": "Louvre",
+    "explanation": "'The' is used to refer to a specific landmark.",
+    "closeAnswers": ["a", "an", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "Do you have {{answer}} plan for the weekend?",
+    "helperText": "What do you have for the weekend?",
+    "answer": "a",
+    "word": "plan",
+    "explanation": "'A' is used for non-specific singular nouns.",
+    "closeAnswers": ["an", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "I need {{answer}} hour to finish my work.",
+    "helperText": "How much time do I need?",
+    "answer": "an",
+    "word": "hour",
+    "explanation": "'An' is used because 'hour' starts with a vowel sound.",
+    "closeAnswers": ["a", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "She has {{answer}} unique style.",
+    "helperText": "What kind of style does she have?",
+    "answer": "a",
+    "word": "unique",
+    "explanation": "'A' is used before consonant sounds, even with 'unique' which starts with a 'u' vowel letter.",
+    "closeAnswers": ["an", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "Is there {{answer}} meeting today?",
+    "helperText": "What kind of meeting are you referring to?",
+    "answer": "a",
+    "word": "meeting",
+    "explanation": "'A' is used for non-specific singular nouns.",
+    "closeAnswers": ["an", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "They need {{answer}} information before the presentation.",
+    "helperText": "What do they need?",
+    "answer": "the",
+    "word": "information",
+    "explanation": "'The' is used to refer to a specific item.",
+    "closeAnswers": ["a", "an", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "Can I borrow {{answer}} pencil?",
+    "helperText": "What do you want to borrow?",
+    "answer": "a",
+    "word": "pencil",
+    "explanation": "'A' is used for non-specific singular nouns.",
+    "closeAnswers": ["an", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  },
+  {
+    "question": "He has {{answer}} old book in his bag.",
+    "helperText": "What kind of book does he have?",
+    "answer": "an",
+    "word": "old",
+    "explanation": "'An' is used before vowel sounds.",
+    "closeAnswers": ["a", "the", "none"],
+    "exerciseCategoryId": "4abe1225-a40b-4d0a-90c4-ac07df09cfef"
+  }
+]

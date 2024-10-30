@@ -1,0 +1,636 @@
+[
+  {
+    "question": "Tomorrow, Lernia {{answer}} to the beach with her friends.",
+    "helperText": "What is Lernia planning to do tomorrow?",
+    "answer": "will go",
+    "word": "go",
+    "explanation": "'Will go' is used to indicate a future action that is decided at the moment of speaking.",
+    "closeAnswers": ["is going", "'ll go", "goes"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "By the end of this year, Lernia {{answer}} three new languages.",
+    "helperText": "What will Lernia accomplish by the end of the year?",
+    "answer": "will have learned",
+    "word": "learn",
+    "explanation": "'Will have learned' is in the future perfect, showing completion of an action by a certain time.",
+    "closeAnswers": ["will learn", "will be learning", "learns"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "This time next week, Lernia {{answer}} in Paris for her holiday.",
+    "helperText": "What will Lernia be doing next week?",
+    "answer": "will be staying",
+    "word": "stay",
+    "explanation": "'Will be staying' is future continuous, used to indicate an action happening at a specific future time.",
+    "closeAnswers": ["will stay", "is staying", "stays"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "By next summer, Lernia {{answer}} enough money for her new car.",
+    "helperText": "What will Lernia have accomplished by next summer?",
+    "answer": "will have saved",
+    "word": "save",
+    "explanation": "'Will have saved' is future perfect, showing an action that will be completed by a future time.",
+    "closeAnswers": ["will save", "will be saving", "saves"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "Lernia {{answer}} dinner by the time you arrive tonight.",
+    "helperText": "What will Lernia have done before you arrive?",
+    "answer": "will have cooked",
+    "word": "cook",
+    "explanation": "'Will have cooked' is future perfect, indicating the action will be completed by a specific future time.",
+    "closeAnswers": ["will cook", "will be cooking", "cooks"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "Lernia {{answer}} on a new project starting next month.",
+    "helperText": "What will Lernia start doing next month?",
+    "answer": "will work",
+    "word": "work",
+    "explanation": "'Will work' is simple future, indicating a future intention.",
+    "closeAnswers": ["will be working", "works", "is working"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "By this time tomorrow, Lernia {{answer}} the entire report.",
+    "helperText": "What will Lernia have completed by this time tomorrow?",
+    "answer": "will have finished",
+    "word": "finish",
+    "explanation": "'Will have finished' is future perfect, showing completion by a specified future time.",
+    "closeAnswers": ["will finish", "will be finishing", "finishes"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "Next year, Lernia {{answer}} university.",
+    "helperText": "What major milestone will Lernia reach next year?",
+    "answer": "will graduate",
+    "word": "graduate",
+    "explanation": "'Will graduate' is simple future, indicating an event that will occur in the future.",
+    "closeAnswers": ["graduates", "is graduating", "will be graduating"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "Lernia {{answer}} to travel around Europe next summer.",
+    "helperText": "What does Lernia want to do next summer?",
+    "answer": "is going",
+    "word": "go",
+    "explanation": "'Is going' expresses a future plan that has already been decided.",
+    "closeAnswers": ["will go", "will be going", "goes"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "Lernia {{answer}} a big presentation at this time tomorrow.",
+    "helperText": "What will Lernia be doing at this time tomorrow?",
+    "answer": "will be giving",
+    "word": "give",
+    "explanation": "'Will be giving' is future continuous, indicating an action in progress at a specific future time.",
+    "closeAnswers": ["will give", "gives", "is giving"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "After she moves to the city, Lernia {{answer}} her driving lessons.",
+    "helperText": "What will Lernia start doing after she moves?",
+    "answer": "will start",
+    "word": "start",
+    "explanation": "'Will start' is simple future, indicating an action that will occur.",
+    "closeAnswers": ["is starting", "will be starting", "starts"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "By the time you call, Lernia {{answer}} to bed.",
+    "helperText": "What will Lernia be doing by the time you call?",
+    "answer": "will have gone",
+    "word": "go",
+    "explanation": "'Will have gone' is future perfect, showing completion of an action by a specific future time.",
+    "closeAnswers": ["will go", "is going", "goes"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "By the time she leaves, Lernia {{answer}} her apartment.",
+    "helperText": "What will Lernia have done by the time she leaves?",
+    "answer": "will have cleaned",
+    "word": "clean",
+    "explanation": "'Will have cleaned' is future perfect, indicating a completed action by a specified time.",
+    "closeAnswers": ["will clean", "is cleaning", "cleans"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "In two hours, Lernia {{answer}} to her family's house.",
+    "helperText": "What will Lernia be doing in two hours?",
+    "answer": "will be driving",
+    "word": "drive",
+    "explanation": "'Will be driving' is future continuous, indicating an ongoing action at a future time.",
+    "closeAnswers": ["will drive", "drives", "is driving"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "Soon, Lernia {{answer}} a new job in the city.",
+    "helperText": "What is Lernia planning to do soon?",
+    "answer": "will start",
+    "word": "start",
+    "explanation": "'Will start' indicates a future intention.",
+    "closeAnswers": ["starts", "is starting", "will be starting"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "Next month, Lernia {{answer}} for a big event.",
+    "helperText": "What will Lernia be doing next month?",
+    "answer": "will be preparing",
+    "word": "prepare",
+    "explanation": "'Will be preparing' is future continuous, indicating an ongoing future action.",
+    "closeAnswers": ["will prepare", "prepares", "is preparing"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "By the time the meeting ends, Lernia {{answer}} the report.",
+    "helperText": "What will Lernia have completed by the end of the meeting?",
+    "answer": "will have finished",
+    "word": "finish",
+    "explanation": "'Will have finished' is future perfect, showing completion by a specified time.",
+    "closeAnswers": ["will finish", "is finishing", "finishes"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "Next Friday, Lernia {{answer}} to a concert.",
+    "helperText": "What will Lernia do next Friday?",
+    "answer": "is going",
+    "word": "go",
+    "explanation": "'Is going' indicates a future arrangement.",
+    "closeAnswers": ["will go", "goes", "will be going"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "By next month, Lernia {{answer}} at her new job for a full year.",
+    "helperText": "How long will Lernia have worked at her job by next month?",
+    "answer": "will have been working",
+    "word": "work",
+    "explanation": "'Will have been working' is future perfect continuous, showing the duration of an action up to a point in the future.",
+    "closeAnswers": ["will be working", "works", "has worked"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "By the time Lernia finishes her training, she {{answer}} a certified instructor.",
+    "helperText": "What will Lernia be by the time she completes her training?",
+    "answer": "will be",
+    "word": "be",
+    "explanation": "'Will be' is simple future, indicating her future status as an instructor.",
+    "closeAnswers": ["is", "will become", "has become"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "In a few years, Lernia {{answer}} to a new city for her job.",
+    "helperText": "What is Lernia's potential future move?",
+    "answer": "will move",
+    "word": "move",
+    "explanation": "'Will move' is simple future, used to describe an event that will occur.",
+    "closeAnswers": ["is moving", "moves", "will be moving"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "Lernia {{answer}} the exam by this time tomorrow.",
+    "helperText": "What will Lernia have done by tomorrow?",
+    "answer": "will have completed",
+    "word": "complete",
+    "explanation": "'Will have completed' is future perfect, showing completion of the action by a specific time.",
+    "closeAnswers": ["completes", "is completing", "will complete"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "Next time you see her, Lernia {{answer}} about her trip.",
+    "helperText": "What will Lernia do when you see her next?",
+    "answer": "will talk",
+    "word": "talk",
+    "explanation": "'Will talk' is simple future, describing an action expected in the future.",
+    "closeAnswers": ["talks", "is talking", "will be talking"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "Lernia {{answer}} at the library all evening preparing for her test.",
+    "helperText": "Where will Lernia be tonight?",
+    "answer": "will be studying",
+    "word": "study",
+    "explanation": "'Will be studying' is future continuous, indicating an ongoing action in the future.",
+    "closeAnswers": ["will study", "is studying", "studies"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "By next week, Lernia {{answer}} all the materials for her course.",
+    "helperText": "What will Lernia have completed by next week?",
+    "answer": "will have gathered",
+    "word": "gather",
+    "explanation": "'Will have gathered' is future perfect, showing completion of an action.",
+    "closeAnswers": ["will gather", "gathers", "is gathering"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "Lernia {{answer}} in a marathon next Sunday.",
+    "helperText": "What is Lernia planning to do next Sunday?",
+    "answer": "is going to participate",
+    "word": "participate",
+    "explanation": "'Is going to participate' expresses a future plan that has been arranged.",
+    "closeAnswers": [
+      "will participate",
+      "participates",
+      "will be participating"
+    ],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "Lernia {{answer}} the assignment before her deadline next week.",
+    "helperText": "What will Lernia finish before her deadline?",
+    "answer": "will have completed",
+    "word": "complete",
+    "explanation": "'Will have completed' is future perfect, indicating a task finished by a specific time.",
+    "closeAnswers": ["will complete", "completes", "is completing"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "Lernia {{answer}} her skills with more training next month.",
+    "helperText": "What will Lernia do to improve her skills?",
+    "answer": "will develop",
+    "word": "develop",
+    "explanation": "'Will develop' is simple future, used to indicate future improvement.",
+    "closeAnswers": ["is developing", "develops", "will be developing"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "By the end of summer, Lernia {{answer}} five more books.",
+    "helperText": "What will Lernia have accomplished by the end of summer?",
+    "answer": "will have read",
+    "word": "read",
+    "explanation": "'Will have read' is future perfect, showing completion of an action.",
+    "closeAnswers": ["will read", "is reading", "reads"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "Next year, Lernia {{answer}} on a two-week road trip.",
+    "helperText": "What adventure will Lernia go on next year?",
+    "answer": "will go",
+    "word": "go",
+    "explanation": "'Will go' is simple future, used to describe future travel.",
+    "closeAnswers": ["is going", "goes", "will be going"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "Lernia {{answer}} her presentation skills after the workshop.",
+    "helperText": "What improvement will Lernia achieve after the workshop?",
+    "answer": "will have improved",
+    "word": "improve",
+    "explanation": "'Will have improved' is future perfect, showing completion of an action.",
+    "closeAnswers": ["improves", "is improving", "will improve"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "In a few minutes, Lernia {{answer}} the meeting with her manager.",
+    "helperText": "What will Lernia do in a few minutes?",
+    "answer": "will begin",
+    "word": "begin",
+    "explanation": "'Will begin' is simple future, indicating the start of an event.",
+    "closeAnswers": ["begins", "is beginning", "will be beginning"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "Lernia {{answer}} more confident by the end of her training.",
+    "helperText": "How will Lernia feel by the end of her training?",
+    "answer": "will feel",
+    "word": "feel",
+    "explanation": "'Will feel' is simple future, used to describe a future state of mind.",
+    "closeAnswers": ["feels", "is feeling", "will be feeling"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "In five years, Lernia {{answer}} to many new countries.",
+    "helperText": "Where will Lernia go over the next five years?",
+    "answer": "will have traveled",
+    "word": "travel",
+    "explanation": "'Will have traveled' is future perfect, showing completed travel experience.",
+    "closeAnswers": ["will travel", "travels", "is traveling"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "Lernia {{answer}} the assignment by Monday.",
+    "helperText": "What will Lernia have done by Monday?",
+    "answer": "will have submitted",
+    "word": "submit",
+    "explanation": "'Will have submitted' is future perfect, showing a completed action by a specific time.",
+    "closeAnswers": ["submits", "will submit", "is submitting"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "Next spring, Lernia {{answer}} her new book.",
+    "helperText": "What is Lernia planning for next spring?",
+    "answer": "will publish",
+    "word": "publish",
+    "explanation": "'Will publish' is simple future, describing a planned action.",
+    "closeAnswers": ["publishes", "is publishing", "will be publishing"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "By the time you visit, Lernia {{answer}} the renovations in her house.",
+    "helperText": "What will Lernia have completed before your visit?",
+    "answer": "will have finished",
+    "word": "finish",
+    "explanation": "'Will have finished' is future perfect, showing an action completed by a specific time.",
+    "closeAnswers": ["finishes", "will finish", "is finishing"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "By the end of this year, Lernia {{answer}} her first marathon.",
+    "helperText": "What will Lernia have done by the end of the year?",
+    "answer": "will have completed",
+    "word": "complete",
+    "explanation": "'Will have completed' is future perfect, indicating an achievement by year-end.",
+    "closeAnswers": ["completes", "will complete", "is completing"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "Tomorrow evening, Lernia {{answer}} for her final exams.",
+    "helperText": "What will Lernia be doing tomorrow evening?",
+    "answer": "will be studying",
+    "word": "study",
+    "explanation": "'Will be studying' is future continuous, showing an action happening at a future time.",
+    "closeAnswers": ["studies", "will study", "is studying"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "This time next year, Lernia {{answer}} a new language.",
+    "helperText": "What will Lernia be doing next year?",
+    "answer": "will be learning",
+    "word": "learn",
+    "explanation": "'Will be learning' is future continuous, indicating an ongoing action in the future.",
+    "closeAnswers": ["learns", "will learn", "is learning"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "By next summer, Lernia {{answer}} enough money for her trip.",
+    "helperText": "What will Lernia have done by next summer?",
+    "answer": "will have saved",
+    "word": "save",
+    "explanation": "'Will have saved' is future perfect, indicating a completed action by a future date.",
+    "closeAnswers": ["saves", "will save", "is saving"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "Tomorrow morning, Lernia {{answer}} to her favorite podcast.",
+    "helperText": "What will Lernia be doing tomorrow morning?",
+    "answer": "will be listening",
+    "word": "listen",
+    "explanation": "'Will be listening' is future continuous, indicating an ongoing activity in the future.",
+    "closeAnswers": ["is listening", "listens", "will listen"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "By 2025, Lernia {{answer}} an advanced certification in her field.",
+    "helperText": "What will Lernia achieve by 2025?",
+    "answer": "will have earned",
+    "word": "earn",
+    "explanation": "'Will have earned' is future perfect, indicating an achievement by a future date.",
+    "closeAnswers": ["earns", "is earning", "will earn"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "Next month, Lernia {{answer}} a new course on technology.",
+    "helperText": "What will Lernia start next month?",
+    "answer": "will begin",
+    "word": "begin",
+    "explanation": "'Will begin' is simple future, indicating an action scheduled for the future.",
+    "closeAnswers": ["begins", "is beginning", "will be beginning"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "In a few hours, Lernia {{answer}} her friend at the café.",
+    "helperText": "What will Lernia be doing in a few hours?",
+    "answer": "will meet",
+    "word": "meet",
+    "explanation": "'Will meet' is simple future, indicating a planned meeting in the future.",
+    "closeAnswers": ["meets", "is meeting", "will be meeting"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "Lernia {{answer}} on a road trip across the country next summer.",
+    "helperText": "What is Lernia's plan for next summer?",
+    "answer": "will go",
+    "word": "go",
+    "explanation": "'Will go' is simple future, describing a planned journey in the future.",
+    "closeAnswers": ["goes", "is going", "will be going"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "By the time Lernia arrives, we {{answer}} the decorations for the party.",
+    "helperText": "What will we have done by the time Lernia arrives?",
+    "answer": "will have set up",
+    "word": "set up",
+    "explanation": "'Will have set up' is future perfect, indicating a completed action by a specific time.",
+    "closeAnswers": ["set up", "sets up", "is setting up"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "Next weekend, Lernia {{answer}} a charity event.",
+    "helperText": "What will Lernia be doing next weekend?",
+    "answer": "will attend",
+    "word": "attend",
+    "explanation": "'Will attend' is simple future, indicating a planned event in the future.",
+    "closeAnswers": ["attends", "is attending", "will be attending"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "By next month, Lernia {{answer}} a new job offer.",
+    "helperText": "What might Lernia have by next month?",
+    "answer": "will have received",
+    "word": "receive",
+    "explanation": "'Will have received' is future perfect, indicating the completion of an action by a future date.",
+    "closeAnswers": ["receives", "is receiving", "will receive"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "Tomorrow evening, Lernia {{answer}} dinner for her family.",
+    "helperText": "What will Lernia be doing tomorrow evening?",
+    "answer": "will be preparing",
+    "word": "prepare",
+    "explanation": "'Will be preparing' is future continuous, indicating an ongoing action in the future.",
+    "closeAnswers": ["prepares", "is preparing", "will prepare"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "In five years, Lernia {{answer}} in a leadership role.",
+    "helperText": "Where might Lernia be in her career in five years?",
+    "answer": "will be",
+    "word": "be",
+    "explanation": "'Will be' is simple future, indicating a likely future position or state.",
+    "closeAnswers": ["is", "was", "be"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "By next spring, Lernia {{answer}} her internship.",
+    "helperText": "What will Lernia have completed by next spring?",
+    "answer": "will have completed",
+    "word": "complete",
+    "explanation": "'Will have completed' is future perfect, showing an action finished by a future date.",
+    "closeAnswers": ["completes", "is completing", "will complete"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "In a few weeks, Lernia {{answer}} a big family reunion.",
+    "helperText": "What will Lernia attend in a few weeks?",
+    "answer": "will have",
+    "word": "have",
+    "explanation": "'Will have' is simple future, indicating a planned event.",
+    "closeAnswers": ["has", "will attend", "attends"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "Next semester, Lernia {{answer}} advanced math.",
+    "helperText": "What course will Lernia take next semester?",
+    "answer": "will study",
+    "word": "study",
+    "explanation": "'Will study' is simple future, indicating a planned academic activity.",
+    "closeAnswers": ["studies", "is studying", "will be studying"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "By the time Lernia arrives, everyone {{answer}} for the event.",
+    "helperText": "What will everyone have done when Lernia arrives?",
+    "answer": "will have prepared",
+    "word": "prepare",
+    "explanation": "'Will have prepared' is future perfect, showing completion of preparations by a specific time.",
+    "closeAnswers": ["prepares", "is preparing", "will prepare"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "Next winter, Lernia {{answer}} skiing in the mountains.",
+    "helperText": "What will Lernia do next winter?",
+    "answer": "will go",
+    "word": "go",
+    "explanation": "'Will go' is simple future, indicating a planned trip.",
+    "closeAnswers": ["goes", "is going", "will be going"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "By tomorrow, Lernia {{answer}} her report.",
+    "helperText": "What will Lernia have done by tomorrow?",
+    "answer": "will have submitted",
+    "word": "submit",
+    "explanation": "'Will have submitted' is future perfect, showing the action completed by a specific time.",
+    "closeAnswers": ["submits", "is submitting", "will submit"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "In the next few days, Lernia {{answer}} her new project.",
+    "helperText": "What will Lernia be doing in the next few days?",
+    "answer": "will be starting",
+    "word": "start",
+    "explanation": "'Will be starting' is future continuous, indicating an action commencing soon.",
+    "closeAnswers": ["starts", "is starting", "will start"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "By this time next week, Lernia {{answer}} all the necessary supplies for her project.",
+    "helperText": "What will Lernia have done by next week?",
+    "answer": "will have bought",
+    "word": "buy",
+    "explanation": "'Will have bought' is future perfect, indicating a completed action by a future time.",
+    "closeAnswers": ["buys", "is buying", "will buy"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "Tomorrow at noon, Lernia {{answer}} her new recipe.",
+    "helperText": "What will Lernia be doing tomorrow at noon?",
+    "answer": "will be trying",
+    "word": "try",
+    "explanation": "'Will be trying' is future continuous, indicating an action happening at a future time.",
+    "closeAnswers": ["tries", "is trying", "will try"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "Lernia {{answer}} the house by herself next weekend.",
+    "helperText": "What will Lernia do next weekend?",
+    "answer": "will clean",
+    "word": "clean",
+    "explanation": "'Will clean' is simple future, indicating a scheduled future activity.",
+    "closeAnswers": ["cleans", "is cleaning", "will be cleaning"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "By 10 p.m. tonight, Lernia {{answer}} her reading assignment.",
+    "helperText": "What will Lernia have completed by 10 p.m.?",
+    "answer": "will have finished",
+    "word": "finish",
+    "explanation": "'Will have finished' is future perfect, indicating a completed action by a future time.",
+    "closeAnswers": ["finishes", "is finishing", "will finish"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "Next year, Lernia {{answer}} a trip to Europe.",
+    "helperText": "What will Lernia do next year?",
+    "answer": "will take",
+    "word": "take",
+    "explanation": "'Will take' is simple future, indicating a planned activity.",
+    "closeAnswers": ["takes", "is taking", "will be taking"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "By the time Lernia’s birthday arrives, we {{answer}} everything for the surprise party.",
+    "helperText": "What will we have done by Lernia's birthday?",
+    "answer": "will have prepared",
+    "word": "prepare",
+    "explanation": "'Will have prepared' is future perfect, showing a completed action by a future event.",
+    "closeAnswers": ["prepares", "is preparing", "will prepare"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "In a few hours, Lernia {{answer}} her favorite show.",
+    "helperText": "What will Lernia do in a few hours?",
+    "answer": "will watch",
+    "word": "watch",
+    "explanation": "'Will watch' is simple future, indicating an upcoming action.",
+    "closeAnswers": ["watches", "is watching", "will be watching"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "This time next year, Lernia {{answer}} her own business.",
+    "helperText": "What will Lernia be doing next year?",
+    "answer": "will be running",
+    "word": "run",
+    "explanation": "'Will be running' is future continuous, indicating an ongoing action in the future.",
+    "closeAnswers": ["runs", "is running", "will run"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "Lernia {{answer}} to improve her language skills next semester.",
+    "helperText": "What will Lernia do next semester?",
+    "answer": "will study",
+    "word": "study",
+    "explanation": "'Will study' is simple future, indicating a planned future activity.",
+    "closeAnswers": ["studies", "is studying", "will be studying"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "By tomorrow, Lernia {{answer}} her project.",
+    "helperText": "What will Lernia have done by tomorrow?",
+    "answer": "will have completed",
+    "word": "complete",
+    "explanation": "'Will have completed' is future perfect, showing an action finished by a future date.",
+    "closeAnswers": ["completes", "is completing", "will complete"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "Tomorrow morning, Lernia {{answer}} for her exam.",
+    "helperText": "What will Lernia do tomorrow morning?",
+    "answer": "will study",
+    "word": "study",
+    "explanation": "'Will study' is simple future, indicating a scheduled action.",
+    "closeAnswers": ["studies", "is studying", "will be studying"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  },
+  {
+    "question": "By next week, Lernia {{answer}} her preparations for the workshop.",
+    "helperText": "What will Lernia have done by next week?",
+    "answer": "will have completed",
+    "word": "complete",
+    "explanation": "'Will have completed' is future perfect, showing an action completed by a future time.",
+    "closeAnswers": ["completes", "is completing", "will complete"],
+    "exerciseCategoryId": "b23c88a7-a3c5-4b29-86bc-c12d3c89d9e1"
+  }
+]
