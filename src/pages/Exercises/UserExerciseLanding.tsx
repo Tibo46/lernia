@@ -76,7 +76,15 @@ const ExerciseCard: React.FC<{ exercise: UserExerciseInProgressModel }> = ({
     navigate(`/exercises/${categoryId}/${exercise.id}/`);
   };
   return (
-    <Grid2 size={4} component={Card}>
+    <Grid2
+      size={{
+        xs: 12,
+        sm: 6,
+        md: 4,
+        xl: 3,
+      }}
+      component={Card}
+    >
       <CardContent>
         <Stack spacing={1}>
           <Typography variant="h3">

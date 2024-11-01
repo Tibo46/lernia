@@ -11,6 +11,10 @@ const theme = createTheme({
       marginBottom: "10px",
       textAlign: "center",
     },
+    h1: {
+      fontSize: "3.5rem",
+      fontWeight: 500,
+    },
     h2: {
       fontSize: "1.5rem",
       fontWeight: 500,
@@ -26,6 +30,7 @@ const theme = createTheme({
   palette: {
     background: {
       default: colors.background,
+      paper: colors.paper,
     },
     primary: {
       main: colors.primary,
@@ -41,6 +46,14 @@ const theme = createTheme({
     },
   },
   components: {
+    MuiCard: {
+      styleOverrides: {
+        root: {
+          borderRadius: "20px",
+          boxShadow: "none",
+        },
+      },
+    },
     // MuiButton: {
     //   styleOverrides: {
     //     root: {

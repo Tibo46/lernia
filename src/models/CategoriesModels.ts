@@ -3,4 +3,5 @@ export interface CategoryModel {
   name: string;
   description: string;
   numberOfExercises: number;
+  color: string;
 }

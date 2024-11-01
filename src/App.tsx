@@ -7,6 +7,9 @@ import Authentication from "./pages/Authentication/Authentication";
 
 const Dashboard = lazy(() => import("./pages/Dashboard/Dashboard"));
 const Profile = lazy(() => import("./pages/Profile/Profile"));
+const ExerciseCategories = lazy(
+  () => import("./pages/Exercises/ExerciseCategories")
+);
 const UserExercise = lazy(() => import("./pages/Exercises/UserExercise"));
 const UserExerciseLanding = lazy(
   () => import("./pages/Exercises/UserExerciseLanding")
@@ -25,6 +28,7 @@ function App() {
               <Route path="/" element={<Layout />}>
                 <Route path="/" element={<Dashboard />} />
                 <Route path="profile" element={<Profile />} />
+                <Route path="exercises" element={<ExerciseCategories />} />
                 <Route
                   path="exercises/:categoryId"
                   element={<UserExerciseLanding />}
