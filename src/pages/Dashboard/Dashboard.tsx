@@ -92,8 +92,11 @@ const Dashboard = () => {
                 sx={{ height: "100%" }}
               >
                 <Stack alignItems="center" spacing={2}>
-                  <Avatar sx={{ width: "60px", height: "60px" }}>
-                    {user?.photoURL ?? user?.displayName?.substring(0, 1)}
+                  <Avatar
+                    sx={{ width: "60px", height: "60px" }}
+                    src={user?.photoURL ?? null}
+                  >
+                    {!user?.photoURL && user?.displayName?.substring(0, 1)}
                   </Avatar>
                   <Typography variant="h2">{user!.displayName}</Typography>
                 </Stack>
