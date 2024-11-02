@@ -94,7 +94,7 @@ const Dashboard = () => {
                 <Stack alignItems="center" spacing={2}>
                   <Avatar
                     sx={{ width: "60px", height: "60px" }}
-                    src={user?.photoURL ?? null}
+                    src={user?.photoURL ?? undefined}
                   >
                     {!user?.photoURL && user?.displayName?.substring(0, 1)}
                   </Avatar>
