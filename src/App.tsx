@@ -1,9 +1,9 @@
 import { lazy, Suspense } from "react";
 import { MUI } from "./MUI";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
-import LoadingPage from "./components/Loading/LoadingPage";
 import Layout from "./components/Layout/Layout";
 import Authentication from "./pages/Authentication/Authentication";
+import FullPageLoading from "./components/Loading/FullPageLoading";
 
 const Dashboard = lazy(() => import("./pages/Dashboard/Dashboard"));
 const Profile = lazy(() => import("./pages/Profile/Profile"));
@@ -23,7 +23,7 @@ function App() {
     <MUI>
       <Authentication>
         <BrowserRouter>
-          <Suspense fallback={<LoadingPage />}>
+          <Suspense fallback={<FullPageLoading />}>
             <Routes>
               <Route path="/" element={<Layout />}>
                 <Route path="/" element={<Dashboard />} />

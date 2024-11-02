@@ -8,6 +8,7 @@ import { usePastUserExercises } from "../../hooks/usePastUserExercises";
 import { Card, CardContent, Grid2 } from "@mui/material";
 import { UserExerciseInProgressModel } from "../../models/ExercisesModels";
 import { useCategory } from "../../hooks/useCategory";
+import FullPageLoading from "../../components/Loading/FullPageLoading";
 
 const UserExerciseLanding = () => {
   const { categoryId } = useParams<{ categoryId: string }>();
@@ -29,12 +30,19 @@ const UserExerciseLanding = () => {
   };
 
   if (isLoading || isLoadingPastExercises) {
-    return <div>Loading...</div>;
+    return <FullPageLoading />;
   }
 
   return (
     <Stack
       height="100%"
+      sx={{
+        paddingTop: {
+          xs: "55px",
+          sm: "55px",
+          md: "0",
+        },
+      }}
       spacing={2}
       justifyContent="start"
       alignItems={!inProgressExercise ? "center" : "start"}

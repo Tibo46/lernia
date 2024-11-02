@@ -15,19 +15,19 @@ const MenuIcon: React.FC<{ height: string; width: string; color?: string }> = ({
         <path
           d="M20 7L4 7"
           stroke={color}
-          stroke-width="1.5"
+          stroke-width="2"
           stroke-linecap="round"
         />
         <path
           d="M20 12L4 12"
           stroke={color}
-          stroke-width="1.5"
+          stroke-width="2"
           stroke-linecap="round"
         />
         <path
           d="M20 17L4 17"
           stroke={color}
-          stroke-width="1.5"
+          stroke-width="2"
           stroke-linecap="round"
         />
       </svg>

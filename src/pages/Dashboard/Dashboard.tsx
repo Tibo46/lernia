@@ -18,7 +18,16 @@ const Dashboard = () => {
   const [user] = useAuthState(auth);
   const { categories } = useCategories();
   return (
-    <Box height="100%">
+    <Box
+      height="100%"
+      sx={{
+        paddingTop: {
+          xs: "50px",
+          sm: "50px",
+          md: "0",
+        },
+      }}
+    >
       <Grid
         container={true}
         spacing={4}

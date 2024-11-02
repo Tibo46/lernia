@@ -11,7 +11,17 @@ import { useCategories } from "../../hooks/useCategories";
 const ExerciseCategories = () => {
   const { categories } = useCategories();
   return (
-    <Grid container={true} spacing={2}>
+    <Grid
+      container={true}
+      spacing={2}
+      sx={{
+        paddingTop: {
+          xs: "50px",
+          sm: "50px",
+          md: "0",
+        },
+      }}
+    >
       <Grid size={12} mb={2}>
         <Typography variant="h1">¿Qué quieres estudiar?</Typography>
       </Grid>

@@ -16,9 +16,15 @@ import SettingsIcon from "../../assets/icons/SettingsIcon";
 import { colors } from "../../constants";
 import MenuIcon from "../../assets/icons/MenuIcon";
 import React from "react";
+import CloseIcon from "../../assets/icons/CloseIcon";
 
 const Layout = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+  const location = useLocation();
+
+  React.useEffect(() => {
+    setIsMenuOpen(false);
+  }, [location]);
 
   return (
     <Grid container spacing={2} padding={2} minHeight="100vh">
@@ -26,14 +32,18 @@ const Layout = () => {
         <IconButton
           sx={{
             display: { xs: "block", sm: "block", md: "none" },
-            width: "50px",
-            height: "50px",
+            background: "#fff",
+            border: "1px solid #5b5860",
+            width: "45px",
+            height: "45px",
             position: "fixed",
+            top: "10px",
+            left: "10px",
             zIndex: 9,
           }}
           onClick={() => setIsMenuOpen(true)}
         >
-          <MenuIcon width="35px" height="35px" />
+          <MenuIcon width="25px" height="25px" />
         </IconButton>
       )}
       <Grid
@@ -49,8 +59,9 @@ const Layout = () => {
           ...(isMenuOpen
             ? {
                 position: "fixed",
-                top: "18px",
-                left: "33px",
+                top: "10px",
+                bottom: "10px",
+                left: "10px",
                 zIndex: 1,
                 height: "100%",
               }
@@ -65,7 +76,12 @@ const Layout = () => {
         }}
         minHeight="100%"
       >
-        <Box sx={{ height: "100%", paddingX: 2 }}>
+        <Box
+          sx={{
+            height: "100%",
+            paddingX: 2,
+          }}
+        >
           <Outlet />
         </Box>
       </Grid>
@@ -105,12 +121,14 @@ const NavMenu: React.FC<{ handleCloseMenu: () => void }> = ({
             <IconButton
               sx={{
                 display: { xs: "block", sm: "block", md: "none" },
-                width: "50px",
-                height: "50px",
+                background: "#fff",
+                border: "1px solid #5b5860",
+                width: "45px",
+                height: "45px",
               }}
               onClick={handleCloseMenu}
             >
-              <MenuIcon width="35px" height="35px" />
+              <CloseIcon fontSize="22px" />
             </IconButton>
             <img src={logo} style={{ width: "50px" }} />
             <List>

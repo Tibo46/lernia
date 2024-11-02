@@ -9,6 +9,17 @@ import Stack from "@mui/material/Stack";
 import { colors } from "../../constants";
 import { UserExerciseQuestionModel } from "../../models/ExercisesModels";
 import UserExerciseCompleted from "./UserExerciseCompleted";
+import { useCategory } from "../../hooks/useCategory";
+import Box from "@mui/material/Box";
+import IconButton from "@mui/material/IconButton";
+import CloseIcon from "../../assets/icons/CloseIcon";
+import {
+  Dialog,
+  DialogActions,
+  DialogContent,
+  DialogContentText,
+  DialogTitle,
+} from "@mui/material";
 
 const UserExercise: React.FC = () => {
   const { categoryId, exerciseId, questionId } = useParams<{
@@ -20,6 +31,7 @@ const UserExercise: React.FC = () => {
   const { userExercise, isLoading: isUserExerciseLoading } = useUserExercise(
     exerciseId!
   );
+  const { category } = useCategory(categoryId!);
 
   const [currentQuestion, setCurrentQuestion] =
     useState<UserExerciseQuestionModel | null>(
@@ -128,8 +140,7 @@ const UserExercise: React.FC = () => {
   if (!userExercise) {
     return <Typography>No exercise found.</Typography>;
   }
-  console.log("numberOfAnsweredQuestions", numberOfAnsweredQuestions);
-  console.log("userExercise.questions.length", userExercise.questions.length);
+
   if (!currentQuestion) {
     return <UserExerciseCompleted />;
   }
@@ -147,9 +158,13 @@ const UserExercise: React.FC = () => {
         justifyContent: "space-between",
       }}
     >
-      <Typography variant="h6">
-        Question {numberOfAnsweredQuestions} / {userExercise.questions.length}
-      </Typography>
+      <ExitExercise />
+      <Box textAlign="center">
+        <Typography variant="h6">{category?.name}</Typography>
+        <Typography variant="body1">
+          Question {numberOfAnsweredQuestions} / {userExercise.questions.length}
+        </Typography>
+      </Box>
 
       {currentQuestion.type === "fill-in-the-gap" && (
         <>
@@ -255,6 +270,56 @@ const UserExercise: React.FC = () => {
         </Button>
       )}
     </form>
+  );
+};
+
+const ExitExercise = () => {
+  const { categoryId } = useParams<{
+    categoryId: string;
+  }>();
+  const navigate = useNavigate();
+
+  const [confirmExit, setConfirmExit] = useState<boolean>(false);
+  return (
+    <>
+      <IconButton
+        sx={{
+          background: "#fff",
+          border: "1px solid #5b5860",
+          width: "45px",
+          height: "45px",
+          position: "fixed",
+          top: "10px",
+          right: "10px",
+          zIndex: 9,
+        }}
+        onClick={() => setConfirmExit(true)}
+      >
+        <CloseIcon fontSize="22px" />
+      </IconButton>
+      <Dialog open={confirmExit} onClose={() => setConfirmExit(false)}>
+        <DialogTitle>¿Quieres detener este ejercicio?</DialogTitle>
+        <DialogContent>
+          <DialogContentText>
+            Puedes detener este ejercicio en cualquier momento y retomarlo más
+            tarde.
+          </DialogContentText>
+        </DialogContent>
+        <DialogActions>
+          <Button onClick={() => setConfirmExit(false)}>Quedarse</Button>
+          <Button
+            onClick={() => {
+              navigate(`/exercises/${categoryId}`);
+              setConfirmExit(false);
+            }}
+            autoFocus
+            variant="contained"
+          >
+            Detener
+          </Button>
+        </DialogActions>
+      </Dialog>
+    </>
   );
 };
 
