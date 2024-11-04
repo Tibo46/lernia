@@ -10,6 +10,7 @@ import {
 import React from "react";
 import { register, socialSignUp } from "../../services/auth";
 import GoogleIcon from "../../assets/icons/google.svg";
+import { useNavigate } from "react-router-dom";
 // import FacebookIcon from '../../assets/icons/facebook.svg';
 
 const SignUp: React.FC<{
@@ -17,6 +18,7 @@ const SignUp: React.FC<{
   handleSignUpClose: () => void;
   handleOpenSignIn: () => void;
 }> = ({ isOpen, handleSignUpClose, handleOpenSignIn }) => {
+  const navigate = useNavigate();
   const [loading, setLoading] = React.useState(false);
   const [username, setUsername] = React.useState("");
   const [email, setEmail] = React.useState("");
@@ -38,6 +40,7 @@ const SignUp: React.FC<{
         // );
         return;
       }
+      navigate("/");
     } catch {
       setLoading(false);
       handleSignUpClose();
@@ -54,6 +57,7 @@ const SignUp: React.FC<{
     setLoading(true);
     try {
       await socialSignUp(socialNetwork);
+      navigate("/");
     } catch {
       // toast.error(`Registration failed`, {
       //   position: toast.POSITION.BOTTOM_CENTER,

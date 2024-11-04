@@ -21,8 +21,8 @@ const UserExerciseCompleted = lazy(
 function App() {
   return (
     <MUI>
-      <Authentication>
-        <BrowserRouter>
+      <BrowserRouter>
+        <Authentication>
           <Suspense fallback={<FullPageLoading />}>
             <Routes>
               <Route path="/" element={<Layout />}>
@@ -45,8 +45,8 @@ function App() {
               </Route>
             </Routes>
           </Suspense>
-        </BrowserRouter>
-      </Authentication>
+        </Authentication>
+      </BrowserRouter>
     </MUI>
   );
 }

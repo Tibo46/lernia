@@ -10,12 +10,14 @@ import {
 import React from "react";
 import GoogleIcon from "../../assets/icons/google.svg";
 import { login, socialSignUp } from "../../services/auth";
+import { useNavigate } from "react-router-dom";
 
 const SignIn: React.FC<{
   isOpen: boolean;
   handleSignInClose: () => void;
   handleOpenSignUp: () => void;
 }> = ({ isOpen, handleSignInClose, handleOpenSignUp }) => {
+  const navigate = useNavigate();
   const [loading, setLoading] = React.useState(false);
   const [email, setEmail] = React.useState("");
   const [password, setPassword] = React.useState("");
@@ -36,6 +38,7 @@ const SignIn: React.FC<{
         // );
         return;
       }
+      navigate("/");
     } catch {
       setLoading(false);
       handleSignInClose();
@@ -51,6 +54,7 @@ const SignIn: React.FC<{
     setLoading(true);
     try {
       await socialSignUp(socialNetwork);
+      navigate("/");
     } catch {
       // toast.error(`Login failed`, {
       //   position: toast.POSITION.BOTTOM_CENTER,

@@ -20,6 +20,7 @@ import {
   DialogContentText,
   DialogTitle,
 } from "@mui/material";
+// import { useKeyboardShortcut } from "../../hooks/useKeyboardShortcut";
 
 const UserExercise: React.FC = () => {
   const { categoryId, exerciseId, questionId } = useParams<{
@@ -32,6 +33,17 @@ const UserExercise: React.FC = () => {
     exerciseId!
   );
   const { category } = useCategory(categoryId!);
+  // TODO: use the hook to go next question when pressing enter
+  // useKeyboardShortcut({
+  //   key: "Enter",
+  //   onKeyPressed: () => {
+  //     if (userExercise && userAnswer !== "") {
+  //       handleSubmit({
+  //         preventDefault: () => {},
+  //       } as FormEvent<HTMLFormElement>);
+  //     }
+  //   },
+  // });
 
   const [currentQuestion, setCurrentQuestion] =
     useState<UserExerciseQuestionModel | null>(
