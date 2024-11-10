@@ -69,7 +69,7 @@ const SignUp: React.FC<{
       <Stack spacing={2} justifyContent="space-between" sx={{ height: "100%" }}>
         <Stack spacing={2}>
           <Typography variant="h1" textAlign="center">
-            Join for free
+            Regístrate gratis
           </Typography>
           <Grid container={true} spacing={2}>
             <Grid size={12}>
