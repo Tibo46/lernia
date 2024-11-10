@@ -47,12 +47,14 @@ const UserExerciseLanding = () => {
       justifyContent="start"
       alignItems={!inProgressExercise ? "center" : "start"}
     >
-      <Typography variant="h2">{category?.name} exercises</Typography>
+      <Typography variant="h2">{category?.name} ejercicios</Typography>
       {!inProgressExercise ? (
         <>
-          <Typography>No in progress exercise found</Typography>
+          <Typography>
+            No se ha encontrado ningún ejercicio en progreso
+          </Typography>
           <Button variant="contained" onClick={handleStartNewExercise}>
-            Start a new exercise
+            Empezar un nuevo ejercicio
           </Button>
         </>
       ) : (
@@ -63,7 +65,7 @@ const UserExerciseLanding = () => {
       {pastExercises && pastExercises.length > 0 && (
         <Grid2 container={true} spacing={2} width="100%">
           <Grid2 size={12}>
-            <Typography>Previous exercises</Typography>
+            <Typography>Ejercicios anteriores</Typography>
           </Grid2>
           {pastExercises.map((exercise) => (
             <ExerciseCard exercise={exercise} key={exercise.id} />
@@ -97,28 +99,28 @@ const ExerciseCard: React.FC<{ exercise: UserExerciseInProgressModel }> = ({
         <Stack spacing={1}>
           <Typography variant="h3">
             {exercise.isCompleted ? (
-              <>Exercise results:</>
+              <>Resultados del ejercicio:</>
             ) : (
-              <>Exercise in progress:</>
+              <>Ejercicio en progreso:</>
             )}
           </Typography>
           <Stack spacing={0}>
             {exercise.isCompleted ? (
               <>
                 <Typography>
-                  Score:
+                  Puntuación:
                   {exercise.totalCorrectAnswers}/{exercise.totalQuestions}
                 </Typography>
                 <Typography>
-                  Correct answers: {exercise.totalCorrectAnswers}
+                  Respuestas correctas: {exercise.totalCorrectAnswers}
                 </Typography>
                 <Typography>
-                  Incorrect answers: {exercise.totalIncorrectAnswers}
+                  Respuestas incorrectas: {exercise.totalIncorrectAnswers}
                 </Typography>
               </>
             ) : (
               <Typography>
-                Questions answered: {exercise.totalAnsweredQuestions}/
+                Preguntas respondidas: {exercise.totalAnsweredQuestions}/
                 {exercise.totalQuestions}
               </Typography>
             )}
@@ -132,7 +134,7 @@ const ExerciseCard: React.FC<{ exercise: UserExerciseInProgressModel }> = ({
           </Typography>
           {!exercise.isCompleted && (
             <Button variant="contained" onClick={handleContinueExercise}>
-              Continue exercise
+              Continuar ejercicio
             </Button>
           )}
         </Stack>

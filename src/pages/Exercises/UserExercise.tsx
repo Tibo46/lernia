@@ -174,7 +174,7 @@ const UserExercise: React.FC = () => {
       <Box textAlign="center">
         <Typography variant="h6">{category?.name}</Typography>
         <Typography variant="body1">
-          Question {numberOfAnsweredQuestions} / {userExercise.questions.length}
+          Pregunta {numberOfAnsweredQuestions} / {userExercise.questions.length}
         </Typography>
       </Box>
 
@@ -243,7 +243,7 @@ const UserExercise: React.FC = () => {
                     width: "100%",
                   }}
                 >
-                  {isCorrect ? "Correcto" : "Incorrecto"} - Correct answer:{" "}
+                  {isCorrect ? "Correcto" : "Incorrecto"} - Respuesta correcta:{" "}
                   {correctAnswer}
                 </Typography>
               )}
@@ -265,7 +265,7 @@ const UserExercise: React.FC = () => {
           disabled={userAnswer === "" || loading}
           sx={{ mt: 2 }}
         >
-          Submit Answer
+          Enviar respuesta
         </Button>
       ) : (
         <Button
@@ -275,9 +275,9 @@ const UserExercise: React.FC = () => {
           sx={{ mt: 2 }}
         >
           {numberOfAnsweredQuestions === userExercise.questions.length ? (
-            <>Finish</>
+            <>Finalizar</>
           ) : (
-            <>Next Question</>
+            <>Siguiente pregunta</>
           )}
         </Button>
       )}

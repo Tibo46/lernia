@@ -1,46 +1,35 @@
 import React from "react";
 import { Grid2 as Grid } from "@mui/material";
-import Button from "@mui/material/Button";
 import SignIn from "./SignIn";
 import SignUp from "./SignUp";
+import Bg1 from "../../assets/background/study-1.jpg";
 
 const Login = () => {
-  const [isSignInModalOpen, setIsSignInModalOpen] = React.useState(false);
-  const [isSignUpModalOpen, setIsSignUpModalOpen] = React.useState(false);
+  const [isSignIn, setIsSignIn] = React.useState(true);
 
   return (
     <Grid container={true} style={{ minHeight: "100vh", height: "100%" }}>
-      <>
-        {/* <Logo size="large" /> */}
-        <Grid container={true}>
-          <Button
-            color="primary"
-            style={{ marginRight: "20px" }}
-            onClick={() => setIsSignInModalOpen(true)}
-          >
-            Sign In
-          </Button>
-          <Button color="secondary" onClick={() => setIsSignUpModalOpen(true)}>
-            Sign Up
-          </Button>
-        </Grid>
-      </>
-      <SignIn
-        isOpen={isSignInModalOpen}
-        handleSignInClose={() => setIsSignInModalOpen(false)}
-        handleOpenSignUp={() => {
-          setIsSignInModalOpen(false);
-          setIsSignUpModalOpen(true);
+      <Grid
+        size={{
+          xs: 12,
+          sm: 6,
         }}
+        display={{ xs: "none", sm: "block" }}
+        style={{ backgroundImage: `url(${Bg1})`, backgroundSize: "cover" }}
       />
-      <SignUp
-        isOpen={isSignUpModalOpen}
-        handleSignUpClose={() => setIsSignUpModalOpen(false)}
-        handleOpenSignIn={() => {
-          setIsSignUpModalOpen(false);
-          setIsSignInModalOpen(true);
+      <Grid
+        size={{
+          xs: 12,
+          sm: 6,
         }}
-      />
+        style={{ padding: "2rem" }}
+      >
+        {isSignIn ? (
+          <SignIn handleSignUp={() => setIsSignIn(false)} />
+        ) : (
+          <SignUp handleSignIn={() => setIsSignIn(true)} />
+        )}
+      </Grid>
     </Grid>
   );
 };

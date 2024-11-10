@@ -1,11 +1,10 @@
 import {
-  Dialog,
-  DialogTitle,
-  DialogContent,
   Grid2 as Grid,
   Typography,
   TextField,
   Button,
+  Container,
+  Stack,
 } from "@mui/material";
 import React from "react";
 import { register, socialSignUp } from "../../services/auth";
@@ -14,10 +13,8 @@ import { useNavigate } from "react-router-dom";
 // import FacebookIcon from '../../assets/icons/facebook.svg';
 
 const SignUp: React.FC<{
-  isOpen: boolean;
-  handleSignUpClose: () => void;
-  handleOpenSignIn: () => void;
-}> = ({ isOpen, handleSignUpClose, handleOpenSignIn }) => {
+  handleSignIn: () => void;
+}> = ({ handleSignIn }) => {
   const navigate = useNavigate();
   const [loading, setLoading] = React.useState(false);
   const [username, setUsername] = React.useState("");
@@ -43,7 +40,6 @@ const SignUp: React.FC<{
       navigate("/");
     } catch {
       setLoading(false);
-      handleSignUpClose();
       // toast.error(
       //   `Registration failed, make sure your password is strong enough and that you do not have an account with this email address already`,
       //   {
@@ -65,42 +61,37 @@ const SignUp: React.FC<{
       return;
     } finally {
       setLoading(false);
-      handleSignUpClose();
     }
   };
 
   return (
-    <Dialog
-      open={isOpen}
-      fullWidth={true}
-      maxWidth="sm"
-      onClose={handleSignUpClose}
-    >
-      <DialogTitle>Join Lernia for free</DialogTitle>
-      <DialogContent>
-        <Button variant="text" onClick={handleOpenSignIn}>
-          Already a member? Sign In
-        </Button>
-        <Grid container={true} spacing={2}>
-          <Grid size={12}>
-            <Typography variant="subtitle1">Sign up using</Typography>
+    <Container sx={{ height: "100%" }} maxWidth="sm">
+      <Stack spacing={2} justifyContent="space-between" sx={{ height: "100%" }}>
+        <Stack spacing={2}>
+          <Typography variant="h1" textAlign="center">
+            Join for free
+          </Typography>
+          <Grid container={true} spacing={2}>
+            <Grid size={12}>
+              <Typography variant="subtitle1">Regístrate con</Typography>
+            </Grid>
           </Grid>
-        </Grid>
-        <Grid container={true}>
-          <Button
-            startIcon={
-              <img
-                src={GoogleIcon}
-                style={{ width: "25px" }}
-                alt="Login with Google"
-              />
-            }
-            variant="text"
-            onClick={() => handleSocialSignIn("google")}
-          >
-            Google
-          </Button>
-          {/* <Button
+          <Grid container={true}>
+            <Button
+              startIcon={
+                <img
+                  src={GoogleIcon}
+                  style={{ width: "25px" }}
+                  alt="Login with Google"
+                />
+              }
+              variant="outlined"
+              fullWidth={true}
+              onClick={() => handleSocialSignIn("google")}
+            >
+              Google
+            </Button>
+            {/* <Button
             startIcon={
               <img
                 src={FacebookIcon}
@@ -113,54 +104,69 @@ const SignUp: React.FC<{
           >
             Facebook
           </Button> */}
-        </Grid>
-        <Grid container={true} spacing={2}>
-          <Grid size={12}>
-            <Typography variant="subtitle1">Or with your email</Typography>
           </Grid>
-        </Grid>
-        <form onSubmit={(e) => handleSubmit(e)}>
           <Grid container={true} spacing={2}>
             <Grid size={12}>
-              <TextField
-                label="Name"
-                value={username}
-                onChange={(event) => {
-                  setUsername(event.target.value);
-                }}
-                type="text"
-              />
-            </Grid>
-
-            <Grid size={12}>
-              <TextField
-                label="Email"
-                value={email}
-                onChange={(event) => {
-                  setEmail(event.target.value);
-                }}
-                type="email"
-              />
-            </Grid>
-            <Grid size={12}>
-              <TextField
-                label="Password"
-                value={password}
-                onChange={(event) => {
-                  setPassword(event.target.value);
-                }}
-                type="password"
-              />
-            </Grid>
-            <Grid size={12}>
-              <Button type="submit" disableElevation={false} disabled={loading}>
-                Sign Up
-              </Button>
+              <Typography variant="subtitle1">
+                O con tu correo electrónico
+              </Typography>
             </Grid>
           </Grid>
-        </form>
-      </DialogContent>
-    </Dialog>
+          <form onSubmit={(e) => handleSubmit(e)}>
+            <Grid container={true} spacing={2}>
+              <Grid size={12}>
+                <TextField
+                  label="Nombre"
+                  value={username}
+                  fullWidth={true}
+                  onChange={(event) => {
+                    setUsername(event.target.value);
+                  }}
+                  type="text"
+                />
+              </Grid>
+
+              <Grid size={12}>
+                <TextField
+                  label="Correo Electrónico"
+                  value={email}
+                  fullWidth={true}
+                  onChange={(event) => {
+                    setEmail(event.target.value);
+                  }}
+                  type="email"
+                />
+              </Grid>
+              <Grid size={12}>
+                <TextField
+                  label="Contraseña"
+                  value={password}
+                  fullWidth={true}
+                  onChange={(event) => {
+                    setPassword(event.target.value);
+                  }}
+                  type="password"
+                />
+              </Grid>
+              <Grid size={12}>
+                <Button
+                  type="submit"
+                  disableElevation={false}
+                  disabled={loading}
+                  fullWidth={true}
+                  variant="contained"
+                >
+                  Regístrate
+                </Button>
+              </Grid>
+            </Grid>
+          </form>
+        </Stack>
+        <Button variant="text" onClick={handleSignIn}>
+          ¿Ya eres miembro? Inicia sesión
+        </Button>
+      </Stack>
+    </Container>
   );
 };
 

@@ -27,7 +27,7 @@ const UserExerciseCompleted = () => {
     ? userExercise.questions.filter((x) => x.isCorrect).length /
       userExercise.questions.length
     : 0;
-  console.log(totalScore);
+
   return (
     <Stack
       height="100%"
@@ -36,7 +36,7 @@ const UserExerciseCompleted = () => {
       alignItems="center"
     >
       <>
-        <Typography variant="h2">Exercise completed!</Typography>
+        <Typography variant="h2">¡Ejercicio completado!</Typography>
         {userExercise && (
           <div style={{ position: "relative" }}>
             {totalScore > 0.7 && (
@@ -46,25 +46,25 @@ const UserExerciseCompleted = () => {
               </div>
             )}
             <div>
-              <Typography variant="h3">Exercise details</Typography>
+              <Typography variant="h3">Detalles del ejercicio</Typography>
               <Typography>
-                Score:
+                Puntuación:
                 {userExercise.questions.filter((x) => x.isCorrect).length}/
                 {userExercise.questions.length}
               </Typography>
               <Typography>
-                Correct answers:{" "}
+                Respuestas correctas:{" "}
                 {userExercise.questions.filter((x) => x.isCorrect).length}
               </Typography>
               <Typography>
-                Incorrect answers:{" "}
+                Respuestas incorrectas:{" "}
                 {userExercise.questions.filter((x) => !x.isCorrect).length}
               </Typography>
             </div>
           </div>
         )}
         <Button variant="contained" onClick={handleStartNewExercise}>
-          Start a new one
+          Empezar uno nuevo
         </Button>
       </>
     </Stack>

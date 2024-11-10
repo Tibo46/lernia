@@ -1,22 +1,17 @@
 import {
-  Dialog,
-  DialogTitle,
-  DialogContent,
   Grid2 as Grid,
   Typography,
   Button,
   TextField,
+  Container,
+  Stack,
 } from "@mui/material";
 import React from "react";
 import GoogleIcon from "../../assets/icons/google.svg";
 import { login, socialSignUp } from "../../services/auth";
 import { useNavigate } from "react-router-dom";
 
-const SignIn: React.FC<{
-  isOpen: boolean;
-  handleSignInClose: () => void;
-  handleOpenSignUp: () => void;
-}> = ({ isOpen, handleSignInClose, handleOpenSignUp }) => {
+const SignIn: React.FC<{ handleSignUp: () => void }> = ({ handleSignUp }) => {
   const navigate = useNavigate();
   const [loading, setLoading] = React.useState(false);
   const [email, setEmail] = React.useState("");
@@ -41,7 +36,6 @@ const SignIn: React.FC<{
       navigate("/");
     } catch {
       setLoading(false);
-      handleSignInClose();
       // toast.error(
       //   `Login failed, please check your password and email address`,
       //   {
@@ -62,42 +56,37 @@ const SignIn: React.FC<{
       return;
     } finally {
       setLoading(false);
-      handleSignInClose();
     }
   };
 
   return (
-    <Dialog
-      open={isOpen}
-      fullWidth={true}
-      maxWidth="sm"
-      onClose={handleSignInClose}
-    >
-      <DialogTitle>Welcome back</DialogTitle>
-      <DialogContent>
-        <Button variant="text" onClick={handleOpenSignUp}>
-          Not a member? Sign up now
-        </Button>
-        <Grid container={true} spacing={2}>
-          <Grid size={12}>
-            <Typography variant="subtitle1">Sign in using</Typography>
+    <Container sx={{ height: "100%" }} maxWidth="sm">
+      <Stack spacing={2} justifyContent="space-between" sx={{ height: "100%" }}>
+        <Stack spacing={2}>
+          <Typography variant="h1" textAlign="center">
+            ¡Hola!
+          </Typography>
+          <Grid container={true} spacing={2}>
+            <Grid size={12}>
+              <Typography variant="subtitle1">Iniciar sesión con</Typography>
+            </Grid>
           </Grid>
-        </Grid>
-        <Grid container={true}>
-          <Button
-            startIcon={
-              <img
-                src={GoogleIcon}
-                style={{ width: "25px" }}
-                alt="Login with Google"
-              />
-            }
-            variant="text"
-            onClick={() => handleSocialSignIn("google")}
-          >
-            Google
-          </Button>
-          {/* <Button
+          <Grid container={true}>
+            <Button
+              startIcon={
+                <img
+                  src={GoogleIcon}
+                  style={{ width: "25px" }}
+                  alt="Login with Google"
+                />
+              }
+              variant="outlined"
+              fullWidth={true}
+              onClick={() => handleSocialSignIn("google")}
+            >
+              Google
+            </Button>
+            {/* <Button
             startIcon={
               <img
                 src={FacebookIcon}
@@ -110,44 +99,59 @@ const SignIn: React.FC<{
           >
             Facebook
           </Button> */}
-        </Grid>
-        <Grid container={true} spacing={2}>
-          <Grid size={12}>
-            <Typography variant="subtitle1">Or with your email</Typography>
           </Grid>
-        </Grid>
-        <form onSubmit={(e) => handleSubmit(e)}>
           <Grid container={true} spacing={2}>
             <Grid size={12}>
-              <TextField
-                label="Email"
-                value={email}
-                onChange={(event) => {
-                  setEmail(event.target.value);
-                }}
-                type="email"
-              />
-            </Grid>
-            <Grid size={12}>
-              <TextField
-                label="Password"
-                value={password}
-                // helperText={<Link href="#">Forgot password?</Link>}
-                onChange={(event) => {
-                  setPassword(event.target.value);
-                }}
-                type="password"
-              />
-            </Grid>
-            <Grid size={12}>
-              <Button type="submit" disableElevation={false} disabled={loading}>
-                Sign In
-              </Button>
+              <Typography variant="subtitle1">
+                O con tu correo electrónico
+              </Typography>
             </Grid>
           </Grid>
-        </form>
-      </DialogContent>
-    </Dialog>
+          <form onSubmit={(e) => handleSubmit(e)}>
+            <Grid container={true} spacing={2}>
+              <Grid size={12}>
+                <TextField
+                  label="Correo Electrónico"
+                  fullWidth={true}
+                  value={email}
+                  onChange={(event) => {
+                    setEmail(event.target.value);
+                  }}
+                  type="email"
+                />
+              </Grid>
+              <Grid size={12}>
+                <TextField
+                  label="Contraseña"
+                  value={password}
+                  fullWidth={true}
+                  // helperText={<Link href="#">Forgot password?</Link>}
+                  onChange={(event) => {
+                    setPassword(event.target.value);
+                  }}
+                  type="password"
+                />
+              </Grid>
+              <Grid size={12}>
+                <Button
+                  type="submit"
+                  disableElevation={false}
+                  disabled={loading}
+                  fullWidth={true}
+                  variant="contained"
+                >
+                  Iniciar
+                </Button>
+              </Grid>
+            </Grid>
+          </form>
+        </Stack>
+
+        <Button variant="text" onClick={handleSignUp}>
+          ¿No eres miembro? Regístrate ahora gratis
+        </Button>
+      </Stack>
+    </Container>
   );
 };
 
