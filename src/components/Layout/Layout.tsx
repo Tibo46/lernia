@@ -17,6 +17,9 @@ import { colors } from "../../constants";
 import MenuIcon from "../../assets/icons/MenuIcon";
 import React from "react";
 import CloseIcon from "../../assets/icons/CloseIcon";
+import { useCurrentUser } from "../../hooks/useCurrentUser";
+import AdminIcon from "../../assets/icons/AdminIcon";
+import AdminQuestionsIcon from "../../assets/icons/AdminQuestionsIcon";
 
 const Layout = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -92,14 +95,12 @@ const Layout = () => {
 const NavMenu: React.FC<{ handleCloseMenu: () => void }> = ({
   handleCloseMenu,
 }) => {
+  const { user } = useCurrentUser();
   const location = useLocation();
   const { pathname } = location;
 
-  const isCurrentPage = (path: string) => {
-    if (path === "/") {
-      return pathname === path;
-    }
-    return pathname.includes(path);
+  const isCurrentPage = (path: string, strict?: boolean) => {
+    return strict ? path === pathname : pathname.includes(path);
   };
 
   return (
@@ -137,7 +138,7 @@ const NavMenu: React.FC<{ handleCloseMenu: () => void }> = ({
                   component={Link}
                   to="/"
                   sx={{
-                    bgcolor: isCurrentPage("/")
+                    bgcolor: isCurrentPage("/", true)
                       ? colors.darkBackground
                       : colors.white,
                     borderRadius: "50%",
@@ -148,7 +149,7 @@ const NavMenu: React.FC<{ handleCloseMenu: () => void }> = ({
                   <HomeIcon
                     width="35px"
                     height="35px"
-                    color={isCurrentPage("/") ? "#fff" : undefined}
+                    color={isCurrentPage("/", true) ? "#fff" : undefined}
                   />
                 </IconButton>
               </ListItem>
@@ -175,6 +176,52 @@ const NavMenu: React.FC<{ handleCloseMenu: () => void }> = ({
               </ListItem>
             </List>
           </Stack>
+          {user && user.isAdmin && (
+            <List>
+              <ListItem>
+                <IconButton
+                  component={Link}
+                  to="/admin/"
+                  sx={{
+                    bgcolor: isCurrentPage("/admin/", true)
+                      ? colors.darkBackground
+                      : colors.white,
+                    borderRadius: "50%",
+                    width: "60px",
+                    height: "60px",
+                  }}
+                >
+                  <AdminIcon
+                    width="35px"
+                    height="35px"
+                    color={isCurrentPage("/admin/", true) ? "#fff" : undefined}
+                  />
+                </IconButton>
+              </ListItem>
+              <ListItem>
+                <IconButton
+                  component={Link}
+                  to="/admin/questions"
+                  sx={{
+                    bgcolor: isCurrentPage("/admin/questions")
+                      ? colors.darkBackground
+                      : colors.white,
+                    borderRadius: "50%",
+                    width: "60px",
+                    height: "60px",
+                  }}
+                >
+                  <AdminQuestionsIcon
+                    width="35px"
+                    height="35px"
+                    color={
+                      isCurrentPage("/admin/questions") ? "#fff" : undefined
+                    }
+                  />
+                </IconButton>
+              </ListItem>
+            </List>
+          )}
           <List>
             <ListItem>
               <IconButton

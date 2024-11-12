@@ -15,7 +15,7 @@ const Authentication: React.FC<{ children: React.ReactNode }> = ({
   if (!user) {
     return <Login />;
   }
-
+  console.log("user", user);
   return <div>{children}</div>;
 };
 

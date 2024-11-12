@@ -17,6 +17,8 @@ const UserExerciseLanding = lazy(
 const UserExerciseCompleted = lazy(
   () => import("./pages/Exercises/UserExerciseCompleted")
 );
+const AdminDashboard = lazy(() => import("./pages/Admin/AdminDashboard"));
+const AdminQuestions = lazy(() => import("./pages/Admin/AdminQuestions"));
 
 function App() {
   return (
@@ -41,6 +43,8 @@ function App() {
                   path="exercises/:categoryId/:exerciseId/completed"
                   element={<UserExerciseCompleted />}
                 />
+                <Route path="admin" element={<AdminDashboard />} />
+                <Route path="admin/questions" element={<AdminQuestions />} />
                 <Route path="*" element={<Dashboard />} />
               </Route>
             </Routes>
