@@ -17,7 +17,7 @@ const theme = createTheme({
     },
     h2: {
       fontSize: "1.5rem",
-      fontWeight: 500,
+      fontWeight: 600,
     },
     h3: {
       fontSize: "1.4rem",
@@ -43,6 +43,9 @@ const theme = createTheme({
     },
     error: {
       main: colors.invalid,
+    },
+    warning: {
+      main: colors.warning,
     },
   },
   components: {

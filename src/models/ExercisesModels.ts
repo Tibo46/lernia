@@ -40,3 +40,17 @@ export interface AnswerModel {
   userAnswer: string;
   isCorrect: boolean;
 }
+
+export interface QuestionModel {
+  id: string;
+  questionText: string;
+  helperText: string;
+  explanation: string;
+  correctAnswer: string;
+  word: string;
+  categoryId: string;
+  type: "fill-in-the-gap" | "multiple-choice";
+  numberOfFlaggedIncorrect: number;
+  category?: string | null;
+  closeAnswers?: string[] | null;
+}

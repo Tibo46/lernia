@@ -44,7 +44,7 @@ const UserExerciseLanding = () => {
         },
       }}
       spacing={2}
-      justifyContent="start"
+      justifyContent={!inProgressExercise ? "center" : "start"}
       alignItems={!inProgressExercise ? "center" : "start"}
     >
       <Typography variant="h2">{category?.name} ejercicios</Typography>

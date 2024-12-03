@@ -182,7 +182,6 @@ const UserExercise: React.FC = () => {
         <>
           <Stack spacing={2} alignItems="center">
             <Stack spacing={2}>
-              <Typography>{currentQuestion.helperText}</Typography>
               <Typography
                 component="div"
                 sx={{

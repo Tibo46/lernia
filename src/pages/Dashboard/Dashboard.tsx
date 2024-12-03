@@ -48,7 +48,17 @@ const Dashboard = () => {
           alignContent="baseline"
         >
           <Grid size={12} mb={2}>
-            <Typography variant="h1">Empieza a practicar inglés</Typography>
+            <Typography
+              variant="h1"
+              sx={{
+                marginTop: {
+                  md: "45px",
+                  sm: "0",
+                },
+              }}
+            >
+              Empieza a practicar inglés
+            </Typography>
           </Grid>
           {categories?.map((category) => (
             <Grid
@@ -79,7 +89,9 @@ const Dashboard = () => {
                 >
                   <CardContent sx={{ height: "100%" }}>
                     <Typography variant="h2">{category.name}</Typography>
-                    <Typography>{category.description}</Typography>
+                    <Typography sx={{ textAlign: "justify" }}>
+                      {category.description}
+                    </Typography>
                   </CardContent>
                 </CardActionArea>
               </Card>

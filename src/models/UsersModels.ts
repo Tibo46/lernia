@@ -4,4 +4,5 @@ export interface UserModel {
   email: string;
   isAdmin: boolean;
   createdAt: string;
+  lastLoginAt: string;
 }

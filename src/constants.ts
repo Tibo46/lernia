@@ -7,4 +7,5 @@ export const colors = {
   white: "#F5F5F5",
   valid: "#088E5E",
   invalid: "#df2b2b",
+  warning: "#b3851a",
 };

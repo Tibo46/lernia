@@ -1,7 +1,7 @@
-import React from "react";
+import QuestionsTable from "../../components/Admin/QuestionsTable";
 
 const AdminQuestions = () => {
-  return <div>AdminQuestions</div>;
+  return <QuestionsTable />;
 };
 
 export default AdminQuestions;
