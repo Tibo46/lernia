@@ -2,9 +2,17 @@ import Box from "@mui/material/Box";
 import { DataGrid, GridColDef } from "@mui/x-data-grid";
 import { useAllQuestions } from "../../hooks/useAllQuestions";
 import { QuestionModel } from "../../models/ExercisesModels";
+import UpdateQuestionDialog from "./UpdateQuestionDialog";
+import GenerateQuestionsDialog from "./GenerateQuestionsDialog";
+import { useState } from "react";
 
 const QuestionsTable = () => {
   const { questions } = useAllQuestions();
+  const [isGeneratingQuestionsOpen, setIsGeneratingQuestionsOpen] =
+    useState(false);
+  const [isUpdatingQuestionOpen, setIsUpdatingQuestionOpen] = useState(false);
+  const [selectedQuestion, setSelectedQuestion] =
+    useState<QuestionModel | null>(null);
 
   const columns: GridColDef<QuestionModel>[] = [
     { field: "id", headerName: "ID" },
@@ -48,6 +56,17 @@ const QuestionsTable = () => {
         pageSizeOptions={[5]}
         checkboxSelection={false}
         disableRowSelectionOnClick
+      />
+      {selectedQuestion && (
+        <UpdateQuestionDialog
+          isOpen={isUpdatingQuestionOpen}
+          handleClose={() => setIsUpdatingQuestionOpen(false)}
+          question={selectedQuestion}
+        />
+      )}
+      <GenerateQuestionsDialog
+        isOpen={isGeneratingQuestionsOpen}
+        handleClose={() => setIsGeneratingQuestionsOpen(false)}
       />
     </Box>
   );
