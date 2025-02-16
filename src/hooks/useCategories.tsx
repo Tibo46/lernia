@@ -3,7 +3,7 @@ import { makeGetRequest } from "../services/httpHelper";
 import { CategoryModel } from "../models/CategoriesModels";
 
 export const useCategories = () => {
-  const { data, error, isLoading } = useSWR<CategoryModel[]>(
+  const { data, error, isLoading, mutate } = useSWR<CategoryModel[]>(
     `${import.meta.env.VITE_API_URL}/categories`,
     makeGetRequest,
     {
@@ -15,5 +15,6 @@ export const useCategories = () => {
     categories: data,
     error,
     isLoading,
+    refetch: mutate,
   };
 };

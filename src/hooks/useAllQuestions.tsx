@@ -3,8 +3,8 @@ import { makeGetRequest } from "../services/httpHelper";
 import { QuestionModel } from "../models/ExercisesModels";
 
 export const useAllQuestions = () => {
-  const { data, error, isLoading } = useSWR<QuestionModel[]>(
-    `${import.meta.env.VITE_API_URL}/exercises/all`,
+  const { data, error, isLoading, mutate } = useSWR<QuestionModel[]>(
+    `${import.meta.env.VITE_API_URL}/questions/all`,
     makeGetRequest,
     {
       revalidateOnFocus: false,
@@ -13,6 +13,7 @@ export const useAllQuestions = () => {
 
   return {
     questions: data,
+    refetch: mutate,
     error,
     isLoading,
   };

@@ -4,4 +4,5 @@ export interface CategoryModel {
   description: string;
   numberOfExercises: number;
   color: string;
+  needsWords: boolean;
 }

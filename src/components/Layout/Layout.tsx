@@ -201,6 +201,28 @@ const NavMenu: React.FC<{ handleCloseMenu: () => void }> = ({
               <ListItem>
                 <IconButton
                   component={Link}
+                  to="/admin/categories"
+                  sx={{
+                    bgcolor: isCurrentPage("/admin/categories")
+                      ? colors.darkBackground
+                      : colors.white,
+                    borderRadius: "50%",
+                    width: "60px",
+                    height: "60px",
+                  }}
+                >
+                  <AdminQuestionsIcon
+                    width="35px"
+                    height="35px"
+                    color={
+                      isCurrentPage("/admin/categories") ? "#fff" : undefined
+                    }
+                  />
+                </IconButton>
+              </ListItem>
+              <ListItem>
+                <IconButton
+                  component={Link}
                   to="/admin/questions"
                   sx={{
                     bgcolor: isCurrentPage("/admin/questions")

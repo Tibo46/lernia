@@ -44,7 +44,6 @@ export interface AnswerModel {
 export interface QuestionModel {
   id: string;
   questionText: string;
-  helperText: string;
   explanation: string;
   correctAnswer: string;
   word: string;
