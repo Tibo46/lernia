@@ -6,7 +6,7 @@ import UpdateQuestionDialog from "./UpdateQuestionDialog";
 import GenerateQuestionsDialog from "./GenerateQuestionsDialog";
 import { useState } from "react";
 import DeleteQuestionDialog from "./DeleteQuestionDialog";
-import { Button, Stack } from "@mui/material";
+import { Button, Stack, Typography } from "@mui/material";
 import { useCategories } from "../../hooks/useCategories";
 
 const QuestionsTable = () => {
@@ -75,13 +75,20 @@ const QuestionsTable = () => {
   return (
     <Box sx={{ height: "90vh" }}>
       <Stack direction="column" spacing={2}>
-        <Stack direction="row" justifyContent="flex-end" spacing={2}>
-          <Button
-            variant="contained"
-            onClick={() => setIsGeneratingQuestionsOpen(true)}
-          >
-            Generate Questions
-          </Button>
+        <Stack
+          direction="row"
+          alignItems="center"
+          justifyContent="space-between"
+        >
+          <Typography variant="h2">Questions</Typography>
+          <Stack direction="row" justifyContent="flex-end" spacing={2}>
+            <Button
+              variant="contained"
+              onClick={() => setIsGeneratingQuestionsOpen(true)}
+            >
+              Generate Questions
+            </Button>
+          </Stack>
         </Stack>
         <DataGrid
           rows={questions}

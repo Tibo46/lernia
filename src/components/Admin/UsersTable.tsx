@@ -2,6 +2,7 @@ import Box from "@mui/material/Box";
 import { DataGrid, GridColDef } from "@mui/x-data-grid";
 import { useAllUsers } from "../../hooks/useAllUsers";
 import { UserModel } from "../../models/UsersModels";
+import { Typography } from "@mui/material";
 
 const UsersTable = () => {
   const { users } = useAllUsers();
@@ -53,6 +54,9 @@ const UsersTable = () => {
 
   return (
     <Box sx={{ maxHeight: 400 }}>
+      <Typography variant="h2" sx={{ fontSize: "1rem", mb: 2 }}>
+        Users
+      </Typography>
       <DataGrid
         rows={users}
         columns={columns}

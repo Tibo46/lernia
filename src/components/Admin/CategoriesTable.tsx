@@ -1,6 +1,6 @@
 import Box from "@mui/material/Box";
 import { DataGrid, GridColDef } from "@mui/x-data-grid";
-import { Button, Stack } from "@mui/material";
+import { Button, Stack, Typography } from "@mui/material";
 import { useCategories } from "../../hooks/useCategories";
 import { CategoryModel } from "../../models/CategoriesModels";
 import UpdateCategoryDialog from "./UpdateCategoryDialog";
@@ -55,15 +55,22 @@ const CategoriesTable = () => {
   return (
     <Box sx={{ height: "90vh" }}>
       <Stack direction="column" spacing={2}>
-        <Stack direction="row" justifyContent="flex-end" spacing={2}>
-          <Button
-            variant="contained"
-            onClick={() => {
-              setIsCreatingCategoryOpen(true);
-            }}
-          >
-            Create Category
-          </Button>
+        <Stack
+          direction="row"
+          alignItems="center"
+          justifyContent="space-between"
+        >
+          <Typography variant="h2">Categories</Typography>
+          <Stack direction="row" justifyContent="flex-end" spacing={2}>
+            <Button
+              variant="contained"
+              onClick={() => {
+                setIsCreatingCategoryOpen(true);
+              }}
+            >
+              Create Category
+            </Button>
+          </Stack>
         </Stack>
         <DataGrid
           rows={categories}

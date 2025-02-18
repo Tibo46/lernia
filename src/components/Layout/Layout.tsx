@@ -20,6 +20,7 @@ import CloseIcon from "../../assets/icons/CloseIcon";
 import { useCurrentUser } from "../../hooks/useCurrentUser";
 import AdminIcon from "../../assets/icons/AdminIcon";
 import AdminQuestionsIcon from "../../assets/icons/AdminQuestionsIcon";
+import CategoriesIcon from "../../assets/icons/CategoriesIcon";
 
 const Layout = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -211,7 +212,7 @@ const NavMenu: React.FC<{ handleCloseMenu: () => void }> = ({
                     height: "60px",
                   }}
                 >
-                  <AdminQuestionsIcon
+                  <CategoriesIcon
                     width="35px"
                     height="35px"
                     color={
