@@ -45,3 +45,15 @@ export const deleteQuestion = async (
 
   return await makeDeleteRequest(options);
 };
+
+export const reportQuestion = async (
+  questionId: string
+): Promise<AxiosResponse<QuestionModel>> => {
+  const options = {
+    requestUrl: `${
+      import.meta.env.VITE_API_URL
+    }/questions/${questionId}/report`,
+  };
+
+  return await makePostRequest(options);
+};

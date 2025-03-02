@@ -178,7 +178,11 @@ const CardStats = ({
             <Stack direction="row" spacing={1} alignItems="center">
               <DownIcon width="30px" height="30px" color={colors.invalid} />{" "}
               <Typography component="span">
-                -{diff.percentage}%{" "}
+                -
+                {Intl.NumberFormat("es-ES", {
+                  style: "percent",
+                  maximumFractionDigits: 2,
+                }).format(diff.percentage / 100)}
                 <Typography component="span" color="textPrimary">
                   compared to last month ({comparedValue})
                 </Typography>
@@ -194,7 +198,11 @@ const CardStats = ({
           <Stack direction="row" spacing={1} alignItems="center">
             <UpIcon width="30px" height="30px" color={colors.valid} />{" "}
             <Typography component="span">
-              +{diff.percentage}%{" "}
+              +
+              {Intl.NumberFormat("es-ES", {
+                style: "percent",
+                maximumFractionDigits: 2,
+              }).format(diff.percentage / 100)}
               <Typography component="span" color="textPrimary">
                 compared to last month ({comparedValue})
               </Typography>

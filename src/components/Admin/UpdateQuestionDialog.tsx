@@ -22,6 +22,9 @@ const UpdateQuestionDialog: React.FC<{
   const [correctAnswer, setCorrectAnswer] = useState(question.correctAnswer);
   const [explanation, setExplanation] = useState(question.explanation);
   const [word, setWord] = useState(question.word);
+  const [numberOfReports, setNumberOfReports] = useState(
+    question.numberOfFlaggedIncorrect
+  );
 
   const handleUpdateQuestion = async () => {
     if (
@@ -32,13 +35,14 @@ const UpdateQuestionDialog: React.FC<{
       !explanation
     )
       return;
-    console.log(question);
+
     const response = await updateQuestion({
       ...question,
       questionText,
       correctAnswer,
       word,
       explanation,
+      numberOfFlaggedIncorrect: numberOfReports,
     });
     //TODO: handle error + handle success
     console.log(response);
@@ -102,6 +106,13 @@ const UpdateQuestionDialog: React.FC<{
               fullWidth={true}
               value={explanation}
               onChange={(e) => setExplanation(e.target.value)}
+            />
+            <TextField
+              label="Number of Reports"
+              fullWidth={true}
+              value={numberOfReports}
+              type="number"
+              onChange={(e) => setNumberOfReports(Number(e.target.value))}
             />
             {/* <TextField
             label="Helper text"

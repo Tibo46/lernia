@@ -10,17 +10,9 @@ import { colors } from "../../constants";
 import { UserExerciseQuestionModel } from "../../models/ExercisesModels";
 import UserExerciseCompleted from "./UserExerciseCompleted";
 import { useCategory } from "../../hooks/useCategory";
+import ExitExercise from "./ExitExercise";
 import Box from "@mui/material/Box";
-import IconButton from "@mui/material/IconButton";
-import CloseIcon from "../../assets/icons/CloseIcon";
-import {
-  Dialog,
-  DialogActions,
-  DialogContent,
-  DialogContentText,
-  DialogTitle,
-} from "@mui/material";
-// import { useKeyboardShortcut } from "../../hooks/useKeyboardShortcut";
+import ReportQuestion from "./ReportQuestion";
 
 const UserExercise: React.FC = () => {
   const { categoryId, exerciseId, questionId } = useParams<{
@@ -62,12 +54,18 @@ const UserExercise: React.FC = () => {
 
   useEffect(() => {
     if (userExercise && !isUserExerciseLoading) {
-      setLoading(false);
-      setNumberOfAnsweredQuestions(
+      console.log(
+        "userExerciseLoaded",
         userExercise.questions.filter(
           (question) => question.userPreviousAnswer !== null
         ).length + 1
       );
+      setLoading(false);
+      const currentQuestionIndex =
+        userExercise.questions.filter(
+          (question) => question.userPreviousAnswer !== null
+        ).length + 1;
+      setNumberOfAnsweredQuestions(currentQuestionIndex);
       const questId =
         questionId ??
         userExercise.questions.find((x) => x.userPreviousAnswer === null)?.id ??
@@ -75,8 +73,9 @@ const UserExercise: React.FC = () => {
       const question =
         questId && userExercise
           ? userExercise.questions.find((x) => x.id == questionId) ??
-            userExercise?.questions[0]
+            userExercise?.questions[currentQuestionIndex - 1]
           : null;
+
       setCurrentQuestion(question);
       setIsCorrect(question?.isCorrect ?? null);
       setExplanations(question?.explanation ?? null);
@@ -170,6 +169,7 @@ const UserExercise: React.FC = () => {
         justifyContent: "space-between",
       }}
     >
+      <ReportQuestion questionId={currentQuestion.id} />
       <ExitExercise />
       <Box textAlign="center">
         <Typography variant="h6">{category?.name}</Typography>
@@ -228,9 +228,11 @@ const UserExercise: React.FC = () => {
                     }}
                     disabled={isCorrect !== null}
                   />
-                  <span style={{ fontStyle: "italic", fontWeight: 900 }}>
-                    ({currentQuestion.word})
-                  </span>
+                  {currentQuestion.word && (
+                    <span style={{ fontStyle: "italic", fontWeight: 900 }}>
+                      ({currentQuestion.word})
+                    </span>
+                  )}
                 </div>
                 {splittedQuestion[1]}
               </Typography>
@@ -281,56 +283,6 @@ const UserExercise: React.FC = () => {
         </Button>
       )}
     </form>
-  );
-};
-
-const ExitExercise = () => {
-  const { categoryId } = useParams<{
-    categoryId: string;
-  }>();
-  const navigate = useNavigate();
-
-  const [confirmExit, setConfirmExit] = useState<boolean>(false);
-  return (
-    <>
-      <IconButton
-        sx={{
-          background: "#fff",
-          border: "1px solid #5b5860",
-          width: "45px",
-          height: "45px",
-          position: "fixed",
-          top: "10px",
-          right: "10px",
-          zIndex: 9,
-        }}
-        onClick={() => setConfirmExit(true)}
-      >
-        <CloseIcon fontSize="22px" />
-      </IconButton>
-      <Dialog open={confirmExit} onClose={() => setConfirmExit(false)}>
-        <DialogTitle>¿Quieres detener este ejercicio?</DialogTitle>
-        <DialogContent>
-          <DialogContentText>
-            Puedes detener este ejercicio en cualquier momento y retomarlo más
-            tarde.
-          </DialogContentText>
-        </DialogContent>
-        <DialogActions>
-          <Button onClick={() => setConfirmExit(false)}>Quedarse</Button>
-          <Button
-            onClick={() => {
-              navigate(`/exercises/${categoryId}`);
-              setConfirmExit(false);
-            }}
-            autoFocus
-            variant="contained"
-          >
-            Detener
-          </Button>
-        </DialogActions>
-      </Dialog>
-    </>
   );
 };
 

@@ -1,0 +1,55 @@
+<form class="mock-exam" id="mock-exam-form">
+  <div class="flex">
+    Would you mind
+    <div class="flex">
+      <div>
+        <div>
+          <input id="mock-exam-input" type="text" value="" />
+        </div>
+      </div>
+      <span class="word">(close)</span>
+    </div>
+    the window?
+  </div>
+  <button id="mock-exam-button" class="wp-block-button__link wp-element-button">
+    Enviar Respuesta
+  </button>
+  <div>
+    <p id="mock-exam-incorrect-answer" class="hidden">
+      Incorrecto - Respuesta correcta: closing<br />La expresión 'Would you
+      mind' se usa con el gerundio.
+    </p>
+    <a href="https://learn.lernia.app" id="mock-exam-next" class="hidden"
+      >Haz clic aquí para registrarte y seguir practicando inglés</a
+    >
+  </div>
+</form>
+<script>
+  document
+    .getElementById("mock-exam-form")
+    .addEventListener("submit", function (event) {
+      event.preventDefault();
+      const input = document.getElementById("mock-exam-input");
+      const incorrectAnswer = document.getElementById(
+        "mock-exam-incorrect-answer"
+      );
+      const explanation = document.getElementById("mock-exam-next");
+
+      // Always show the explanation
+      explanation.classList.remove("hidden");
+
+      if (input.value.toLowerCase() === "closing") {
+        // If correct, ensure incorrect answer is hidden and remove incorrect class
+        incorrectAnswer.classList.add("hidden");
+        incorrectAnswer.classList.remove("incorrect");
+        input.classList.remove("incorrect");
+        input.classList.add("correct");
+      } else {
+        // If incorrect, show incorrect answer and add incorrect class
+        incorrectAnswer.classList.remove("hidden");
+        incorrectAnswer.classList.add("incorrect");
+        input.classList.add("incorrect");
+        input.classList.remove("correct");
+      }
+    });
+</script>
