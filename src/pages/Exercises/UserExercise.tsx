@@ -13,6 +13,9 @@ import { useCategory } from "../../hooks/useCategory";
 import ExitExercise from "./ExitExercise";
 import Box from "@mui/material/Box";
 import ReportQuestion from "./ReportQuestion";
+import { usePageSettings } from "../../hooks/usePageSettings";
+import LinearProgress from "@mui/material/LinearProgress";
+import { Card, CardContent, Grid2 as Grid } from "@mui/material";
 
 const UserExercise: React.FC = () => {
   const { categoryId, exerciseId, questionId } = useParams<{
@@ -25,6 +28,10 @@ const UserExercise: React.FC = () => {
     exerciseId!
   );
   const { category } = useCategory(categoryId!);
+  usePageSettings({
+    title: category?.name,
+    showNavigation: false,
+  });
   // TODO: use the hook to go next question when pressing enter
   // useKeyboardShortcut({
   //   key: "Enter",
@@ -157,6 +164,8 @@ const UserExercise: React.FC = () => {
   }
 
   const splittedQuestion = currentQuestion?.questionText.split("{{answer}}");
+  const progress =
+    (numberOfAnsweredQuestions / userExercise.questions.length) * 100;
 
   return (
     <form
@@ -166,122 +175,188 @@ const UserExercise: React.FC = () => {
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-        justifyContent: "space-between",
+        gap: 5,
       }}
     >
-      <ReportQuestion questionId={currentQuestion.id} />
       <ExitExercise />
       <Box textAlign="center">
         <Typography variant="h6">{category?.name}</Typography>
-        <Typography variant="body1">
-          Pregunta {numberOfAnsweredQuestions} / {userExercise.questions.length}
-        </Typography>
       </Box>
 
-      {currentQuestion.type === "fill-in-the-gap" && (
-        <>
-          <Stack spacing={2} alignItems="center">
-            <Stack spacing={2}>
-              <Typography
-                component="div"
-                sx={{
-                  display: "inline",
-                  fontSize: "1.5rem",
-                }}
-              >
-                {splittedQuestion[0]}
-                <div style={{ position: "relative", display: "inline" }}>
-                  <TextField
-                    value={
-                      isCorrect !== null
-                        ? currentQuestion.userPreviousAnswer !== ""
-                          ? currentQuestion.userPreviousAnswer
-                          : userAnswer
-                        : userAnswer
-                    }
-                    onChange={(e) => setUserAnswer(e.target.value)}
-                    size="small"
-                    sx={{
-                      marginLeft: 1,
-                      marginRight: 1,
-                      "& input": {
-                        textAlign: "center",
-                        fontSize: "18px",
-                        fontWeight: 600,
-                        ...(isCorrect !== null && {
-                          WebkitTextFillColor: isCorrect
-                            ? `${colors.valid}!important`
-                            : `${colors.invalid}!important`,
-                          color: isCorrect
-                            ? `${colors.valid}!important`
-                            : `${colors.invalid}!important`,
-                        }),
-                      },
-
-                      ...(isCorrect !== null && {
-                        "& fieldset": {
-                          borderColor: isCorrect
-                            ? `${colors.valid}!important`
-                            : `${colors.invalid}!important`,
-                        },
-                      }),
-                    }}
-                    disabled={isCorrect !== null}
-                  />
-                  {currentQuestion.word && (
-                    <span style={{ fontStyle: "italic", fontWeight: 900 }}>
-                      ({currentQuestion.word})
-                    </span>
-                  )}
-                </div>
-                {splittedQuestion[1]}
-              </Typography>
-              {isCorrect === false && (
-                <Typography
-                  sx={{
-                    color: isCorrect ? colors.valid : colors.invalid,
-                    fontWeight: "bold",
-                    width: "100%",
-                  }}
-                >
-                  {isCorrect ? "Correcto" : "Incorrecto"} - Respuesta correcta:{" "}
-                  {correctAnswer}
-                </Typography>
-              )}
-              {isCorrect !== null && (
-                <Typography color={isCorrect ? "success" : "error"}>
-                  {explanations}
-                </Typography>
-              )}
-            </Stack>
-          </Stack>
-        </>
-      )}
-
-      {isCorrect === null ? (
-        <Button
-          variant="contained"
-          color="primary"
-          type="submit"
-          disabled={userAnswer === "" || loading}
-          sx={{ mt: 2 }}
+      <Box
+        display="flex"
+        flexGrow={1}
+        flexDirection="column"
+        alignItems="center"
+        maxHeight="50%"
+        width="800px"
+        mt={4}
+      >
+        <Grid
+          container
+          spacing={2}
+          alignItems="center"
+          sx={{ width: "100%" }}
+          mb={2}
         >
-          Enviar respuesta
-        </Button>
-      ) : (
-        <Button
-          variant="contained"
-          color="primary"
-          onClick={moveToNextQuestion}
-          sx={{ mt: 2 }}
+          <Grid>
+            <Typography fontWeight="bold">
+              {numberOfAnsweredQuestions}
+            </Typography>
+          </Grid>
+          <Grid flexGrow={1}>
+            <LinearProgress
+              variant="determinate"
+              value={progress}
+              sx={{
+                height: "15px",
+                borderRadius: "10px",
+              }}
+            />
+          </Grid>
+          <Grid>
+            <Typography fontWeight="bold">
+              {userExercise.questions.length}
+            </Typography>
+          </Grid>
+        </Grid>
+        <Card
+          sx={{
+            width: "100%",
+            position: "relative",
+            display: "flex",
+            flexGrow: 1,
+            boxShadow: "var(--Paper-shadow)",
+          }}
+          elevation={5}
         >
-          {numberOfAnsweredQuestions === userExercise.questions.length ? (
-            <>Finalizar</>
-          ) : (
-            <>Siguiente pregunta</>
-          )}
-        </Button>
-      )}
+          <CardContent
+            sx={{
+              display: "flex",
+              alignItems: "center",
+              alignContent: "center",
+              justifyContent: "center",
+              flexDirection: "row",
+              width: "100%",
+            }}
+          >
+            <ReportQuestion questionId={currentQuestion.id} />
+            {currentQuestion.type === "fill-in-the-gap" && (
+              <>
+                <Stack spacing={2} alignItems="center">
+                  <Stack spacing={2}>
+                    <Typography
+                      component="div"
+                      sx={{
+                        display: "inline",
+                        fontSize: "1.5rem",
+                      }}
+                    >
+                      {splittedQuestion[0]}
+                      <div style={{ position: "relative", display: "inline" }}>
+                        <TextField
+                          value={
+                            isCorrect !== null
+                              ? currentQuestion.userPreviousAnswer !== ""
+                                ? currentQuestion.userPreviousAnswer
+                                : userAnswer
+                              : userAnswer
+                          }
+                          onChange={(e) => setUserAnswer(e.target.value)}
+                          size="small"
+                          sx={{
+                            marginLeft: 1,
+                            marginRight: 1,
+                            "& input": {
+                              textAlign: "center",
+                              fontSize: "18px",
+                              fontWeight: 600,
+                              ...(isCorrect !== null && {
+                                WebkitTextFillColor: isCorrect
+                                  ? `${colors.valid}!important`
+                                  : `${colors.invalid}!important`,
+                                color: isCorrect
+                                  ? `${colors.valid}!important`
+                                  : `${colors.invalid}!important`,
+                              }),
+                            },
+
+                            ...(isCorrect !== null && {
+                              "& fieldset": {
+                                borderColor: isCorrect
+                                  ? `${colors.valid}!important`
+                                  : `${colors.invalid}!important`,
+                              },
+                            }),
+                          }}
+                          disabled={isCorrect !== null}
+                        />
+                        {currentQuestion.word && (
+                          <span
+                            style={{ fontStyle: "italic", fontWeight: 900 }}
+                          >
+                            ({currentQuestion.word})
+                          </span>
+                        )}
+                      </div>
+                      {splittedQuestion[1]}
+                    </Typography>
+                    {isCorrect === false && (
+                      <Typography
+                        sx={{
+                          color: isCorrect ? colors.valid : colors.invalid,
+                          fontWeight: "bold",
+                          width: "100%",
+                        }}
+                      >
+                        {isCorrect ? "Correcto" : "Incorrecto"} - Respuesta
+                        correcta: {correctAnswer}
+                      </Typography>
+                    )}
+                    {isCorrect !== null && (
+                      <Typography color={isCorrect ? "success" : "error"}>
+                        {explanations}
+                      </Typography>
+                    )}
+                  </Stack>
+                </Stack>
+              </>
+            )}
+          </CardContent>
+        </Card>
+      </Box>
+      <Box
+        display="flex"
+        flexGrow={1}
+        flexDirection="column"
+        alignItems="center"
+        justifyContent="end"
+      >
+        {isCorrect === null ? (
+          <Button
+            variant="contained"
+            color="primary"
+            type="submit"
+            disabled={userAnswer === "" || loading}
+            sx={{ mt: 2 }}
+          >
+            Enviar respuesta
+          </Button>
+        ) : (
+          <Button
+            variant="contained"
+            color="primary"
+            onClick={moveToNextQuestion}
+            sx={{ mt: 2 }}
+          >
+            {numberOfAnsweredQuestions === userExercise.questions.length ? (
+              <>Finalizar</>
+            ) : (
+              <>Siguiente pregunta</>
+            )}
+          </Button>
+        )}
+      </Box>
     </form>
   );
 };

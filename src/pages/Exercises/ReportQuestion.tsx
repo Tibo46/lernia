@@ -10,8 +10,8 @@ import {
   Box,
 } from "@mui/material";
 import { useState } from "react";
-import WarningIcon from "../../assets/icons/WarningIcon";
 import { reportQuestion } from "../../services/questions";
+import ReportFlag from "../../assets/icons/ReportFlag";
 
 const ReportQuestion: React.FC<{ questionId: string }> = ({ questionId }) => {
   const [confirmReport, setConfirmReport] = useState<boolean>(false);
@@ -29,19 +29,20 @@ const ReportQuestion: React.FC<{ questionId: string }> = ({ questionId }) => {
   return (
     <>
       <Tooltip title={isReported ? "Reportado" : "Reportar pregunta"}>
-        <Box sx={{ position: "fixed", top: "60px", right: "10px", zIndex: 9 }}>
+        <Box
+          sx={{ position: "absolute", top: "10px", right: "10px", zIndex: 9 }}
+        >
           <IconButton
             sx={{
-              background: "#fff",
-              border: "1px solid #5b5860",
               width: "45px",
               height: "45px",
             }}
             disabled={isReportLoading || isReported}
             onClick={() => setConfirmReport(true)}
           >
-            <WarningIcon
-              fontSize="22px"
+            <ReportFlag
+              height="22px"
+              width="22px"
               color={isReported ? "red" : "#5b5860"}
             />
           </IconButton>

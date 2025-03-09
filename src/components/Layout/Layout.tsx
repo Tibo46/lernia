@@ -5,8 +5,10 @@ import {
   Grid2 as Grid,
   IconButton,
   List,
-  ListItem,
+  ListItemButton,
   Stack,
+  styled,
+  Typography,
 } from "@mui/material";
 import { Link, Outlet, useLocation } from "react-router-dom";
 import logo from "../../assets/logo.png";
@@ -21,10 +23,12 @@ import { useCurrentUser } from "../../hooks/useCurrentUser";
 import AdminIcon from "../../assets/icons/AdminIcon";
 import AdminQuestionsIcon from "../../assets/icons/AdminQuestionsIcon";
 import CategoriesIcon from "../../assets/icons/CategoriesIcon";
+import { usePage } from "../../contexts/PageContext";
 
 const Layout = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const location = useLocation();
+  const { showNavigation } = usePage();
 
   React.useEffect(() => {
     setIsMenuOpen(false);
@@ -32,7 +36,8 @@ const Layout = () => {
 
   return (
     <Grid container spacing={2} padding={2} minHeight="100vh">
-      {!isMenuOpen && (
+      {/* {!showNavigation && <img src={logo} style={{ width: "50px" }} />} */}
+      {!isMenuOpen && showNavigation && (
         <IconButton
           sx={{
             display: { xs: "block", sm: "block", md: "none" },
@@ -50,33 +55,38 @@ const Layout = () => {
           <MenuIcon width="25px" height="25px" />
         </IconButton>
       )}
+      {showNavigation && (
+        <Grid
+          size={1}
+          minHeight="100%"
+          sx={{
+            display: {
+              xs: isMenuOpen ? "block" : "none",
+              sm: isMenuOpen ? "block" : "none",
+              md: "block",
+              width: "120px",
+            },
+            ...(isMenuOpen
+              ? {
+                  position: "fixed",
+                  top: "10px",
+                  bottom: "10px",
+                  left: "10px",
+                  zIndex: 1,
+                  height: "100%",
+                }
+              : {}),
+          }}
+        >
+          <NavMenu handleCloseMenu={() => setIsMenuOpen(false)} />
+        </Grid>
+      )}
       <Grid
-        size={1}
-        minHeight="100%"
         sx={{
-          display: {
-            xs: isMenuOpen ? "block" : "none",
-            sm: isMenuOpen ? "block" : "none",
-            md: "block",
-            width: "120px",
-          },
-          ...(isMenuOpen
-            ? {
-                position: "fixed",
-                top: "10px",
-                bottom: "10px",
-                left: "10px",
-                zIndex: 1,
-                height: "100%",
-              }
-            : {}),
-        }}
-      >
-        <NavMenu handleCloseMenu={() => setIsMenuOpen(false)} />
-      </Grid>
-      <Grid
-        sx={{
-          width: { xs: "100%", sm: "100%", md: "calc(100% - 140px)" },
+          width: showNavigation
+            ? { xs: "100%", sm: "100%", md: "calc(100% - 140px)" }
+            : "100%",
+          marginLeft: showNavigation ? undefined : 0,
         }}
         minHeight="100%"
       >
@@ -97,12 +107,6 @@ const NavMenu: React.FC<{ handleCloseMenu: () => void }> = ({
   handleCloseMenu,
 }) => {
   const { user } = useCurrentUser();
-  const location = useLocation();
-  const { pathname } = location;
-
-  const isCurrentPage = (path: string, strict?: boolean) => {
-    return strict ? path === pathname : pathname.includes(path);
-  };
 
   return (
     <Card
@@ -134,7 +138,13 @@ const NavMenu: React.FC<{ handleCloseMenu: () => void }> = ({
             </IconButton>
             <img src={logo} style={{ width: "50px" }} />
             <List>
-              <ListItem>
+              <LinkButton
+                to="/"
+                icon={<HomeIcon width="35px" height="35px" />}
+                text="Inicio"
+                strict
+              />
+              {/* <ListItemMenu>
                 <IconButton
                   component={Link}
                   to="/"
@@ -153,124 +163,88 @@ const NavMenu: React.FC<{ handleCloseMenu: () => void }> = ({
                     color={isCurrentPage("/", true) ? "#fff" : undefined}
                   />
                 </IconButton>
-              </ListItem>
+                <Typography>Inicio</Typography>
+              </ListItemMenu> */}
 
-              <ListItem>
-                <IconButton
-                  component={Link}
-                  to="/exercises/"
-                  sx={{
-                    bgcolor: isCurrentPage("/exercises/")
-                      ? colors.darkBackground
-                      : colors.white,
-                    borderRadius: "50%",
-                    width: "60px",
-                    height: "60px",
-                  }}
-                >
-                  <ExerciseIcon
-                    width="35px"
-                    height="35px"
-                    color={isCurrentPage("/exercises/") ? "#fff" : undefined}
-                  />
-                </IconButton>
-              </ListItem>
+              <LinkButton
+                to="/exercises/"
+                icon={<ExerciseIcon width="35px" height="35px" />}
+                text="Ejercicios"
+              />
             </List>
           </Stack>
           {user && user.isAdmin && (
             <List>
-              <ListItem>
-                <IconButton
-                  component={Link}
-                  to="/admin/"
-                  sx={{
-                    bgcolor: isCurrentPage("/admin/", true)
-                      ? colors.darkBackground
-                      : colors.white,
-                    borderRadius: "50%",
-                    width: "60px",
-                    height: "60px",
-                  }}
-                >
-                  <AdminIcon
-                    width="35px"
-                    height="35px"
-                    color={isCurrentPage("/admin/", true) ? "#fff" : undefined}
-                  />
-                </IconButton>
-              </ListItem>
-              <ListItem>
-                <IconButton
-                  component={Link}
-                  to="/admin/categories"
-                  sx={{
-                    bgcolor: isCurrentPage("/admin/categories")
-                      ? colors.darkBackground
-                      : colors.white,
-                    borderRadius: "50%",
-                    width: "60px",
-                    height: "60px",
-                  }}
-                >
-                  <CategoriesIcon
-                    width="35px"
-                    height="35px"
-                    color={
-                      isCurrentPage("/admin/categories") ? "#fff" : undefined
-                    }
-                  />
-                </IconButton>
-              </ListItem>
-              <ListItem>
-                <IconButton
-                  component={Link}
-                  to="/admin/questions"
-                  sx={{
-                    bgcolor: isCurrentPage("/admin/questions")
-                      ? colors.darkBackground
-                      : colors.white,
-                    borderRadius: "50%",
-                    width: "60px",
-                    height: "60px",
-                  }}
-                >
-                  <AdminQuestionsIcon
-                    width="35px"
-                    height="35px"
-                    color={
-                      isCurrentPage("/admin/questions") ? "#fff" : undefined
-                    }
-                  />
-                </IconButton>
-              </ListItem>
+              <LinkButton
+                to="/admin/"
+                icon={<AdminIcon width="35px" height="35px" />}
+                text="Admin"
+                strict
+              />
+              <LinkButton
+                to="/admin/categories"
+                icon={<CategoriesIcon width="35px" height="35px" />}
+                text="Categorías"
+              />
+              <LinkButton
+                to="/admin/questions"
+                icon={<AdminQuestionsIcon width="35px" height="35px" />}
+                text="Preguntas"
+              />
             </List>
           )}
           <List>
-            <ListItem>
-              <IconButton
-                component={Link}
-                to="/profile/"
-                sx={{
-                  bgcolor: isCurrentPage("/profile/")
-                    ? colors.darkBackground
-                    : colors.white,
-                  borderRadius: "50%",
-                  width: "60px",
-                  height: "60px",
-                }}
-              >
-                <SettingsIcon
-                  width="35px"
-                  height="35px"
-                  color={isCurrentPage("/profile/") ? "#fff" : undefined}
-                />
-              </IconButton>
-            </ListItem>
+            <LinkButton
+              to="/profile/"
+              icon={<SettingsIcon width="35px" height="35px" />}
+              text="Perfil"
+            />
           </List>
         </Stack>
       </CardContent>
     </Card>
   );
 };
+
+const LinkButton = ({
+  to,
+  icon,
+  text,
+  strict,
+}: {
+  to: string;
+  icon: React.ReactNode;
+  text: string;
+  strict?: boolean;
+}) => {
+  const location = useLocation();
+  const { pathname } = location;
+
+  const isCurrentPage = (path: string, strict?: boolean) => {
+    return strict ? path === pathname : pathname.includes(path);
+  };
+
+  return (
+    // @ts-expect-error ignore
+    <ListItemMenu component={Link} to={to}>
+      <IconButton
+        sx={{
+          border: isCurrentPage(to, strict)
+            ? `1px solid ${colors.darkBackground}`
+            : `1px solid ${colors.white}`,
+          borderRadius: "50%",
+          width: "60px",
+          height: "60px",
+        }}
+      >
+        {icon}
+      </IconButton>
+      <Typography>{text}</Typography>
+    </ListItemMenu>
+  );
+};
+const ListItemMenu = styled(ListItemButton)({
+  flexDirection: "column",
+});
 
 export default Layout;
